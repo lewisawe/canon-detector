@@ -1,0 +1,22 @@
+# Secrets — never commit
+.env
+*.env
+
+# Data artifacts (large / regenerable / possibly rights-encumbered)
+data/*.db
+data/*.db.gz
+data/*.csv
+data/char-ds
+data/*.parquet
+data/readmes.jsonl
+data/enrich.log
+data/feature_groups.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Worktrees
+.worktrees/

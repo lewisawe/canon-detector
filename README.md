@@ -183,29 +183,35 @@ on structural substance alone — never on leaked tokens.
 ## Reproduce
 
 ```bash
-# 1. Environment (the venv already has these; requirements.txt pins them)
+# 1. Environment
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
 #    numpy pandas scikit-learn lightgbm tabpfn_client==0.6.1
 #    tabpfn_extensions==0.6.3 matplotlib python-dotenv
-VENV=/home/sierra/Desktop/projects/devTo/plantParent/.venv/bin/python
 
-# 2. Token: put TABPFN_TOKEN=<token> in the hackathon-root .env (git-ignored,
-#    never committed/printed). src/env.py loads it.
+# 2. Token: put TABPFN_TOKEN=<token> in a .env at the repo root (git-ignored,
+#    never committed/printed). src/env.py loads it. Get a key at
+#    https://platform.priorlabs.ai
 
-# 3. Run order (from the worktree root so `src` is importable):
-$VENV src/dataprep.py --report            # frame + leakage guard + class balance
-$VENV src/axis1_classifier.py             # GATE + leaky/masked/stats-only ablation
-$VENV src/axis1_calibration.py            # ECE + reliability curve (no new call)
-$VENV src/axis1_plausibility.py           # famous-character table + heatmap
-$VENV src/axis1_originality.py            # originality ranking + chart
-$VENV src/axis1_fingerprints.py           # per-universe fingerprints + leak proof
-$VENV src/axis1_text_vs_stats.py          # text-vs-stats disagreements
+# 3. Data: place dataset_characters.csv under data/ (git-ignored, not
+#    redistributed here). Source: the public multi-publisher character dataset
+#    github.com/Sidmaz666/character-dataset (2,264 characters, 10 publishers).
 
-$VENV src/axis2_generate.py --probe       # confirm the generation API live
-$VENV src/axis2_generate.py               # -> results/_axis2_raw.csv
-$VENV src/axis2_agent.py                  # -> results/generated_characters.csv
-$VENV src/axis2_gapfinder.py              # -> character_space_map.png + gap row
-$VENV src/axis2_validate.py               # adds novelty + coherence columns
-$VENV src/demo.py --target maximally-original   # the single end-to-end smoke run
+# 4. Run order (from the repo root so `src` is importable):
+python src/dataprep.py --report            # frame + leakage guard + class balance
+python src/axis1_classifier.py             # GATE + leaky/masked/stats-only ablation
+python src/axis1_calibration.py            # ECE + reliability curve (no new call)
+python src/axis1_plausibility.py           # famous-character table + heatmap
+python src/axis1_originality.py            # originality ranking + chart
+python src/axis1_fingerprints.py           # per-universe fingerprints + leak proof
+python src/axis1_text_vs_stats.py          # text-vs-stats disagreements
+
+python src/axis2_generate.py --probe       # confirm the generation API live
+python src/axis2_generate.py               # -> results/_axis2_raw.csv
+python src/axis2_agent.py                  # -> results/generated_characters.csv
+python src/axis2_gapfinder.py              # -> character_space_map.png + gap row
+python src/axis2_validate.py               # adds novelty + coherence columns
+python src/demo.py --target maximally-original   # the single end-to-end smoke run
 ```
 
 Determinism: `random_state=42` throughout. Verification is by running the real

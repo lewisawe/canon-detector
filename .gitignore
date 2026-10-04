@@ -18,5 +18,27 @@ __pycache__/
 .venv/
 venv/
 
+# Internal planning / working docs — NOT for the public repo.
+# (README.md and results/fingerprints.md are intentionally NOT ignored.)
+IDEAS.md
+PRIOR-ART.md
+BUDGET.md
+BUILD-PLAN.md
+AUDIT.md
+RESULTS.md
+SCOPE.md
+SCOPE-DEPENDENCY.md
+COMICS-SCOPE.md
+COMICS-BUILD.md
+# dependency-study backup scripts/artifacts (second entry, kept local)
+build_dataset.py
+run_experiments.py
+enrich_readmes.py
+spike_cost.py
+spike_scaling.py
+# dependency-study result artifacts that share the results/ dir
+results/results.csv
+results/results.json
+
 # Worktrees
 .worktrees/

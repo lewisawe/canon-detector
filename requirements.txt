@@ -1,0 +1,19 @@
+# Canon Detector — pinned to the versions present in the project venv
+# (/home/sierra/Desktop/projects/devTo/plantParent/.venv). Run every script with
+# that absolute venv python.
+#
+# ADAPTATION NOTE (FEAT-001): `shap` is NOT installed in the venv. The import
+# sanity check `import ...,shap` therefore fails. Axis-1 interpretability
+# (plan step A1.5) must fall back to permutation / LightGBM feature importance
+# and document that choice, rather than assuming SHAP is available. If SHAP is
+# installed later, add `shap` here with its resolved version. python-dotenv is
+# imported as `dotenv`; its distribution name is `python-dotenv`.
+numpy==2.4.6
+pandas==2.3.3
+scikit-learn==1.9.0
+lightgbm==4.7.0
+tabpfn_client==0.6.1
+tabpfn_extensions==0.6.3
+matplotlib==3.11.2
+python-dotenv==1.2.4
+# shap  # UNAVAILABLE in venv — see adaptation note above; using fallback importances

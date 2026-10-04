@@ -1,0 +1,2265 @@
+character,publisher,stats_argmax,stats_conf,text_argmax,text_conf,disagree,disagreement_score
+Rick Flag,dc,marvel,0.9079,dc,0.9951,True,0.9035
+Maxima,dc,marvel,0.8799,dc,0.9976,True,0.8778
+Wonder Girl,dc,marvel,0.8426,dc,0.9644,True,0.8126
+Starfire,dc,marvel,0.7971,dc,0.9985,True,0.7959
+Brainiac,dc,marvel,0.787,dc,0.9991,True,0.7863
+Hawkgirl,dc,marvel,0.7835,dc,0.9994,True,0.783
+Giganta,dc,marvel,0.7792,dc,0.9946,True,0.7749
+Ant-Man,marvel,anime,0.7986,marvel,0.9683,True,0.7734
+Metallo,dc,marvel,0.7455,dc,0.9989,True,0.7446
+Static,dc,marvel,0.9472,dc,0.7627,True,0.7224
+Phantom Girl,dc,marvel,0.6979,dc,0.9991,True,0.6972
+The Thing,marvel,dc,0.6874,marvel,0.9979,True,0.6859
+Drax,marvel,dc,0.6806,marvel,0.9993,True,0.6801
+Mandarin,marvel,dc,0.7206,marvel,0.9421,True,0.6789
+Triplicate Girl,dc,marvel,0.6845,dc,0.9912,True,0.6785
+Shuri,marvel,dc,0.6806,marvel,0.9921,True,0.6752
+Mr. Fantastic,marvel,dc,0.6737,marvel,0.9996,True,0.6734
+M'Baku,marvel,dc,0.6737,marvel,0.9995,True,0.6733
+Strong Guy,marvel,dc,0.6737,marvel,0.9983,True,0.6726
+Betty Brant,marvel,dc,0.6707,marvel,0.9995,True,0.6704
+Flash Thompson,marvel,dc,0.6699,marvel,0.9991,True,0.6693
+Mirage,marvel,dc,0.6699,marvel,0.9989,True,0.6692
+Kang the Conqueror,marvel,dc,0.668,marvel,0.9994,True,0.6676
+Felicia Hardy,marvel,dc,0.6673,marvel,0.9995,True,0.667
+Yondu,marvel,dc,0.667,marvel,0.9991,True,0.6664
+Phyla-Vell,marvel,dc,0.667,marvel,0.9987,True,0.6661
+Artemis,dc,dc,0.6806,anime,0.9785,True,0.666
+Atom Girl,dc,marvel,0.6838,dc,0.9737,True,0.6658
+Mary Jane Watson,marvel,dc,0.6646,marvel,0.9994,True,0.6643
+Ned Leeds,marvel,dc,0.6646,marvel,0.9993,True,0.6642
+Cosmo the Spacedog,marvel,dc,0.6646,marvel,0.9988,True,0.6638
+Citizen Steel,dc,marvel,0.6639,dc,0.9937,True,0.6597
+Baron Zemo,marvel,dc,0.6737,marvel,0.9786,True,0.6593
+Firebird,marvel,dc,0.6497,marvel,0.9885,True,0.6423
+Nezuko Kamado,anime,marvel,0.6306,anime,0.9996,True,0.6303
+Justice,marvel,dc,0.6407,marvel,0.9818,True,0.629
+Black Panther,marvel,dc,0.6257,marvel,0.9961,True,0.6232
+Atrocitus,dc,marvel,0.628,dc,0.9637,True,0.6052
+"Tokugawa, Shigeshige",anime,anime,0.9996,dc,0.6044,True,0.6041
+Plastic Man,dc,marvel,0.5927,dc,0.9993,True,0.5923
+Doctor Strange,marvel,dc,0.6013,marvel,0.9799,True,0.5892
+Shadow Lass,dc,marvel,0.5786,dc,0.9888,True,0.5721
+Electro,marvel,dc,0.5706,marvel,0.9985,True,0.5698
+Quark,star_trek,anime,0.55,star_trek,0.9967,True,0.5482
+Mister Sinister,marvel,dc,0.5429,marvel,0.9959,True,0.5406
+Captain Cold,dc,marvel,0.5352,dc,0.9988,True,0.5346
+Century,marvel,dc,0.5364,marvel,0.9966,True,0.5346
+Bumblebee,idw_publishing,idw_publishing,0.7573,marvel,0.7019,True,0.5315
+John Stewart,dc,marvel,0.5283,dc,0.9989,True,0.5277
+Leonard McCoy,star_trek,anime,0.5267,star_trek,0.9984,True,0.5258
+Longshot,marvel,dc,0.5234,marvel,0.9992,True,0.523
+Shazam,dc,marvel,0.5283,dc,0.9894,True,0.5227
+Raven,dc,dc,0.6914,marvel,0.7477,True,0.517
+Rocket,marvel,dc,0.6673,marvel,0.7612,True,0.5079
+Ventriloquist,dc,dc,0.6699,anime,0.7253,True,0.4859
+Ymir,marvel,dc,0.5936,marvel,0.8109,True,0.4814
+Firestorm,dc,dc,0.6768,marvel,0.7068,True,0.4784
+Mar-Vell,marvel,star_trek,0.4767,marvel,0.9945,True,0.474
+A-Train,the_boys,the_boys,0.6707,anime,0.6858,True,0.46
+Captain Marvel,marvel,anime,0.4442,marvel,0.992,True,0.4406
+Steppenwolf,dc,dc,0.8214,marvel,0.5264,True,0.4324
+Cheetah,dc,dc,0.6314,marvel,0.6465,True,0.4082
+Malekith,marvel,anime,0.4095,marvel,0.962,True,0.394
+Gentleman Ghost,dc,marvel,0.3625,dc,0.9947,True,0.3606
+Plastique,dc,dc,0.5024,marvel,0.7049,True,0.3541
+Xianxia Cultivator,anime,anime,0.8827,the_boys,0.4009,True,0.3538
+Masked Mark,image_comics,image_comics,0.7246,the_boys,0.4872,True,0.3531
+Luna,marvel,dc,0.6056,marvel,0.5665,True,0.3431
+Elektra,marvel,dc,0.6457,marvel,0.5273,True,0.3405
+Titan,image_comics,marvel,0.428,image_comics,0.7902,True,0.3382
+Shrinking Rae,image_comics,anime,0.4738,image_comics,0.7066,True,0.3348
+"Kanzaki, Urumi",anime,the_boys,0.3332,anime,0.9987,True,0.3327
+Blindspot,the_boys,the_boys,0.6349,image_comics,0.5145,True,0.3267
+Mockingbird,marvel,dc,0.5202,marvel,0.6181,True,0.3215
+Mauler Twins,image_comics,marvel,0.3604,image_comics,0.8593,True,0.3097
+Arsenal,dc,anime,0.8914,marvel,0.3381,True,0.3014
+Okoye,marvel,dc,0.667,marvel,0.4517,True,0.3013
+Cyborg Superman,dc,marvel,0.3113,dc,0.9249,True,0.2879
+Mesmer,the_boys,the_boys,0.8789,image_comics,0.3064,True,0.2693
+Heavenly Emperor,anime,anime,0.6638,marvel,0.3945,True,0.2619
+Atom Eve,image_comics,anime,0.564,dc,0.447,True,0.2521
+Immortal Emperor,anime,dc,0.6979,the_boys,0.2883,True,0.2012
+Penguin,dc,dc,0.3745,marvel,0.4796,True,0.1796
+"Zacharias, Mike",anime,anime,0.9996,anime,0.986,False,0.0
+"Euclius, Julius",anime,anime,0.9996,anime,0.6724,False,0.0
+"Arklaum, Agott",anime,anime,0.9996,anime,0.9996,False,0.0
+Otama,anime,anime,0.9996,anime,0.9996,False,0.0
+Cocytus,anime,anime,0.9996,anime,0.9996,False,0.0
+"Hiramaru, Kazuya",anime,anime,0.9996,anime,0.9996,False,0.0
+"Emiya, Kiritsugu",anime,anime,0.9996,anime,0.9996,False,0.0
+"Nishinoya, Yuu",anime,anime,0.9996,anime,0.9996,False,0.0
+"Takasugi, Shinsuke",anime,anime,0.9996,anime,0.9996,False,0.0
+Hinata Hyuga,anime,anime,0.9987,anime,0.9996,False,0.0
+"Aone, Takanobu",anime,anime,0.9996,anime,0.9996,False,0.0
+"Nakahara, Chuuya",anime,anime,0.9996,anime,0.9996,False,0.0
+"Gilga, Nnoitra",anime,anime,0.9996,anime,0.9996,False,0.0
+Julia,anime,anime,0.9946,anime,0.562,False,0.0
+"von Einzbern, Illyasviel",anime,anime,0.5577,anime,0.9971,False,0.0
+"Ishida, Miyako",anime,anime,0.9996,anime,0.9996,False,0.0
+"Chisaki, Kai",anime,anime,0.9996,anime,0.9996,False,0.0
+Lucy Heartfilia,anime,anime,0.9996,anime,0.9996,False,0.0
+"Akagi, Ritsuko",anime,anime,0.9992,anime,0.985,False,0.0
+Ulti,anime,anime,0.9996,anime,0.9996,False,0.0
+Gogeta,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tsuyuri, Kanao",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kukumila, Kurena",anime,anime,0.9996,anime,0.9996,False,0.0
+Nemu Tsukumayuzuki,anime,anime,0.9996,anime,0.9996,False,0.0
+Makise Kurisu,anime,anime,0.9995,anime,0.9996,False,0.0
+"Matou, Sakura",anime,anime,0.9996,anime,0.9996,False,0.0
+Franky,anime,anime,0.4216,anime,0.9969,False,0.0
+Wei Wuxian,anime,anime,0.9996,anime,0.9996,False,0.0
+Kagura Sohma,anime,anime,0.966,anime,0.9996,False,0.0
+Takuma Ino,anime,anime,0.9996,anime,0.9996,False,0.0
+"Mizuno, Ami",anime,anime,0.9996,anime,0.9996,False,0.0
+Gyokuyou,anime,anime,0.9996,anime,0.9996,False,0.0
+Zenin Maki,anime,anime,0.9996,anime,0.9996,False,0.0
+"Dostoevsky, Fyodor",anime,anime,0.9996,anime,0.9996,False,0.0
+Kenjaku,anime,anime,0.9996,anime,0.9996,False,0.0
+Bankai,anime,anime,0.9996,anime,0.9996,False,0.0
+Ainz Ooal Gown,anime,anime,0.975,anime,0.9996,False,0.0
+Yano,anime,anime,0.9996,anime,0.9996,False,0.0
+"Natsume, Reiko",anime,anime,0.9996,anime,0.9996,False,0.0
+"Rob, Lucci",anime,anime,0.9996,anime,0.9985,False,0.0
+Qiao Ling,anime,anime,0.9996,anime,0.9996,False,0.0
+"Shirazu, Ginshi",anime,anime,0.9996,anime,0.9983,False,0.0
+Shi Qingxuan,anime,anime,0.9996,anime,0.9996,False,0.0
+"Okudera, Miki",anime,anime,0.9996,anime,0.9996,False,0.0
+"Gotanda, Taishi",anime,anime,0.9996,anime,0.9996,False,0.0
+"Gekkou, Hayate",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kunikida, Doppo",anime,anime,0.9996,anime,0.9996,False,0.0
+"Bucciarati, Bruno",anime,anime,0.9996,anime,0.9996,False,0.0
+Edward Elric,anime,anime,0.9971,anime,0.9996,False,0.0
+"Shimada, Kai",anime,anime,0.9996,anime,0.9945,False,0.0
+"Mikami, Teru",anime,anime,0.9996,anime,0.9996,False,0.0
+Yoshino Junpei,anime,anime,0.9996,anime,0.9996,False,0.0
+Rickert,anime,anime,0.9612,anime,0.9995,False,0.0
+Laios,anime,anime,0.9996,anime,0.9996,False,0.0
+"Sunohara, Youhei",anime,anime,0.9996,anime,0.9996,False,0.0
+Draken,anime,anime,0.9996,anime,0.9996,False,0.0
+Crimson Countess,anime,anime,0.6859,anime,0.9688,False,0.0
+"Hoshino, Ruby",anime,anime,0.9965,anime,0.9996,False,0.0
+Koku,anime,anime,0.9996,anime,0.9996,False,0.0
+Laxus Dreyar,anime,anime,0.9996,anime,0.9996,False,0.0
+Crocodile,anime,anime,0.9996,anime,0.9996,False,0.0
+Yubaba,anime,anime,0.9996,anime,0.9996,False,0.0
+"Gotou, Hitori",anime,anime,0.9824,anime,0.9996,False,0.0
+"Uchiha, Sarada",anime,anime,0.9996,anime,0.9996,False,0.0
+Usami Shouhei,anime,anime,0.9996,anime,0.9996,False,0.0
+"Trussardi, Tonio",anime,anime,0.9996,anime,0.7731,False,0.0
+"Matsudaira, Katakuriko",anime,anime,0.9996,anime,0.9984,False,0.0
+Lin Ling,anime,anime,0.959,anime,0.9963,False,0.0
+"Blouse, Sasha",anime,anime,0.9996,anime,0.9996,False,0.0
+Leorio Paradinight,anime,anime,0.9898,anime,0.9996,False,0.0
+"Suzuhara, Touji",anime,anime,0.9996,anime,0.9996,False,0.0
+"Meng, Tian",anime,anime,0.9996,anime,0.9938,False,0.0
+"Shiota, Nagisa",anime,anime,0.9996,anime,0.9996,False,0.0
+Colossal,anime,anime,0.9996,anime,0.9996,False,0.0
+Darkness,anime,anime,0.9996,anime,0.9996,False,0.0
+"Hoover, Bertolt",anime,anime,0.9996,anime,0.9996,False,0.0
+Chrollo Lucilfer,anime,anime,0.9996,anime,0.9996,False,0.0
+"Pokoteng, Aria",anime,anime,0.9996,anime,0.9996,False,0.0
+"Greyrat, Rudeus",anime,anime,0.9996,anime,0.9968,False,0.0
+"Shimizu, Kiyoko",anime,anime,0.9996,anime,0.9996,False,0.0
+North #2,anime,anime,0.9996,anime,0.9996,False,0.0
+Historia Reiss,anime,anime,0.9996,anime,0.9996,False,0.0
+Urahara Kisuke,anime,anime,0.9679,anime,0.9996,False,0.0
+"Uzumaki, Naruto",anime,anime,0.9976,anime,0.9996,False,0.0
+Zoro,anime,anime,0.9996,anime,0.9996,False,0.0
+Eisen,anime,anime,0.9899,anime,0.9984,False,0.0
+"Bradley, King",anime,anime,0.9852,anime,0.9996,False,0.0
+"Kawamoto, Akari",anime,anime,0.9996,anime,0.9996,False,0.0
+Lu Guang,anime,anime,0.9996,anime,0.9996,False,0.0
+"Sakagami, Tomoyo",anime,anime,0.9996,anime,0.9996,False,0.0
+"Braun, Gabi",anime,anime,0.9996,anime,0.9996,False,0.0
+"Ghirga, Narancia",anime,anime,0.9996,anime,0.9996,False,0.0
+"Aijou, Karen",anime,anime,0.9996,anime,0.9996,False,0.0
+"van Astrea, Reinhard",anime,anime,0.9996,anime,0.9996,False,0.0
+Marlborough Luculia,anime,anime,0.9996,anime,0.9996,False,0.0
+Shanks,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kamishiro, Rize",anime,anime,0.9996,anime,0.8613,False,0.0
+Uta,anime,anime,0.9996,anime,0.9996,False,0.0
+"Miyata, Ichirou",anime,anime,0.9996,anime,0.9454,False,0.0
+"Kagura, Hikari",anime,anime,0.9996,anime,0.9996,False,0.0
+"Tanuma, Kaname",anime,anime,0.9996,anime,0.9996,False,0.0
+Miya Osamu,anime,anime,0.9996,anime,0.9996,False,0.0
+Mithrun,anime,anime,0.9996,anime,0.9996,False,0.0
+"Nara, Shikadai",anime,anime,0.9995,anime,0.9996,False,0.0
+"Yeager, Grisha",anime,anime,0.9996,anime,0.9996,False,0.0
+Kaede Rukawa,anime,anime,0.9973,anime,0.9996,False,0.0
+"Ishida, Maria",anime,anime,0.9996,anime,0.9996,False,0.0
+Gaoshun,anime,anime,0.9996,anime,0.9996,False,0.0
+"Baumann, Frederica",anime,anime,0.9996,anime,0.9994,False,0.0
+Carla,anime,anime,0.9996,anime,0.9996,False,0.0
+Jin Ling,anime,anime,0.9996,anime,0.9996,False,0.0
+Garou,anime,anime,0.9996,anime,0.9996,False,0.0
+"Ueno, Naoka",anime,anime,0.9995,anime,0.9594,False,0.0
+"Greyrat, Zenith",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kirigaya, Suguha",anime,anime,0.9996,anime,0.9996,False,0.0
+Takopii,anime,anime,0.9996,anime,0.9996,False,0.0
+Tamaki Mari,anime,anime,0.9996,anime,0.9996,False,0.0
+Smasher Adam,anime,anime,0.9996,anime,0.9996,False,0.0
+Kakashi Hatake,anime,anime,0.9979,anime,0.9996,False,0.0
+Nabe,anime,anime,0.9996,anime,0.9996,False,0.0
+"Minakami, Mario",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kuroo, Tetsurou",anime,anime,0.9996,anime,0.9996,False,0.0
+"Izumi, Kyouka",anime,anime,0.9996,anime,0.9996,False,0.0
+Yoruichi Shihoin,anime,anime,0.9996,anime,0.9996,False,0.0
+"Rikka, Theoto",anime,anime,0.9996,anime,0.9996,False,0.0
+"Sakurai, Izumi",anime,anime,0.9996,anime,0.9996,False,0.0
+"Ookido, Green",anime,anime,0.9996,anime,0.9529,False,0.0
+"Shiba, Kaien",anime,anime,0.9993,anime,0.9993,False,0.0
+"Hadou, Nejire",anime,anime,0.9996,anime,0.9854,False,0.0
+"Igarashi, Kohei",anime,anime,0.9996,anime,0.9996,False,0.0
+Brook,anime,anime,0.4143,anime,0.9996,False,0.0
+Jougo,anime,anime,0.9996,anime,0.9996,False,0.0
+Bulletproof,anime,anime,0.9986,anime,0.988,False,0.0
+Takami Keigo,anime,anime,0.9996,anime,0.9996,False,0.0
+"Asada, Shino",anime,anime,0.9996,anime,0.9996,False,0.0
+"Zuberg, Alice",anime,anime,0.9996,anime,0.9996,False,0.0
+"Bakugou, Katsuki",anime,anime,0.9996,anime,0.9996,False,0.0
+"Tsukimoto, Makoto",anime,anime,0.9996,anime,0.9984,False,0.0
+Jogo,anime,anime,0.9995,anime,0.9996,False,0.0
+Ishigami Byakuya,anime,anime,0.9996,anime,0.9996,False,0.0
+Oogaki Chiaki,anime,anime,0.9996,anime,0.9996,False,0.0
+Kojiro,anime,anime,0.9992,anime,0.9996,False,0.0
+"Hiroi, Kikuri",anime,anime,0.9996,anime,0.9996,False,0.0
+Dr Xeno,anime,anime,0.9996,anime,0.9996,False,0.0
+Spike Spiegel,anime,anime,0.991,anime,0.9996,False,0.0
+Winry Rockbell,anime,anime,0.9693,anime,0.9996,False,0.0
+Kurenai Yuhi,anime,anime,0.9928,anime,0.9995,False,0.0
+"Kozuki, Oden",anime,anime,0.9775,anime,0.9996,False,0.0
+Serie,anime,anime,0.9996,anime,0.9996,False,0.0
+Maine,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kurosaki, Karin",anime,anime,0.9995,anime,0.9996,False,0.0
+"Eckener, Grencia Mars Elijah Guo",anime,anime,0.9992,anime,0.9996,False,0.0
+"Mado, Kureo",anime,anime,0.9996,anime,0.9996,False,0.0
+Ui Ui,anime,anime,0.9995,anime,0.9996,False,0.0
+Vicious,anime,anime,0.9322,anime,0.8997,False,0.0
+Yuzuhara Madoka,anime,anime,0.9996,anime,0.9996,False,0.0
+Haku,anime,anime,0.9996,anime,0.9995,False,0.0
+"Hamaoka, Azusa",anime,anime,0.9996,anime,0.7432,False,0.0
+Yhwach,anime,anime,0.9996,anime,0.9996,False,0.0
+Berserker,anime,anime,0.931,anime,0.9996,False,0.0
+"Shishiou, Tsukasa",anime,anime,0.9991,anime,0.9996,False,0.0
+"Ijichi, Seika",anime,anime,0.9996,anime,0.9996,False,0.0
+Toushirou Hitsugaya,anime,anime,0.9931,anime,0.9996,False,0.0
+Best Jeanist,anime,anime,0.9996,anime,0.9996,False,0.0
+Mitsuri Kanroji,anime,anime,0.9886,anime,0.9996,False,0.0
+"Ootsutsuki, Kaguya",anime,anime,0.9996,anime,0.9996,False,0.0
+"Bine, Knuckle",anime,anime,0.9994,anime,0.9996,False,0.0
+"Daiba, Nana",anime,anime,0.9996,anime,0.9996,False,0.0
+Hinata Shoyamada,anime,anime,0.9996,anime,0.9996,False,0.0
+"Arima, Kishou",anime,anime,0.9996,anime,0.9996,False,0.0
+Vueroeruko,anime,anime,0.9996,anime,0.9996,False,0.0
+"Nero, Risotto",anime,anime,0.9996,anime,0.9995,False,0.0
+"Elric, Alphonse",anime,anime,0.9787,anime,0.9996,False,0.0
+Meruem,anime,anime,0.9996,anime,0.9996,False,0.0
+Cell,anime,anime,0.9996,anime,0.9996,False,0.0
+Sakamoto,anime,anime,0.9996,anime,0.9996,False,0.0
+"Yamada, Hizashi",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kiriyama, Rei",anime,anime,0.9996,anime,0.9996,False,0.0
+Mumen Rider,anime,anime,0.9995,anime,0.9996,False,0.0
+Madara Uchiha,anime,anime,0.9967,anime,0.9996,False,0.0
+Suiren,anime,anime,0.9996,anime,0.9996,False,0.0
+Nagi,anime,anime,0.9996,anime,0.9996,False,0.0
+"Asano, Gakushuu",anime,anime,0.9996,anime,0.9994,False,0.0
+Akaza,anime,anime,0.9996,anime,0.9996,False,0.0
+Gyuutarou,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tachibana, Taki",anime,anime,0.9996,anime,0.9996,False,0.0
+Kenshin Himura,anime,anime,0.8204,anime,0.9995,False,0.0
+"Fisher, Tiger",anime,anime,0.9995,anime,0.9217,False,0.0
+Peh-yan,anime,anime,0.9996,anime,0.9996,False,0.0
+"Sakuma, Manabu",anime,anime,0.9996,anime,0.9996,False,0.0
+Hodaka Morishima,anime,anime,0.9996,anime,0.9996,False,0.0
+Lisanna Strauss,anime,anime,0.9996,anime,0.9996,False,0.0
+"Nakagawa, Natsuki",anime,anime,0.9996,anime,0.9983,False,0.0
+"Yaku, Morisuke",anime,anime,0.9996,anime,0.9996,False,0.0
+"Granzchesta, Aika S.",anime,anime,0.9995,anime,0.9996,False,0.0
+Pochita,anime,anime,0.9027,anime,0.9996,False,0.0
+"Shishio, Makoto",anime,anime,0.9996,anime,0.9996,False,0.0
+"Charlotte, Linlin",anime,anime,0.9994,anime,0.9996,False,0.0
+ Mare,anime,anime,0.9996,anime,0.9996,False,0.0
+"Seto, Hiroko",anime,anime,0.9996,anime,0.9996,False,0.0
+"Satou, Mafuyu",anime,anime,0.9995,anime,0.9996,False,0.0
+"Grice, Falco",anime,anime,0.9996,anime,0.9986,False,0.0
+Douma,anime,anime,0.9996,anime,0.9996,False,0.0
+"Silvers, Rayleigh",anime,anime,0.9996,anime,0.9955,False,0.0
+Senshi,anime,anime,0.9996,anime,0.9996,False,0.0
+Hange Zoe,anime,anime,0.9994,anime,0.9996,False,0.0
+"Arabel, Ronie",anime,anime,0.9996,anime,0.9994,False,0.0
+"Amon, Koutarou",anime,anime,0.9996,anime,0.9996,False,0.0
+Nagi Seishiro,anime,anime,0.9996,anime,0.9996,False,0.0
+Pippin,anime,anime,0.9269,anime,0.9996,False,0.0
+Tauro,anime,anime,0.9996,anime,0.9996,False,0.0
+Eugeo,anime,anime,0.9996,anime,0.9996,False,0.0
+Heiter,anime,anime,0.9738,anime,0.9996,False,0.0
+Yamato,anime,anime,0.9996,anime,0.9996,False,0.0
+Beatrix,anime,anime,0.9996,anime,0.9996,False,0.0
+Itachi Uchiha,anime,anime,0.99,anime,0.9996,False,0.0
+"Madarame, Ikkaku",anime,anime,0.9996,anime,0.9996,False,0.0
+"Adel-Adler, Augusta Frederica",anime,anime,0.9996,anime,0.9996,False,0.0
+Fujino Ayumu,anime,anime,0.9996,anime,0.9996,False,0.0
+"Ral, Petra",anime,anime,0.9996,anime,0.996,False,0.0
+Shinpachi,anime,anime,0.9996,anime,0.9996,False,0.0
+Android 17,anime,anime,0.9959,anime,0.9996,False,0.0
+Sabo,anime,anime,0.9754,anime,0.9996,False,0.0
+Power Loader,anime,anime,0.9995,anime,0.9996,False,0.0
+"Nakayama, Haruki",anime,anime,0.9996,anime,0.9996,False,0.0
+"li Britannia, Cornelia",anime,anime,0.3558,anime,0.9995,False,0.0
+"Basterbine, Bambietta",anime,anime,0.9996,anime,0.9982,False,0.0
+"Ibuki, Fuuko",anime,anime,0.9996,anime,0.9996,False,0.0
+"Sarutobi, Ayame",anime,anime,0.9996,anime,0.9996,False,0.0
+"Tsukishima, Kei",anime,anime,0.9993,anime,0.9996,False,0.0
+Taki Tooru,anime,anime,0.6753,anime,0.9996,False,0.0
+"Charlotte, Katakuri",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kuze, Shizuka",anime,anime,0.9996,anime,0.9996,False,0.0
+Kyo Sohma,anime,anime,0.9952,anime,0.9996,False,0.0
+"Uotani, Arisa",anime,anime,0.9996,anime,0.9996,False,0.0
+Beam,anime,anime,0.9441,anime,0.9996,False,0.0
+Richeh,anime,anime,0.9996,anime,0.9996,False,0.0
+Joe Yabuki,anime,anime,0.9992,anime,0.9996,False,0.0
+"Hodgins, Claudia",anime,anime,0.9996,anime,0.9996,False,0.0
+Kia the World Word,anime,anime,0.9758,anime,0.9995,False,0.0
+"Serlut, Sortiliena",anime,anime,0.9996,anime,0.9994,False,0.0
+Krillin,anime,anime,0.9996,anime,0.9996,False,0.0
+"Haschwalth, Jugram",anime,anime,0.9996,anime,0.9996,False,0.0
+"Netero, Isaac",anime,anime,0.9996,anime,0.9996,False,0.0
+"Son, Goten",anime,anime,0.9995,anime,0.999,False,0.0
+"Sakura, Kyouko",anime,anime,0.9996,anime,0.9996,False,0.0
+"Mashima, Taichi",anime,anime,0.9996,anime,0.9996,False,0.0
+"Yoroizuka, Mizore",anime,anime,0.9996,anime,0.9996,False,0.0
+Chousou,anime,anime,0.9996,anime,0.9996,False,0.0
+"Yamaguchi, Tadashi",anime,anime,0.9996,anime,0.9996,False,0.0
+Jealousy,anime,anime,0.9996,anime,0.9996,False,0.0
+Shigure Souma,anime,anime,0.9875,anime,0.9996,False,0.0
+"Aiza, Takeshi",anime,anime,0.9996,anime,0.9996,False,0.0
+"Miyoshi, Kaya",anime,anime,0.9996,anime,0.9996,False,0.0
+Pochama,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kaname, Junko",anime,anime,0.9996,anime,0.9478,False,0.0
+"Kotegawa, Chisa",anime,anime,0.9996,anime,0.9996,False,0.0
+Gintoki,anime,anime,0.9996,anime,0.9996,False,0.0
+"Springer, Connie",anime,anime,0.9996,anime,0.9996,False,0.0
+"Matou, Kariya",anime,anime,0.9996,anime,0.9996,False,0.0
+"Souma, Isuzu",anime,anime,0.9996,anime,0.9996,False,0.0
+Pah-chin,anime,anime,0.9996,anime,0.9996,False,0.0
+Runami Yachiyo,anime,anime,0.9996,anime,0.9996,False,0.0
+Nanami Ryuusui,anime,anime,0.9996,anime,0.9996,False,0.0
+Narrator,anime,anime,0.9996,anime,0.9996,False,0.0
+"Shimotsuki, Ryuuma",anime,anime,0.9996,anime,0.9996,False,0.0
+Ino Yamanaka,anime,anime,0.995,anime,0.9996,False,0.0
+Master Roshi,anime,anime,0.9996,anime,0.9996,False,0.0
+Nie Huaisang,anime,anime,0.9996,anime,0.9996,False,0.0
+"Grimmer, Wolfgang",anime,anime,0.9993,anime,0.9996,False,0.0
+"Una, Trish",anime,anime,0.9996,anime,0.9996,False,0.0
+Mr. Satan,anime,anime,0.9996,anime,0.9996,False,0.0
+"Hazama, Nobunaga",anime,anime,0.9996,anime,0.9848,False,0.0
+"Mittermeyer, Wolfgang",anime,anime,0.9996,anime,0.9996,False,0.0
+Kazuma Sato,anime,anime,0.9996,anime,0.9996,False,0.0
+Kiba Inuzuka,anime,anime,0.9986,anime,0.9996,False,0.0
+"Hyousube, Ichibei",anime,anime,0.9993,anime,0.9996,False,0.0
+Bartolomeo,anime,anime,0.9996,anime,0.9996,False,0.0
+Kyon,anime,anime,0.9043,anime,0.9996,False,0.0
+Haru Urara,anime,anime,0.9996,anime,0.9996,False,0.0
+Red Rush,anime,anime,0.9989,anime,0.9995,False,0.0
+Ryuuen,anime,anime,0.9996,anime,0.9996,False,0.0
+Angel Devil,anime,anime,0.9614,anime,0.9996,False,0.0
+"Mineta, Minoru",anime,anime,0.9996,anime,0.9996,False,0.0
+Shoto Todoroki,anime,anime,0.9775,anime,0.9996,False,0.0
+Tsunade,anime,anime,0.9944,anime,0.9992,False,0.0
+"Pixis, Dot",anime,anime,0.9996,anime,0.9403,False,0.0
+"Mills, Andrew Gilbert",anime,anime,0.9996,anime,0.9838,False,0.0
+Koro-sensei,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kotegawa, Nanaka",anime,anime,0.9996,anime,0.9996,False,0.0
+"Ichinose, Kotomi",anime,anime,0.9996,anime,0.9996,False,0.0
+Kobuchizawa Shirase,anime,anime,0.9996,anime,0.9996,False,0.0
+Toji Fushiguro,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tomioka, Giyuu",anime,anime,0.9996,anime,0.9996,False,0.0
+"Curtis, Izumi",anime,anime,0.9984,anime,0.9996,False,0.0
+Tessler,anime,anime,0.9996,anime,0.9993,False,0.0
+"Toosaka, Rin",anime,anime,0.9907,anime,0.9996,False,0.0
+"Rikiishi, Tooru",anime,anime,0.9996,anime,0.9996,False,0.0
+"Araragi, Tsukihi",anime,anime,0.9996,anime,0.9996,False,0.0
+"Sakamoto, Tatsuma",anime,anime,0.9996,anime,0.998,False,0.0
+Suzune Horikita,anime,anime,0.9996,anime,0.9996,False,0.0
+"Komamura, Sajin",anime,anime,0.9944,anime,0.9996,False,0.0
+Kakucho,anime,anime,0.9996,anime,0.9996,False,0.0
+Tsugikuni Yoriichi,anime,anime,0.9996,anime,0.9996,False,0.0
+"Yamazaki, Sagaru",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kururugi, Suzaku",anime,anime,0.9996,anime,0.9996,False,0.0
+Shaiapouf,anime,anime,0.9974,anime,0.9996,False,0.0
+"Kingsley, Julius",anime,anime,0.9996,anime,0.9996,False,0.0
+"Tanaka, Saeko",anime,anime,0.9996,anime,0.9996,False,0.0
+Brock,anime,anime,0.9982,anime,0.9996,False,0.0
+"Tsuboi, Ryoutarou",anime,anime,0.9996,anime,0.9899,False,0.0
+"Emma, Anju",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kikuchi, Yoshito",anime,anime,0.9996,anime,0.9996,False,0.0
+Usagi,anime,anime,0.9996,anime,0.9996,False,0.0
+"Yosano, Akiko",anime,anime,0.9996,anime,0.9996,False,0.0
+Marcel,anime,anime,0.9996,anime,0.9996,False,0.0
+Rock Lee,anime,anime,0.983,anime,0.9996,False,0.0
+"Koudai, Makio",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kishibe, Rohan",anime,anime,0.9996,anime,0.9981,False,0.0
+"Sahara, Miyoko",anime,anime,0.9996,anime,0.9993,False,0.0
+Samui,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tsumugiya, Ururu",anime,anime,0.9996,anime,0.9996,False,0.0
+"Nödt, Äs",anime,anime,0.9996,anime,0.9996,False,0.0
+Rimuru Tempest,anime,anime,0.9802,anime,0.9994,False,0.0
+Eijiro Kirishima,anime,anime,0.9996,anime,0.9996,False,0.0
+"Adai, Rossiu",anime,anime,0.9995,anime,0.9996,False,0.0
+Ayanami Rei,anime,anime,0.9996,anime,0.9996,False,0.0
+Kyoumoto,anime,anime,0.9996,anime,0.9996,False,0.0
+"Imai, Nobume",anime,anime,0.9996,anime,0.9223,False,0.0
+Edward Wong,anime,anime,0.9974,anime,0.9995,False,0.0
+Momonga,anime,anime,0.9996,anime,0.9996,False,0.0
+Santa Claus,anime,anime,0.9996,anime,0.9996,False,0.0
+"Forster, Floch",anime,anime,0.9996,anime,0.9996,False,0.0
+"Siberia, Palm",anime,anime,0.9996,anime,0.9996,False,0.0
+"Sarutobi, Konohamaru",anime,anime,0.9996,anime,0.9996,False,0.0
+Yuta Okkotsu,anime,anime,0.9995,anime,0.9996,False,0.0
+"Hyuuga, Akito",anime,anime,0.9996,anime,0.9996,False,0.0
+Hijikata,anime,anime,0.9996,anime,0.9996,False,0.0
+Vegeta,anime,anime,0.9881,anime,0.9996,False,0.0
+"Sensui, Shinobu",anime,anime,0.9996,anime,0.9996,False,0.0
+"Senju, Hashirama",anime,anime,0.9996,anime,0.9996,False,0.0
+Misa Amane,anime,anime,0.9994,anime,0.9996,False,0.0
+"Bradley, Selim",anime,anime,0.9947,anime,0.9994,False,0.0
+Hajime Nagumo,anime,anime,0.9709,anime,0.9996,False,0.0
+Methode,anime,anime,0.9297,anime,0.9895,False,0.0
+Ribbit,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kirigoe, Mima",anime,anime,0.9996,anime,0.9996,False,0.0
+Nami,anime,anime,0.9884,anime,0.9996,False,0.0
+Bojji,anime,anime,0.9996,anime,0.9996,False,0.0
+Mari Illustrious Makinami,anime,anime,0.9976,anime,0.9996,False,0.0
+Cavendish,anime,anime,0.9996,anime,0.9996,False,0.0
+Luka,anime,anime,0.9996,anime,0.9996,False,0.0
+Lee JooHee,anime,anime,0.9996,anime,0.9996,False,0.0
+Tatsumaki,anime,anime,0.998,anime,0.9996,False,0.0
+"Kozume, Kenma",anime,anime,0.9996,anime,0.9996,False,0.0
+"May, Shao",anime,anime,0.9996,anime,0.9986,False,0.0
+Loulan,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kurata, Tome",anime,anime,0.9996,anime,0.9996,False,0.0
+"Iguro, Obanai",anime,anime,0.9996,anime,0.9766,False,0.0
+"Vinsmoke, Reiju",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kagamihara, Nadeshiko",anime,anime,0.9996,anime,0.999,False,0.0
+Ukogi,anime,anime,0.9996,anime,0.9996,False,0.0
+Malty,anime,anime,0.9996,anime,0.9996,False,0.0
+Bepo,anime,anime,0.9996,anime,0.9996,False,0.0
+Yamada Anna,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kong, Wenge",anime,anime,0.9996,anime,0.9996,False,0.0
+Natsu Dragneel,anime,anime,0.9996,anime,0.9996,False,0.0
+"Sugawara, Koushi",anime,anime,0.9996,anime,0.9996,False,0.0
+Kashima Hiiragi,anime,anime,0.9996,anime,0.9996,False,0.0
+Rebecca,anime,anime,0.9996,anime,0.9996,False,0.0
+"Saitou, Miyako",anime,anime,0.9996,anime,0.9996,False,0.0
+"Shuga, Raiden",anime,anime,0.9996,anime,0.9996,False,0.0
+TM Opera O,anime,anime,0.9996,anime,0.9996,False,0.0
+Kitahara Iori,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kotetsu, Isane",anime,anime,0.9996,anime,0.9996,False,0.0
+Katsuki Bakugo,anime,anime,0.9866,anime,0.9996,False,0.0
+"Kira, Yoshikage",anime,anime,0.9996,anime,0.9996,False,0.0
+Kurisu Makise,anime,anime,0.9049,anime,0.9996,False,0.0
+"Toguro, Younger",anime,anime,0.9989,anime,0.9209,False,0.0
+Saionji Ukyou,anime,anime,0.9996,anime,0.9996,False,0.0
+"Lamperouge, Rolo",anime,anime,0.9996,anime,0.9996,False,0.0
+Omoi,anime,anime,0.9996,anime,0.9996,False,0.0
+Tobita Danjuro,anime,anime,0.9996,anime,0.9996,False,0.0
+Mina Ashiro,anime,anime,0.9996,anime,0.9996,False,0.0
+Shinpei Ajiro,anime,anime,0.9996,anime,0.9996,False,0.0
+"Ayano, Keiko",anime,anime,0.9996,anime,0.9996,False,0.0
+"Ogino, Chihiro",anime,anime,0.9996,anime,0.9688,False,0.0
+"Ooe, Kanade",anime,anime,0.9996,anime,0.9996,False,0.0
+Cha Hae-In,anime,anime,0.9996,anime,0.9996,False,0.0
+Mary,anime,anime,0.9996,anime,0.9996,False,0.0
+"Oshino, Ougi",anime,anime,0.9868,anime,0.9995,False,0.0
+"Ishida, Ryuuken",anime,anime,0.9995,anime,0.9996,False,0.0
+"Reest, Martin",anime,anime,0.9996,anime,0.9996,False,0.0
+Nagato,anime,anime,0.9958,anime,0.9996,False,0.0
+"Kayano, Kaede",anime,anime,0.9996,anime,0.9996,False,0.0
+"Magkav, Phinks",anime,anime,0.9996,anime,0.9895,False,0.0
+Tamamo Cross,anime,anime,0.9996,anime,0.9996,False,0.0
+"Smith, Erwin",anime,anime,0.9996,anime,0.9996,False,0.0
+Sagittarius Aiolos,anime,anime,0.9996,anime,0.9996,False,0.0
+"Donquixote, Rosinante",anime,anime,0.9996,anime,0.9996,False,0.0
+Wen Ning,anime,anime,0.9996,anime,0.9996,False,0.0
+Mest Gryder,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kircheis, Siegfried",anime,anime,0.9996,anime,0.9826,False,0.0
+"Baudelaire, Cattleya",anime,anime,0.9996,anime,0.9996,False,0.0
+"Yasuhisa, Kurona",anime,anime,0.9996,anime,0.9996,False,0.0
+"Pearlbaton, Mimi",anime,anime,0.9996,anime,0.9996,False,0.0
+Lucky Cyan,anime,anime,0.9996,anime,0.9996,False,0.0
+"Marshall D., Teach",anime,anime,0.9996,anime,0.9983,False,0.0
+"Kirigaya, Kazuto",anime,anime,0.9996,anime,0.9996,False,0.0
+"Xiao, Yan",anime,anime,0.9996,anime,0.999,False,0.0
+Suma,anime,anime,0.9996,anime,0.9996,False,0.0
+"Nanba, Hibito",anime,anime,0.9996,anime,0.9996,False,0.0
+"Araragi, Karen",anime,anime,0.9996,anime,0.9996,False,0.0
+Gintoki Sakata,anime,anime,0.996,anime,0.9996,False,0.0
+Emma,anime,anime,0.9996,anime,0.9996,False,0.0
+"Hisaishi, Kanade",anime,anime,0.9996,anime,0.9996,False,0.0
+Science Dog,anime,anime,0.9984,anime,0.9574,False,0.0
+"Nakamura, Rio",anime,anime,0.9996,anime,0.7176,False,0.0
+"Dreyse, Hitch",anime,anime,0.9996,anime,0.9996,False,0.0
+"Yasutora ""Chad"" Sado",anime,anime,0.9456,anime,0.9996,False,0.0
+"Kaneki, Ken",anime,anime,0.9996,anime,0.9996,False,0.0
+Choso,anime,anime,0.9996,anime,0.9996,False,0.0
+Sense,anime,anime,0.9994,anime,0.9996,False,0.0
+Sabito,anime,anime,0.9996,anime,0.9996,False,0.0
+"Wong, Shorter",anime,anime,0.9996,anime,0.9958,False,0.0
+"Costello, Ermes",anime,anime,0.9996,anime,0.9356,False,0.0
+Rider,anime,anime,0.989,anime,0.9996,False,0.0
+Kage,anime,anime,0.9996,anime,0.9996,False,0.0
+"Saiki, Kusuo",anime,anime,0.9921,anime,0.9996,False,0.0
+"Kageyama, Tobio",anime,anime,0.9996,anime,0.9996,False,0.0
+"Jeevas, Mail",anime,anime,0.9996,anime,0.9962,False,0.0
+Yoo JinHo,anime,anime,0.9996,anime,0.9996,False,0.0
+"Terushima, Yuuji",anime,anime,0.9996,anime,0.9996,False,0.0
+Renji Abarai,anime,anime,0.9961,anime,0.9996,False,0.0
+Itsuki Koizumi,anime,anime,0.9784,anime,0.9996,False,0.0
+Zenitsu Agatsuma,anime,anime,0.9952,anime,0.9996,False,0.0
+"Monkey D., Luffy",anime,anime,0.9073,anime,0.9995,False,0.0
+Park Hee-chan,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tokitou, Muichirou",anime,anime,0.9996,anime,0.9707,False,0.0
+"Avdol, Muhammad",anime,anime,0.9996,anime,0.9996,False,0.0
+Uryu Ishida,anime,anime,0.9148,anime,0.9996,False,0.0
+Rei Ayanami,anime,anime,0.9926,anime,0.9996,False,0.0
+"Hayasaka, Ai",anime,anime,0.9996,anime,0.9996,False,0.0
+Killua Zoldyck,anime,anime,0.998,anime,0.9996,False,0.0
+C.C.,anime,anime,0.9996,anime,0.9996,False,0.0
+Cygnus Hyoga,anime,anime,0.9996,anime,0.9996,False,0.0
+Daiwa Scarlet,anime,anime,0.9996,anime,0.9996,False,0.0
+"Nijimura, Okuyasu",anime,anime,0.9996,anime,0.9841,False,0.0
+"Tachibana, Misato",anime,anime,0.9996,anime,0.9996,False,0.0
+"Ishigami, Yuu",anime,anime,0.9996,anime,0.9996,False,0.0
+Shoko Makinohara,anime,anime,0.9805,anime,0.9996,False,0.0
+Raizo,anime,anime,0.9996,anime,0.9996,False,0.0
+Denken,anime,anime,0.9788,anime,0.9988,False,0.0
+Atsuya Kusakabe,anime,anime,0.9995,anime,0.9996,False,0.0
+"Nishio, Nishiki",anime,anime,0.9996,anime,0.9995,False,0.0
+Takina,anime,anime,0.9996,anime,0.9996,False,0.0
+Hatsuharu Sohma,anime,anime,0.9996,anime,0.9996,False,0.0
+Egami,anime,anime,0.9996,anime,0.9838,False,0.0
+"Littner, Leeron",anime,anime,0.9994,anime,0.9996,False,0.0
+Cid Kagenou,anime,anime,0.9816,anime,0.9996,False,0.0
+Metal Knight,anime,anime,0.9996,anime,0.9996,False,0.0
+"Ki El Dogra, Baka",anime,anime,0.9996,anime,0.998,False,0.0
+"Dazai, Osamu",anime,anime,0.9996,anime,0.9996,False,0.0
+Fern,anime,anime,0.9498,anime,0.9992,False,0.0
+"Gaen, Izuko",anime,anime,0.9996,anime,0.9944,False,0.0
+Miyake Hinata,anime,anime,0.9996,anime,0.9996,False,0.0
+"Ayase, Chihaya",anime,anime,0.9996,anime,0.9996,False,0.0
+"Shinsou, Hitoshi",anime,anime,0.9996,anime,0.9996,False,0.0
+"Rivera, Carlos",anime,anime,0.9996,anime,0.9996,False,0.0
+Koga Tomoe,anime,anime,0.9996,anime,0.9996,False,0.0
+Saitama,anime,anime,0.9884,anime,0.9996,False,0.0
+Shadow,anime,anime,0.9996,anime,0.9996,False,0.0
+Yamcha,anime,anime,0.9996,anime,0.9996,False,0.0
+Ichigo Kurosaki,anime,anime,0.9298,anime,0.9989,False,0.0
+Okiku,anime,anime,0.9996,anime,0.9996,False,0.0
+"Hori, Chie",anime,anime,0.9996,anime,0.9996,False,0.0
+Toyohama Nodoka,anime,anime,0.9996,anime,0.9996,False,0.0
+"Shijou, Maki",anime,anime,0.9996,anime,0.9996,False,0.0
+"Ackerman, Kenny",anime,anime,0.9996,anime,0.9996,False,0.0
+Riza Hawkeye,anime,anime,0.8656,anime,0.9996,False,0.0
+"Busujima, Sakurako",anime,anime,0.9996,anime,0.9996,False,0.0
+"Velvet, Waver",anime,anime,0.9996,anime,0.9996,False,0.0
+Mirio Togata,anime,anime,0.9996,anime,0.9996,False,0.0
+Megumi Fushiguro,anime,anime,0.7579,anime,0.9996,False,0.0
+Mother Spider Demon,anime,anime,0.9996,anime,0.9996,False,0.0
+"Shinozaki, Rika",anime,anime,0.9996,anime,0.9996,False,0.0
+Might Guy,anime,anime,0.9652,anime,0.9996,False,0.0
+Usagiyama Rumi,anime,anime,0.9996,anime,0.9996,False,0.0
+"Oomori, Yakumo",anime,anime,0.9996,anime,0.9996,False,0.0
+"Souma, Hatori",anime,anime,0.9777,anime,0.9996,False,0.0
+Porco,anime,anime,0.9996,anime,0.9996,False,0.0
+Kochou Kanae,anime,anime,0.9996,anime,0.9996,False,0.0
+"Penber, Raye",anime,anime,0.9996,anime,0.9996,False,0.0
+Hisashi Mitsui,anime,anime,0.9893,anime,0.9996,False,0.0
+"Shirone, Zanoba",anime,anime,0.9996,anime,0.9996,False,0.0
+Inuarashi,anime,anime,0.9996,anime,0.9996,False,0.0
+"Terumi, Mei",anime,anime,0.9996,anime,0.9996,False,0.0
+Giyu Tomioka,anime,anime,0.97,anime,0.9996,False,0.0
+"Serizawa, Katsuya",anime,anime,0.9996,anime,0.9996,False,0.0
+Ajiro Shinpei,anime,anime,0.9996,anime,0.9996,False,0.0
+Bang,anime,anime,0.9944,anime,0.9996,False,0.0
+"Shimura, Tae",anime,anime,0.9992,anime,0.9996,False,0.0
+"Shinomiya, Kaguya",anime,anime,0.9996,anime,0.9996,False,0.0
+"Aozaki, Touko",anime,anime,0.9996,anime,0.9996,False,0.0
+Jean Pierre Polnareff,anime,anime,0.9926,anime,0.9996,False,0.0
+Kei Shirogane,anime,anime,0.9996,anime,0.9996,False,0.0
+"Momoe, Nagisa",anime,anime,0.9996,anime,0.9996,False,0.0
+Ozu,anime,anime,0.9996,anime,0.9679,False,0.0
+"Tendouji, Sarina",anime,anime,0.9996,anime,0.9996,False,0.0
+Inosuke Hashibira,anime,anime,0.9298,anime,0.9996,False,0.0
+"Araragi, Koyomi",anime,anime,0.9986,anime,0.9996,False,0.0
+"Higashikata, Jousuke",anime,anime,0.9996,anime,0.9996,False,0.0
+"Yamagishi, Yukako",anime,anime,0.9996,anime,0.9953,False,0.0
+Tetia,anime,anime,0.9996,anime,0.9996,False,0.0
+Kankuro,anime,anime,0.9986,anime,0.9996,False,0.0
+Legosi,anime,anime,0.9996,anime,0.9996,False,0.0
+Tsukuyo,anime,anime,0.8642,anime,0.9995,False,0.0
+Lan Xichen,anime,anime,0.9996,anime,0.9996,False,0.0
+"von Rosewald, Kanae",anime,anime,0.9996,anime,0.9996,False,0.0
+Hoshina Subaru,anime,anime,0.997,anime,0.9996,False,0.0
+"Amane, Suzuha",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kanbaru, Suruga",anime,anime,0.9996,anime,0.9996,False,0.0
+"Oumae, Kumiko",anime,anime,0.9996,anime,0.9996,False,0.0
+"Sakuragi, Rokurouta",anime,anime,0.9996,anime,0.9996,False,0.0
+No-Face,anime,anime,0.9996,anime,0.9996,False,0.0
+Anya Forger,anime,anime,0.9996,anime,0.9996,False,0.0
+Raditz,anime,anime,0.9037,anime,0.9996,False,0.0
+"Alniño, Emporio",anime,anime,0.9996,anime,0.9865,False,0.0
+Dale,anime,anime,0.9996,anime,0.9996,False,0.0
+"Yagyuu, Kyuubei",anime,anime,0.9996,anime,0.9996,False,0.0
+Wiz,anime,anime,0.9996,anime,0.9996,False,0.0
+"Mito, Youhei",anime,anime,0.9996,anime,0.9996,False,0.0
+The Legend,anime,anime,0.8704,anime,0.9879,False,0.0
+"Monkey D., Dragon",anime,anime,0.9996,anime,0.9996,False,0.0
+"Sakusa, Kiyoomi",anime,anime,0.9996,anime,0.9996,False,0.0
+"Greyrat, Aisha",anime,anime,0.9996,anime,0.9996,False,0.0
+"Saijou, Claudine",anime,anime,0.9996,anime,0.9996,False,0.0
+"Saitou, Ena",anime,anime,0.9996,anime,0.9996,False,0.0
+Thistle,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tsuwabuki, Daigo",anime,anime,0.9996,anime,0.9891,False,0.0
+Thirteen,anime,anime,0.9995,anime,0.9996,False,0.0
+"Harribel, Tier",anime,anime,0.9996,anime,0.9995,False,0.0
+"Arisawa, Tatsuki",anime,anime,0.9996,anime,0.9996,False,0.0
+Hoshiumi Kourai,anime,anime,0.9996,anime,0.9996,False,0.0
+"von Einzbern, Irisviel",anime,anime,0.9996,anime,0.9996,False,0.0
+"Blue, Benedict",anime,anime,0.9996,anime,0.9996,False,0.0
+"Hinata, Shouyou",anime,anime,0.9996,anime,0.9996,False,0.0
+Markl,anime,anime,0.9996,anime,0.9996,False,0.0
+Julius Novachrono,anime,anime,0.9996,anime,0.9996,False,0.0
+Orihime Inoue,anime,anime,0.9811,anime,0.9987,False,0.0
+"Weinberg, Gino",anime,anime,0.9996,anime,0.9991,False,0.0
+"Haiba, Lev",anime,anime,0.9996,anime,0.9996,False,0.0
+"Ayasegawa, Yumichika",anime,anime,0.9996,anime,0.9996,False,0.0
+"Semi, Eita",anime,anime,0.9996,anime,0.9996,False,0.0
+"Ooki, Taiju",anime,anime,0.9996,anime,0.9903,False,0.0
+P倍,anime,anime,0.9996,anime,0.9996,False,0.0
+Bones,anime,anime,0.9996,anime,0.9996,False,0.0
+"Mista, Guido",anime,anime,0.9996,anime,0.9996,False,0.0
+"Leonhart, Annie",anime,anime,0.9996,anime,0.9996,False,0.0
+Tien Shinhan,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tanaka, Asuka",anime,anime,0.9996,anime,0.9996,False,0.0
+Byakuya Kuchiki,anime,anime,0.9996,anime,0.9996,False,0.0
+"Monoma, Neito",anime,anime,0.9996,anime,0.9645,False,0.0
+Akito Sohma,anime,anime,0.9996,anime,0.9996,False,0.0
+Greed,anime,anime,0.3216,anime,0.9996,False,0.0
+"Tokito, Muichiro",anime,anime,0.9995,anime,0.9996,False,0.0
+"Taki, Tooru",anime,anime,0.9996,anime,0.9996,False,0.0
+Chigusa,anime,anime,0.9996,anime,0.9996,False,0.0
+Fujimoto,anime,anime,0.9996,anime,0.9996,False,0.0
+Shunsui Kyoraku,anime,anime,0.9996,anime,0.9996,False,0.0
+Killer Bee,anime,anime,0.9996,anime,0.9996,False,0.0
+Shiorido Ryuunosuke,anime,anime,0.9996,anime,0.9996,False,0.0
+Jolenta,anime,anime,0.9996,anime,0.9996,False,0.0
+Miyuki Shiba,anime,anime,0.9996,anime,0.9996,False,0.0
+Tohru Honda,anime,anime,0.9881,anime,0.9996,False,0.0
+Makoto Misumi,anime,anime,0.9858,anime,0.9996,False,0.0
+"Ijichi, Nijika",anime,anime,0.9831,anime,0.9996,False,0.0
+"Jirou, Kyouka",anime,anime,0.9996,anime,0.9996,False,0.0
+Jiren,anime,anime,0.9996,anime,0.9996,False,0.0
+Thorfinn,anime,anime,0.9983,anime,0.9996,False,0.0
+Kohaku,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kaji, Ryouji",anime,anime,0.9996,anime,0.9996,False,0.0
+Solf,anime,anime,0.9996,anime,0.9996,False,0.0
+Albedo,anime,anime,0.9996,anime,0.9996,False,0.0
+Yuki Nagato,anime,anime,0.9895,anime,0.9996,False,0.0
+Tsumugi Rintarou,anime,anime,0.9996,anime,0.9996,False,0.0
+Shigure Sohma,anime,anime,0.9996,anime,0.9996,False,0.0
+Kiwi,anime,anime,0.9996,anime,0.9996,False,0.0
+"Himejima, Gyomei",anime,anime,0.9995,anime,0.9996,False,0.0
+"Bakugou, Mitsuki",anime,anime,0.9996,anime,0.9996,False,0.0
+"Murasaki, Shizuku",anime,anime,0.9996,anime,0.9973,False,0.0
+"Yang, Duanhe",anime,anime,0.9996,anime,0.9996,False,0.0
+"Higuchi, Seitarou",anime,anime,0.9996,anime,0.9959,False,0.0
+Aqua,anime,anime,0.9996,anime,0.9996,False,0.0
+"Yoshiwara, Aina",anime,anime,0.9996,anime,0.9996,False,0.0
+Nejire Chan,anime,anime,0.9996,anime,0.9996,False,0.0
+Toudou Aoi,anime,anime,0.9996,anime,0.9996,False,0.0
+"Katou, Hazuki",anime,anime,0.9996,anime,0.9996,False,0.0
+"Onizuka, Hime",anime,anime,0.9996,anime,0.9996,False,0.0
+Ryoko Asakura,anime,anime,0.6867,anime,0.9915,False,0.0
+"Senju, Tobirama",anime,anime,0.9996,anime,0.9996,False,0.0
+Emilia,anime,anime,0.9996,anime,0.9996,False,0.0
+Genos,anime,anime,0.9316,anime,0.9996,False,0.0
+Mitsuki,anime,anime,0.9996,anime,0.9996,False,0.0
+"Uraraka, Ochako",anime,anime,0.9996,anime,0.9996,False,0.0
+All Might,anime,anime,0.94,anime,0.9996,False,0.0
+Chisato,anime,anime,0.9996,anime,0.9996,False,0.0
+Minato Namikaze,anime,anime,0.9833,anime,0.9996,False,0.0
+"Akutagawa, Ryuunosuke",anime,anime,0.9996,anime,0.9996,False,0.0
+"Mori, Ougai",anime,anime,0.9996,anime,0.9994,False,0.0
+Miguel,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tucker, Shou",anime,anime,0.9994,anime,0.989,False,0.0
+Snyder Stanley,anime,anime,0.9996,anime,0.9996,False,0.0
+Tanya Degurechaff,anime,anime,0.9943,anime,0.9996,False,0.0
+Kite,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kawamoto, Momo",anime,anime,0.9996,anime,0.9996,False,0.0
+"Shirogane, Father",anime,anime,0.9996,anime,0.9996,False,0.0
+"Tokoyami, Fumikage",anime,anime,0.9996,anime,0.9996,False,0.0
+Yamauchi Sakura,anime,anime,0.9996,anime,0.9996,False,0.0
+Yuzuriha,anime,anime,0.9996,anime,0.9996,False,0.0
+Takenori Akagi,anime,anime,0.9566,anime,0.9996,False,0.0
+Beerus,anime,anime,0.9996,anime,0.9995,False,0.0
+"Isogai, Yuuma",anime,anime,0.9996,anime,0.9996,False,0.0
+Hughie Campbell,anime,anime,0.9374,anime,0.997,False,0.0
+Fu,anime,anime,0.9996,anime,0.9995,False,0.0
+Chouchou,anime,anime,0.9996,anime,0.9996,False,0.0
+Toyomitsu Taishirou,anime,anime,0.9996,anime,0.9996,False,0.0
+"Rengoku, Kyojuro",anime,anime,0.9996,anime,0.9996,False,0.0
+"Ibuki, Maya",anime,anime,0.9995,anime,0.9996,False,0.0
+ Quanxi,anime,anime,0.9996,anime,0.9996,False,0.0
+"Hoshino, Aquamarine",anime,anime,0.993,anime,0.9996,False,0.0
+"Toga, Himiko",anime,anime,0.9996,anime,0.9996,False,0.0
+Rafal,anime,anime,0.9996,anime,0.9996,False,0.0
+Idsastaros,anime,anime,0.9215,anime,0.9958,False,0.0
+Kaguya,anime,anime,0.9996,anime,0.9996,False,0.0
+Gajeel Redfox,anime,anime,0.9996,anime,0.9996,False,0.0
+"Gouda, Musashi",anime,anime,0.9996,anime,0.9996,False,0.0
+Zenin Mai,anime,anime,0.9996,anime,0.9996,False,0.0
+"Urie, Kuki",anime,anime,0.9996,anime,0.9996,False,0.0
+"Monkey D., Garp",anime,anime,0.9995,anime,0.9996,False,0.0
+Shinazugawa Genya,anime,anime,0.9996,anime,0.9996,False,0.0
+Fushigidane,anime,anime,0.9996,anime,0.9996,False,0.0
+"Horibe, Itona",anime,anime,0.9996,anime,0.9961,False,0.0
+Oczy,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kirarazaka, Marina",anime,anime,0.9985,anime,0.9983,False,0.0
+Manhattan Cafe,anime,anime,0.9996,anime,0.9996,False,0.0
+"Uzumaki, Himawari",anime,anime,0.9996,anime,0.9996,False,0.0
+"Mutsuki, Tooru",anime,anime,0.9996,anime,0.9996,False,0.0
+Snake,anime,anime,0.9996,anime,0.9983,False,0.0
+"Unohana, Retsu",anime,anime,0.9996,anime,0.9996,False,0.0
+Andromeda Shun,anime,anime,0.9996,anime,0.9996,False,0.0
+Trafalgar D. Water Law,anime,anime,0.9806,anime,0.9996,False,0.0
+Phil,anime,anime,0.9996,anime,0.9996,False,0.0
+"Senjougahara, Hitagi",anime,anime,0.9996,anime,0.9996,False,0.0
+"Lobo, Max",anime,anime,0.9996,anime,0.9996,False,0.0
+"Yamada, Ryou",anime,anime,0.9908,anime,0.9996,False,0.0
+"Nanahoshi, Shizuka",anime,anime,0.9996,anime,0.9996,False,0.0
+"Sugimoto, Reimi",anime,anime,0.9993,anime,0.9884,False,0.0
+Yuguri Taktou,anime,anime,0.7686,anime,0.8983,False,0.0
+"Dedoldia, Ghislaine",anime,anime,0.9996,anime,0.9988,False,0.0
+Jiraiya,anime,anime,0.9988,anime,0.9996,False,0.0
+Juvia Lockser,anime,anime,0.9996,anime,0.9996,False,0.0
+Ryusui Nanami,anime,anime,0.9996,anime,0.9996,False,0.0
+Iori Utahime,anime,anime,0.9996,anime,0.9996,False,0.0
+Alex Louis Armstrong,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kuwabara, Kazuma",anime,anime,0.9688,anime,0.9996,False,0.0
+Ochaco Uraraka,anime,anime,0.9936,anime,0.9996,False,0.0
+Erza Scarlet,anime,anime,0.9996,anime,0.9996,False,0.0
+"Heinemann, Eva",anime,anime,0.9996,anime,0.9996,False,0.0
+Motoyasu,anime,anime,0.9996,anime,0.9996,False,0.0
+Marulk,anime,anime,0.9996,anime,0.9996,False,0.0
+"Akabane, Karma",anime,anime,0.9996,anime,0.9996,False,0.0
+Sachi,anime,anime,0.9996,anime,0.9943,False,0.0
+"Kotobuki, Ryuujirou",anime,anime,0.9996,anime,0.9996,False,0.0
+Asagiri Gen,anime,anime,0.9996,anime,0.9996,False,0.0
+Homunculus (Father),anime,anime,0.9367,anime,0.9988,False,0.0
+Haruhi Suzumiya,anime,anime,0.9485,anime,0.9996,False,0.0
+Pedro,anime,anime,0.9996,anime,0.9996,False,0.0
+King,anime,anime,0.9993,anime,0.9996,False,0.0
+"Evergarden, Violet",anime,anime,0.9996,anime,0.9996,False,0.0
+"Higashiyama, Kobeni",anime,anime,0.8295,anime,0.9995,False,0.0
+"Aida, Kensuke",anime,anime,0.9996,anime,0.9996,False,0.0
+"Aizawa, Shuuichi",anime,anime,0.9994,anime,0.9996,False,0.0
+Mr. Popo,anime,anime,0.999,anime,0.9862,False,0.0
+"Kasaki, Nozomi",anime,anime,0.9996,anime,0.9996,False,0.0
+"Tsuyuzaki, Mahiru",anime,anime,0.9996,anime,0.9942,False,0.0
+"Kuujou, Jotaro",anime,anime,0.9978,anime,0.9996,False,0.0
+Yuki Sohma,anime,anime,0.9912,anime,0.9996,False,0.0
+Dimple,anime,anime,0.9993,anime,0.9996,False,0.0
+"Azusagawa, Kaede",anime,anime,0.9996,anime,0.9815,False,0.0
+"Ishigami, Senkuu",anime,anime,0.9996,anime,0.9996,False,0.0
+Kanzaki Aoi,anime,anime,0.9996,anime,0.9996,False,0.0
+Nico Robin,anime,anime,0.9571,anime,0.9996,False,0.0
+"Erikson, Leif",anime,anime,0.9996,anime,0.9996,False,0.0
+"Fueguchi, Hinami",anime,anime,0.9996,anime,0.9996,False,0.0
+Azusa,anime,anime,0.9996,anime,0.9996,False,0.0
+Kagura,anime,anime,0.9192,anime,0.9996,False,0.0
+Rui,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kimblee, Solf J.",anime,anime,0.9995,anime,0.9993,False,0.0
+Tsukumo Yuki,anime,anime,0.9996,anime,0.9996,False,0.0
+"von Reuenthal, Oskar",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kurokawa, Akane",anime,anime,0.9855,anime,0.991,False,0.0
+"Ichinose, Takumi",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kayaba, Akihiko",anime,anime,0.9996,anime,0.9985,False,0.0
+"Makinohara, Shouko",anime,anime,0.9996,anime,0.9996,False,0.0
+Sekine Moeko,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tims, Chilchuck",anime,anime,0.9996,anime,0.9824,False,0.0
+"Meiou, Setsuna",anime,anime,0.9996,anime,0.9996,False,0.0
+"Nikaidou, Harunobu",anime,anime,0.9996,anime,0.9772,False,0.0
+Tek Knight,anime,anime,0.9576,anime,0.9824,False,0.0
+Miwa Kasumi,anime,anime,0.9996,anime,0.9996,False,0.0
+Kotoura,anime,anime,0.9996,anime,0.9996,False,0.0
+Olruggio,anime,anime,0.9996,anime,0.9996,False,0.0
+"Azuki, Miho",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kaname, Madoka",anime,anime,0.9996,anime,0.9996,False,0.0
+"Suwen, Otto",anime,anime,0.9996,anime,0.9996,False,0.0
+Asuna,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kaiou, Michiru",anime,anime,0.9996,anime,0.9996,False,0.0
+Apo,anime,anime,0.9996,anime,0.9403,False,0.0
+Oguri Cap,anime,anime,0.9996,anime,0.9996,False,0.0
+Alice Synthesis,anime,anime,0.9996,anime,0.9996,False,0.0
+Kushina Uzumaki,anime,anime,0.9971,anime,0.9996,False,0.0
+"Heiderich, Alfons",anime,anime,0.9996,anime,0.9957,False,0.0
+"Sakurajima, Mai",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kochou, Shinobu",anime,anime,0.9996,anime,0.9996,False,0.0
+"Furukawa, Akio",anime,anime,0.9996,anime,0.9996,False,0.0
+"Suzuya, Juuzou",anime,anime,0.9996,anime,0.9996,False,0.0
+Nanika,anime,anime,0.9996,anime,0.9996,False,0.0
+Taiju Oki,anime,anime,0.9996,anime,0.9996,False,0.0
+"Grantz, Szayel Aporro",anime,anime,0.9996,anime,0.9996,False,0.0
+"Hachikuji, Mayoi",anime,anime,0.9996,anime,0.9966,False,0.0
+"Keehl, Mihael",anime,anime,0.9644,anime,0.9996,False,0.0
+"Ying, Zheng",anime,anime,0.9996,anime,0.9996,False,0.0
+"Miki, Sayaka",anime,anime,0.9996,anime,0.9996,False,0.0
+Eris Boreas,anime,anime,0.9996,anime,0.9996,False,0.0
+"Yuuhi, Kurenai",anime,anime,0.9996,anime,0.9996,False,0.0
+Tsumugi Kyouko,anime,anime,0.9996,anime,0.9996,False,0.0
+Kazuya Kinoshita,anime,anime,0.9996,anime,0.9996,False,0.0
+Inuyama Aoi,anime,anime,0.9996,anime,0.9996,False,0.0
+Hack,anime,anime,0.9996,anime,0.9993,False,0.0
+Setsuko,anime,anime,0.9982,anime,0.9704,False,0.0
+Manabu Horikita,anime,anime,0.9996,anime,0.9996,False,0.0
+Rukia,anime,anime,0.9996,anime,0.9996,False,0.0
+Leno,anime,anime,0.9996,anime,0.9996,False,0.0
+Tenten,anime,anime,0.9984,anime,0.9996,False,0.0
+Kofune Mio,anime,anime,0.9996,anime,0.9996,False,0.0
+Light Yagami,anime,anime,0.7564,anime,0.9994,False,0.0
+"Synthesis One, Bercouli",anime,anime,0.9996,anime,0.9872,False,0.0
+Lunch,anime,anime,0.9094,anime,0.9996,False,0.0
+Gogol Nikolai,anime,anime,0.9996,anime,0.9996,False,0.0
+"Uchiyamada, Hiroshi",anime,anime,0.9996,anime,0.9996,False,0.0
+Dabi,anime,anime,0.9996,anime,0.9996,False,0.0
+Yelena,anime,anime,0.9996,anime,0.9996,False,0.0
+Kofune Ushio,anime,anime,0.9996,anime,0.9996,False,0.0
+"Li, Mu",anime,anime,0.9996,anime,0.9996,False,0.0
+Himeno,anime,anime,0.9996,anime,0.9996,False,0.0
+Ulquiorra Cifer,anime,anime,0.9996,anime,0.9996,False,0.0
+"Jewelry, Bonney",anime,anime,0.9996,anime,0.9806,False,0.0
+"Ginjou, Kuugo",anime,anime,0.9996,anime,0.9996,False,0.0
+"Yangu, Shigekiyo",anime,anime,0.9996,anime,0.9996,False,0.0
+Mikasa Ackerman,anime,anime,0.9907,anime,0.9996,False,0.0
+"Honda, Kyouko",anime,anime,0.9996,anime,0.9996,False,0.0
+Orochimaru,anime,anime,0.7429,anime,0.9996,False,0.0
+"Gong, Biao",anime,anime,0.9996,anime,0.98,False,0.0
+"Hirose, Kouichi",anime,anime,0.9996,anime,0.9906,False,0.0
+Fushiguro Touji,anime,anime,0.9996,anime,0.9996,False,0.0
+"Reigen, Arataka",anime,anime,0.9996,anime,0.9996,False,0.0
+Walt,anime,anime,0.9996,anime,0.9996,False,0.0
+Beru,anime,anime,0.9996,anime,0.9996,False,0.0
+Sung IlHwan,anime,anime,0.9996,anime,0.9996,False,0.0
+"Charlotte, Pudding",anime,anime,0.9996,anime,0.9996,False,0.0
+Takaba Fumihiko,anime,anime,0.9996,anime,0.9996,False,0.0
+Mansaru,anime,anime,0.9996,anime,0.9996,False,0.0
+"Zoldyck, Alluka",anime,anime,0.9994,anime,0.9996,False,0.0
+Choji Akimichi,anime,anime,0.9852,anime,0.9984,False,0.0
+Gray Fullbuster,anime,anime,0.9996,anime,0.9996,False,0.0
+Badeni,anime,anime,0.9996,anime,0.9996,False,0.0
+"Akaguro, Chizome",anime,anime,0.9996,anime,0.9996,False,0.0
+Touka Nishio,anime,anime,0.9996,anime,0.9995,False,0.0
+Rengoku Kyojuro,anime,anime,0.9754,anime,0.9996,False,0.0
+"Miya, Atsumu",anime,anime,0.9996,anime,0.9994,False,0.0
+"Furukawa, Nagisa",anime,anime,0.9996,anime,0.9996,False,0.0
+Kaneda,anime,anime,0.9994,anime,0.9996,False,0.0
+"Alstreim, Anya",anime,anime,0.9996,anime,0.9951,False,0.0
+"Ennoshita, Chikara",anime,anime,0.9996,anime,0.9996,False,0.0
+"Nimaiya, Ouetsu",anime,anime,0.9996,anime,0.9996,False,0.0
+"Suzuki, Shou",anime,anime,0.9996,anime,0.9996,False,0.0
+Hiro Sohma,anime,anime,0.9996,anime,0.9996,False,0.0
+Langa,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tendou, Maya",anime,anime,0.9996,anime,0.9996,False,0.0
+Warhammer,anime,anime,0.9996,anime,0.9996,False,0.0
+Haumea,anime,anime,0.9996,anime,0.9996,False,0.0
+Goku,anime,anime,0.8922,anime,0.9996,False,0.0
+"Montgomery, Lucy Maud",anime,anime,0.9996,anime,0.9996,False,0.0
+Izutsumi,anime,anime,0.9996,anime,0.9996,False,0.0
+"Uzumaki, Boruto",anime,anime,0.9996,anime,0.9996,False,0.0
+"Souma, Kureno",anime,anime,0.999,anime,0.9996,False,0.0
+Soul Rody,anime,anime,0.9996,anime,0.9996,False,0.0
+Galgali,anime,anime,0.9996,anime,0.9996,False,0.0
+Yan Sen,anime,anime,0.8956,anime,0.9996,False,0.0
+"Aoyama, Yuuga",anime,anime,0.9996,anime,0.9996,False,0.0
+"Nu, Villetta",anime,anime,0.9996,anime,0.9996,False,0.0
+Agnes Tachyon,anime,anime,0.9996,anime,0.9996,False,0.0
+Suika,anime,anime,0.9996,anime,0.9996,False,0.0
+Kiyotaka Ayanokouji,anime,anime,0.9996,anime,0.9996,False,0.0
+Drachma,anime,anime,0.9996,anime,0.9996,False,0.0
+Filolial,anime,anime,0.9996,anime,0.9996,False,0.0
+"Hohenheim, Van",anime,anime,0.9915,anime,0.9996,False,0.0
+"Guatiche, Pesche",anime,anime,0.9996,anime,0.9982,False,0.0
+Baek YoonHo,anime,anime,0.9996,anime,0.9996,False,0.0
+"Maeda, Noboru",anime,anime,0.9996,anime,0.875,False,0.0
+Nobara Kugisaki,anime,anime,0.9872,anime,0.9996,False,0.0
+Hisoka Morow,anime,anime,0.9996,anime,0.9996,False,0.0
+Sein,anime,anime,0.9534,anime,0.9906,False,0.0
+"River, Nate",anime,anime,0.3778,anime,0.9996,False,0.0
+Falco,anime,anime,0.9996,anime,0.9996,False,0.0
+"Poe, Edgar Allan",anime,anime,0.9996,anime,0.9996,False,0.0
+Jiang Cheng,anime,anime,0.9996,anime,0.9996,False,0.0
+"Uchiha, Mikoto",anime,anime,0.9996,anime,0.9996,False,0.0
+Koduck,anime,anime,0.9996,anime,0.9996,False,0.0
+"Saotome, Junko",anime,anime,0.9996,anime,0.9996,False,0.0
+Coco,anime,anime,0.9996,anime,0.9968,False,0.0
+"Nishimiya, Yuzuru",anime,anime,0.9996,anime,0.9996,False,0.0
+Zamasu,anime,anime,0.9921,anime,0.9948,False,0.0
+Tamaki Kotatsu,anime,anime,0.9996,anime,0.9996,False,0.0
+"Yuuki, Asuna",anime,anime,0.9996,anime,0.9996,False,0.0
+Aline,anime,anime,0.9996,anime,0.9996,False,0.0
+Mei Mei,anime,anime,0.9996,anime,0.9996,False,0.0
+"Krueger, Biscuit",anime,anime,0.9996,anime,0.9983,False,0.0
+Yor Forger,anime,anime,0.9996,anime,0.9996,False,0.0
+Lumricane,anime,anime,0.9996,anime,0.9996,False,0.0
+"Arima, Kousei",anime,anime,0.9996,anime,0.9996,False,0.0
+"Natori, Shuuichi",anime,anime,0.9996,anime,0.9934,False,0.0
+"Yomo, Renji",anime,anime,0.9996,anime,0.9996,False,0.0
+Tsuruya,anime,anime,0.4421,anime,0.9995,False,0.0
+"Fujibayashi, Ryou",anime,anime,0.9996,anime,0.9996,False,0.0
+"Hasegawa, Taizou",anime,anime,0.9979,anime,0.9996,False,0.0
+Enkubota,anime,anime,0.9996,anime,0.9996,False,0.0
+"Nagatsuka, Tomohiro",anime,anime,0.9996,anime,0.9996,False,0.0
+"Tanaka, Ryuunosuke",anime,anime,0.9996,anime,0.9996,False,0.0
+"Shirogane, Miyuki",anime,anime,0.9996,anime,0.9996,False,0.0
+"Matou, Shinji",anime,anime,0.9985,anime,0.9996,False,0.0
+Natsusawa Saku,anime,anime,0.9996,anime,0.9996,False,0.0
+Ash Ketchum,anime,anime,0.9983,anime,0.9996,False,0.0
+"Hino, Rei",anime,anime,0.9996,anime,0.9626,False,0.0
+"Kirishima, Touka",anime,anime,0.9996,anime,0.9996,False,0.0
+Diane,anime,anime,0.9996,anime,0.9996,False,0.0
+Founding,anime,anime,0.9996,anime,0.9996,False,0.0
+"Aizawa, Shouta",anime,anime,0.9996,anime,0.9996,False,0.0
+Xerxes Break,anime,anime,0.9833,anime,0.9996,False,0.0
+Kaworu Nagisa,anime,anime,0.9466,anime,0.9996,False,0.0
+Rico,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tu Oderschvank, Nelliel",anime,anime,0.9995,anime,0.9443,False,0.0
+Tatsuya Shiba,anime,anime,0.9995,anime,0.9996,False,0.0
+Senju,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tokita, Shinji",anime,anime,0.9996,anime,0.7799,False,0.0
+Ichikawa Kana,anime,anime,0.9996,anime,0.9996,False,0.0
+Cherry,anime,anime,0.9996,anime,0.9996,False,0.0
+"Ise, Nanao",anime,anime,0.9996,anime,0.9996,False,0.0
+Mikey,anime,anime,0.9996,anime,0.9996,False,0.0
+"Fuyutsuki, Azusa",anime,anime,0.9996,anime,0.9996,False,0.0
+Gladio,anime,anime,0.9996,anime,0.9976,False,0.0
+"Yamamoto-Genryuusai, Shigekuni",anime,anime,0.9993,anime,0.9856,False,0.0
+"Kurotsuchi, Nemu",anime,anime,0.9996,anime,0.9996,False,0.0
+Maki Oze,anime,anime,0.9996,anime,0.9996,False,0.0
+"Amajiki, Tamaki",anime,anime,0.9996,anime,0.9996,False,0.0
+PA-san,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tenou, Haruka",anime,anime,0.9996,anime,0.9996,False,0.0
+"Todoroki, Shouto",anime,anime,0.9996,anime,0.9996,False,0.0
+Hakari Kinji,anime,anime,0.9996,anime,0.9996,False,0.0
+Jessie,anime,anime,0.9809,anime,0.8466,False,0.0
+Yu Ishigami,anime,anime,0.9996,anime,0.9996,False,0.0
+Hoshi Kirara,anime,anime,0.9985,anime,0.9996,False,0.0
+"Fujibayashi, Kyou",anime,anime,0.9996,anime,0.9996,False,0.0
+"Braun, Reiner",anime,anime,0.9996,anime,0.9996,False,0.0
+Nel Tu,anime,anime,0.9996,anime,0.9996,False,0.0
+Enmu,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kita, Ikuyo",anime,anime,0.9507,anime,0.9996,False,0.0
+"Kamogawa, Genji",anime,anime,0.9996,anime,0.9996,False,0.0
+"Starrk, Coyote",anime,anime,0.9993,anime,0.9992,False,0.0
+Vanessa,anime,anime,0.9996,anime,0.9996,False,0.0
+"Manabe, Kakeru",anime,anime,0.9996,anime,0.9996,False,0.0
+Honoka,anime,anime,0.9996,anime,0.9996,False,0.0
+Shin (The New Gate),anime,anime,0.9428,anime,0.9996,False,0.0
+Kouhei Katsuren,anime,anime,0.9996,anime,0.9996,False,0.0
+Eagle the Archer,anime,anime,0.8877,anime,0.9909,False,0.0
+"McCarnathy, Morel",anime,anime,0.9996,anime,0.9955,False,0.0
+"Chiba, Mamoru",anime,anime,0.9996,anime,0.9996,False,0.0
+Soshiro,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tange, Danpei",anime,anime,0.9996,anime,0.9993,False,0.0
+"Uzui, Tengen",anime,anime,0.9996,anime,0.9996,False,0.0
+"Fujisaki, Yuusuke",anime,anime,0.9996,anime,0.9996,False,0.0
+Isagi Yoichi,anime,anime,0.9996,anime,0.9996,False,0.0
+Isshou,anime,anime,0.9996,anime,0.9996,False,0.0
+"Sero, Hanta",anime,anime,0.9996,anime,0.9996,False,0.0
+"Fukuda, Shinta",anime,anime,0.9996,anime,0.9996,False,0.0
+Shigeo Kageyama,anime,anime,0.97,anime,0.9996,False,0.0
+"Kageyama, Ritsu",anime,anime,0.9996,anime,0.9996,False,0.0
+"Hanajima, Saki",anime,anime,0.9992,anime,0.9996,False,0.0
+Mello,anime,anime,0.9995,anime,0.9996,False,0.0
+"Igawa, Emi",anime,anime,0.9996,anime,0.9996,False,0.0
+Yun,anime,anime,0.9996,anime,0.9996,False,0.0
+Silver Fang,anime,anime,0.9996,anime,0.9996,False,0.0
+Leafa,anime,anime,0.9996,anime,0.9996,False,0.0
+Gon Freecss,anime,anime,0.9963,anime,0.9996,False,0.0
+Gohan,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kaji, Akihiko",anime,anime,0.9996,anime,0.9996,False,0.0
+Ruka,anime,anime,0.9996,anime,0.9996,False,0.0
+Jinshi,anime,anime,0.9671,anime,0.9996,False,0.0
+Tetsuo Shima,anime,anime,0.9995,anime,0.9996,False,0.0
+"Ihei, Hairu",anime,anime,0.9996,anime,0.9996,False,0.0
+Jungle Pocket,anime,anime,0.9996,anime,0.9996,False,0.0
+Roy Mustang,anime,anime,0.9934,anime,0.9996,False,0.0
+Daki,anime,anime,0.9996,anime,0.9996,False,0.0
+"Shiina, Mayuri",anime,anime,0.9996,anime,0.9996,False,0.0
+Guts,anime,anime,0.9996,anime,0.9994,False,0.0
+"Hiyajou, Maho",anime,anime,0.9996,anime,0.9419,False,0.0
+Faye Valentine,anime,anime,0.998,anime,0.9996,False,0.0
+"Hoshino, Ai",anime,anime,0.9916,anime,0.9996,False,0.0
+Toga,anime,anime,0.9995,anime,0.9996,False,0.0
+Moretti Klein,anime,anime,0.9996,anime,0.9996,False,0.0
+"Urameshi, Yuusuke",anime,anime,0.9656,anime,0.9996,False,0.0
+Yamato Asa,anime,anime,0.9996,anime,0.9996,False,0.0
+Kanata (Re:Monster),anime,anime,0.9608,anime,0.9996,False,0.0
+Nito,anime,anime,0.9996,anime,0.9996,False,0.0
+Hiling,anime,anime,0.9996,anime,0.9996,False,0.0
+"Takamura, Mamoru",anime,anime,0.9719,anime,0.9995,False,0.0
+Mitty,anime,anime,0.9996,anime,0.9996,False,0.0
+Veltol Velvet Velsvalt,anime,anime,0.8222,anime,0.9968,False,0.0
+Menthuthuyoupi,anime,anime,0.9996,anime,0.9996,False,0.0
+"Nomura, Tomoko",anime,anime,0.9996,anime,0.9384,False,0.0
+Armin Arlert,anime,anime,0.9744,anime,0.9996,False,0.0
+Roswaal L. Geuse,anime,anime,0.9996,anime,0.9996,False,0.0
+Yami Sukehiro,anime,anime,0.9996,anime,0.9996,False,0.0
+"Watari, Ryouta",anime,anime,0.9996,anime,0.9996,False,0.0
+Roronoa Zoro,anime,anime,0.9975,anime,0.9996,False,0.0
+"Oikura, Sodachi",anime,anime,0.9996,anime,0.9995,False,0.0
+"Hanekawa, Tsubasa",anime,anime,0.9996,anime,0.9996,False,0.0
+Zenou,anime,anime,0.9996,anime,0.9996,False,0.0
+"Nakajima, Atsushi",anime,anime,0.9996,anime,0.9996,False,0.0
+Faputa,anime,anime,0.9996,anime,0.9996,False,0.0
+Aizawa,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tanizaki, Junichirou",anime,anime,0.9996,anime,0.9996,False,0.0
+"Gotou, Futari",anime,anime,0.9996,anime,0.9996,False,0.0
+Hiruzen Sarutobi,anime,anime,0.9992,anime,0.9996,False,0.0
+Gaara,anime,anime,0.9973,anime,0.9996,False,0.0
+"McMahon, Shoot",anime,anime,0.9996,anime,0.9996,False,0.0
+Spinner,anime,anime,0.9996,anime,0.9996,False,0.0
+Tsutsumi Kaina,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kokutou, Mikiya",anime,anime,0.9996,anime,0.9996,False,0.0
+"Norimaki, Arale",anime,anime,0.9433,anime,0.9996,False,0.0
+Jiang Yanli,anime,anime,0.9996,anime,0.9996,False,0.0
+Hua Cheng,anime,anime,0.9996,anime,0.9996,False,0.0
+Bond Forger,anime,anime,0.9996,anime,0.9996,False,0.0
+Kabru,anime,anime,0.9996,anime,0.9996,False,0.0
+Shiga Haruki,anime,anime,0.9996,anime,0.9996,False,0.0
+Ichigo,anime,anime,0.9996,anime,0.9996,False,0.0
+Futaba Rio,anime,anime,0.9996,anime,0.9996,False,0.0
+Toru Hagakure,anime,anime,0.9994,anime,0.9996,False,0.0
+Levi Ackerman,anime,anime,0.9296,anime,0.9996,False,0.0
+Frieza,anime,anime,0.9996,anime,0.9902,False,0.0
+Hachiware,anime,anime,0.9996,anime,0.9996,False,0.0
+Louis,anime,anime,0.9996,anime,0.9996,False,0.0
+"Hayakawa, Aki",anime,anime,0.9899,anime,0.9996,False,0.0
+"Ferrari, Akira E.",anime,anime,0.9985,anime,0.9996,False,0.0
+"von Oberstein, Paul",anime,anime,0.9996,anime,0.9996,False,0.0
+Reze,anime,anime,0.9779,anime,0.9996,False,0.0
+Mu Qing,anime,anime,0.9996,anime,0.9996,False,0.0
+"Wang, Jian",anime,anime,0.9996,anime,0.9996,False,0.0
+Mirajane Strauss,anime,anime,0.9996,anime,0.9996,False,0.0
+Sixty,anime,anime,0.9996,anime,0.9996,False,0.0
+"Greyrat, Paul",anime,anime,0.9995,anime,0.9996,False,0.0
+Mahoraga,anime,anime,0.9996,anime,0.9996,False,0.0
+Kanjuro,anime,anime,0.9996,anime,0.9996,False,0.0
+"Aioi, Yuuko",anime,anime,0.9996,anime,0.9996,False,0.0
+Zenin Naoya,anime,anime,0.9996,anime,0.9996,False,0.0
+Itadori Yuuji,anime,anime,0.9996,anime,0.9996,False,0.0
+"Emiya, Shirou",anime,anime,0.9785,anime,0.9996,False,0.0
+Shizuka,anime,anime,0.9996,anime,0.9996,False,0.0
+"Saitou, Hajime",anime,anime,0.9996,anime,0.4656,False,0.0
+"Yokosuka, Jou",anime,anime,0.9996,anime,0.9996,False,0.0
+Usopp,anime,anime,0.9991,anime,0.9996,False,0.0
+"Shutara, Senjumaru",anime,anime,0.9996,anime,0.9996,False,0.0
+Tanaka Hajime,anime,anime,0.9996,anime,0.9996,False,0.0
+Phoenix Ikki,anime,anime,0.9996,anime,0.9996,False,0.0
+"Nouzen, Shinei",anime,anime,0.9996,anime,0.9996,False,0.0
+"Gecko, Moria",anime,anime,0.9996,anime,0.953,False,0.0
+"Ootsutsuki, Momoshiki",anime,anime,0.9996,anime,0.9989,False,0.0
+"Fugo, Pannacotta",anime,anime,0.9996,anime,0.9996,False,0.0
+"Jelavić, Irina",anime,anime,0.9996,anime,0.9996,False,0.0
+"Callenreese, Aslan Jade",anime,anime,0.9996,anime,0.9996,False,0.0
+Pikachu,anime,anime,0.9979,anime,0.998,False,0.0
+Mem-Cho,anime,anime,0.9996,anime,0.9996,False,0.0
+"Sawabe, Tsubaki",anime,anime,0.9996,anime,0.9996,False,0.0
+L Lawliet,anime,anime,0.9461,anime,0.9996,False,0.0
+"Galliard, Porco",anime,anime,0.9996,anime,0.9198,False,0.0
+Jonathan Joestar,anime,anime,0.9996,anime,0.9996,False,0.0
+"Argyle, Felix",anime,anime,0.9996,anime,0.9996,False,0.0
+Haganezuka Hotaru,anime,anime,0.9996,anime,0.9996,False,0.0
+Bachira Meguru,anime,anime,0.9996,anime,0.9996,False,0.0
+Noro,anime,anime,0.9996,anime,0.9996,False,0.0
+"Miyazawa, Yukine",anime,anime,0.9996,anime,0.9996,False,0.0
+"Hagakure, Tooru",anime,anime,0.9996,anime,0.9996,False,0.0
+Itsuki,anime,anime,0.9996,anime,0.9996,False,0.0
+"Wakamiya, Shinobu",anime,anime,0.9996,anime,0.9721,False,0.0
+Eto Yoshimura,anime,anime,0.9996,anime,0.9994,False,0.0
+Ogawa Yuzuriha,anime,anime,0.9996,anime,0.9996,False,0.0
+Near,anime,anime,0.9994,anime,0.9996,False,0.0
+"Kaminari, Denki",anime,anime,0.9996,anime,0.9996,False,0.0
+"Bachika, Kittan",anime,anime,0.9996,anime,0.9996,False,0.0
+Charlotte,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tinsel, Garfiel",anime,anime,0.9996,anime,0.9996,False,0.0
+Hinawa,anime,anime,0.9996,anime,0.9996,False,0.0
+Demiurge,anime,anime,0.9996,anime,0.9996,False,0.0
+Kazutora,anime,anime,0.9996,anime,0.9996,False,0.0
+Yuji Itadori,anime,anime,0.537,anime,0.9996,False,0.0
+Bertholdt Hoover,anime,anime,0.9996,anime,0.9996,False,0.0
+Denji,anime,anime,0.4991,anime,0.999,False,0.0
+Karasu,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kotomine, Kirei",anime,anime,0.3639,anime,0.9918,False,0.0
+"Azumane, Asahi",anime,anime,0.9996,anime,0.9996,False,0.0
+Lucy,anime,anime,0.9996,anime,0.9996,False,0.0
+"Hashida, Itaru",anime,anime,0.9996,anime,0.9996,False,0.0
+Martinez David,anime,anime,0.9996,anime,0.9996,False,0.0
+Tsubasa Ozora,anime,anime,0.9991,anime,0.9996,False,0.0
+Lan Wangji,anime,anime,0.9996,anime,0.9996,False,0.0
+"Ryuseih, Shalnark",anime,anime,0.9996,anime,0.9996,False,0.0
+"Wang, Qi",anime,anime,0.9996,anime,0.9996,False,0.0
+Ippo Makunouchi,anime,anime,0.999,anime,0.9996,False,0.0
+Igris,anime,anime,0.9996,anime,0.9996,False,0.0
+"Miyamizu, Mitsuha",anime,anime,0.9996,anime,0.9996,False,0.0
+Wan,anime,anime,0.9996,anime,0.9996,False,0.0
+Grimmjow Jaggerjack,anime,anime,0.9996,anime,0.9996,False,0.0
+Beatrice,anime,anime,0.9996,anime,0.9996,False,0.0
+"Zeppeli, Gyro",anime,anime,0.9996,anime,0.9969,False,0.0
+Mami,anime,anime,0.9996,anime,0.9996,False,0.0
+Todoroki Fuyumi,anime,anime,0.9994,anime,0.9996,False,0.0
+"Lamperouge, Lelouch",anime,anime,0.9597,anime,0.9996,False,0.0
+Erisfa,anime,anime,0.9996,anime,0.9996,False,0.0
+Hanami,anime,anime,0.9996,anime,0.9996,False,0.0
+Cheng Xiaoshi,anime,anime,0.9996,anime,0.9996,False,0.0
+"Sawamura, Daichi",anime,anime,0.9996,anime,0.9996,False,0.0
+Naruhaya,anime,anime,0.9996,anime,0.9995,False,0.0
+Chiikawa,anime,anime,0.9996,anime,0.9996,False,0.0
+"Souya, Touji",anime,anime,0.9996,anime,0.9989,False,0.0
+Ichikawa Kyoutarou,anime,anime,0.9996,anime,0.9996,False,0.0
+"Hasekura, Mikitaka",anime,anime,0.9996,anime,0.9996,False,0.0
+"Oshino, Shinobu",anime,anime,0.9996,anime,0.9392,False,0.0
+Chrome,anime,anime,0.9996,anime,0.9996,False,0.0
+"Himejima, Gyoumei",anime,anime,0.9996,anime,0.9996,False,0.0
+"Attenborough, Dusty",anime,anime,0.9996,anime,0.9367,False,0.0
+Utahime Iori,anime,anime,0.9996,anime,0.9996,False,0.0
+"Hayasaka, Ritsu",anime,anime,0.9996,anime,0.9939,False,0.0
+Fubuki,anime,anime,0.9995,anime,0.9996,False,0.0
+Feitan,anime,anime,0.9995,anime,0.9996,False,0.0
+"Itadori, Yuuji",anime,anime,0.9881,anime,0.9996,False,0.0
+Nice,anime,anime,0.9996,anime,0.9996,False,0.0
+Dent,anime,anime,0.9996,anime,0.9956,False,0.0
+Goruto,anime,anime,0.9996,anime,0.9996,False,0.0
+"Gewelle, Giselle",anime,anime,0.9996,anime,0.9886,False,0.0
+Gekkouga,anime,anime,0.9996,anime,0.9996,False,0.0
+Iku,anime,anime,0.9996,anime,0.9996,False,0.0
+"Giovanna, Giorno",anime,anime,0.9996,anime,0.9996,False,0.0
+Übel,anime,anime,0.9818,anime,0.9994,False,0.0
+"Akaashi, Keiji",anime,anime,0.9996,anime,0.9996,False,0.0
+"Boa, Hancock",anime,anime,0.9996,anime,0.9996,False,0.0
+"Lenz, Krista",anime,anime,0.9996,anime,0.9996,False,0.0
+"Natsume, Takashi",anime,anime,0.9996,anime,0.9996,False,0.0
+Violet,anime,anime,0.9996,anime,0.9996,False,0.0
+"Urokodaki, Sakonji",anime,anime,0.9996,anime,0.9996,False,0.0
+"Yukishiro, Tomoe",anime,anime,0.9996,anime,0.9961,False,0.0
+Renji,anime,anime,0.9996,anime,0.9996,False,0.0
+"Sasaki, Haise",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kouda, Kyouko",anime,anime,0.9993,anime,0.9346,False,0.0
+Vlad King,anime,anime,0.9995,anime,0.9996,False,0.0
+Kaiju 9,anime,anime,0.9996,anime,0.9996,False,0.0
+"Bokuto, Koutarou",anime,anime,0.9996,anime,0.9996,False,0.0
+Todoroki Natsuo,anime,anime,0.9996,anime,0.9996,False,0.0
+Howl,anime,anime,0.9825,anime,0.9996,False,0.0
+"zi Britannia, Charles",anime,anime,0.9952,anime,0.9996,False,0.0
+"Komachine, Machi",anime,anime,0.9996,anime,0.993,False,0.0
+"Kondou, Isao",anime,anime,0.9996,anime,0.9996,False,0.0
+Stan Edgar,anime,anime,0.7951,anime,0.9811,False,0.0
+"Nanba, Mutta",anime,anime,0.9996,anime,0.9996,False,0.0
+Joe,anime,anime,0.9996,anime,0.9996,False,0.0
+Jinbe,anime,anime,0.5374,anime,0.9996,False,0.0
+Pieck,anime,anime,0.9996,anime,0.9996,False,0.0
+Rengoku Senjurou,anime,anime,0.9996,anime,0.9996,False,0.0
+"Shtolienen, Tiese",anime,anime,0.9996,anime,0.9995,False,0.0
+"Florence, Alicia",anime,anime,0.9996,anime,0.9996,False,0.0
+Tenshinhan,anime,anime,0.9915,anime,0.9996,False,0.0
+Lan Sizhui,anime,anime,0.9996,anime,0.9996,False,0.0
+Sung JinWoo,anime,anime,0.9996,anime,0.9996,False,0.0
+"Hoshino, Yutaka",anime,anime,0.9996,anime,0.9996,False,0.0
+"Oshino, Meme",anime,anime,0.9996,anime,0.9392,False,0.0
+Vanir,anime,anime,0.9996,anime,0.9996,False,0.0
+"Shinazugawa, Sanemi",anime,anime,0.9996,anime,0.9996,False,0.0
+Rangiku,anime,anime,0.9996,anime,0.9996,False,0.0
+Hades,anime,anime,0.9996,anime,0.9996,False,0.0
+South,anime,anime,0.9996,anime,0.9996,False,0.0
+Eri,anime,anime,0.9996,anime,0.9996,False,0.0
+"Malcal, Leila",anime,anime,0.9996,anime,0.9996,False,0.0
+Kita Shinsuke,anime,anime,0.9996,anime,0.9996,False,0.0
+Marechiyo Omaeda,anime,anime,0.9996,anime,0.9996,False,0.0
+"Yoshikawa, Yuuko",anime,anime,0.9996,anime,0.9996,False,0.0
+Ren,anime,anime,0.9996,anime,0.9996,False,0.0
+"Bartholomew, Kuma",anime,anime,0.9977,anime,0.9996,False,0.0
+"Tsukishima, Shuukurou",anime,anime,0.9996,anime,0.9996,False,0.0
+Stain,anime,anime,0.9996,anime,0.9996,False,0.0
+"Reichwein, Julius",anime,anime,0.9996,anime,0.9996,False,0.0
+"Aoki, Masaru",anime,anime,0.9996,anime,0.9971,False,0.0
+Portgas D. Ace,anime,anime,0.9938,anime,0.9996,False,0.0
+Chigiri Hyoma,anime,anime,0.9996,anime,0.9996,False,0.0
+"Stadtfeld, Kallen",anime,anime,0.9996,anime,0.9996,False,0.0
+Ryuk,anime,anime,0.9742,anime,0.9995,False,0.0
+"Joestar, Johnny",anime,anime,0.9874,anime,0.9994,False,0.0
+Rem,anime,anime,0.9103,anime,0.9996,False,0.0
+"Ushijima, Wakatoshi",anime,anime,0.9996,anime,0.9996,False,0.0
+"Okabe, Rintarou",anime,anime,0.9996,anime,0.9996,False,0.0
+Lady Oscar,anime,anime,0.9996,anime,0.9991,False,0.0
+Zeke,anime,anime,0.9996,anime,0.9989,False,0.0
+"Miyazono, Kaori",anime,anime,0.9996,anime,0.9996,False,0.0
+"Hill, Pariston",anime,anime,0.9996,anime,0.9913,False,0.0
+"Nakk Le Vaar, Askin",anime,anime,0.9996,anime,0.9071,False,0.0
+Akeuraji Tsukasa,anime,anime,0.9996,anime,0.9996,False,0.0
+"Finger, Pieck",anime,anime,0.9996,anime,0.9994,False,0.0
+Lan Fan,anime,anime,0.9996,anime,0.9996,False,0.0
+Gou,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tendou, Satori",anime,anime,0.9996,anime,0.9996,False,0.0
+"Usui, Kazuyoshi",anime,anime,0.9996,anime,0.9996,False,0.0
+Sigma,anime,anime,0.9996,anime,0.9996,False,0.0
+Gilgamesh,anime,anime,0.9965,anime,0.9996,False,0.0
+Jouno Saigiku,anime,anime,0.9996,anime,0.9996,False,0.0
+"Minci, Julian",anime,anime,0.9996,anime,0.9996,False,0.0
+"Takatsuki, Sen",anime,anime,0.9996,anime,0.9996,False,0.0
+"Joestar, Joseph",anime,anime,0.9996,anime,0.9996,False,0.0
+"Asakura, Ryouko",anime,anime,0.6768,anime,0.9981,False,0.0
+Obi,anime,anime,0.9996,anime,0.9996,False,0.0
+"Ishida, Shouya",anime,anime,0.9996,anime,0.9996,False,0.0
+"Zangief, Alexander Volg",anime,anime,0.9996,anime,0.998,False,0.0
+Ieiri Shouko,anime,anime,0.9996,anime,0.9996,False,0.0
+"Migurdia, Roxy",anime,anime,0.9996,anime,0.9996,False,0.0
+Shiraishi Yuzuki,anime,anime,0.9996,anime,0.9996,False,0.0
+Eustass Kid,anime,anime,0.9637,anime,0.9973,False,0.0
+"Iwaizumi, Hajime",anime,anime,0.9996,anime,0.9996,False,0.0
+"Hoshigaki, Kisame",anime,anime,0.9995,anime,0.9996,False,0.0
+Kenpachi Zaraki,anime,anime,0.9664,anime,0.9996,False,0.0
+Sanji,anime,anime,0.9897,anime,0.9996,False,0.0
+Galt,anime,anime,0.9996,anime,0.9996,False,0.0
+Asuka Langley Soryu,anime,anime,0.7789,anime,0.9995,False,0.0
+"Natsuki, Subaru",anime,anime,0.9996,anime,0.9996,False,0.0
+Kokushibou,anime,anime,0.9996,anime,0.9996,False,0.0
+Marcille,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tsukamoto, Shuuichi",anime,anime,0.9996,anime,0.9996,False,0.0
+Endeavor,anime,anime,0.9996,anime,0.9996,False,0.0
+"Clown, Caesar",anime,anime,0.9995,anime,0.9996,False,0.0
+"Furuta, Nimura",anime,anime,0.9996,anime,0.9996,False,0.0
+"Naganohara, Mio",anime,anime,0.9996,anime,0.9815,False,0.0
+Radir Esil,anime,anime,0.9996,anime,0.9996,False,0.0
+"Sengoku, Nadeko",anime,anime,0.9995,anime,0.9996,False,0.0
+Makomo,anime,anime,0.9996,anime,0.9996,False,0.0
+Misty,anime,anime,0.9987,anime,0.9995,False,0.0
+Chizuru Mizuhara,anime,anime,0.9996,anime,0.9996,False,0.0
+"Ukai, Keishin",anime,anime,0.9996,anime,0.9996,False,0.0
+"Ubuyashiki, Kagaya",anime,anime,0.9996,anime,0.9969,False,0.0
+Kafka Hibino,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kuroko, Tetsuya",anime,anime,0.9996,anime,0.9996,False,0.0
+Wang Lin,anime,anime,0.9996,anime,0.9996,False,0.0
+Neferpitou,anime,anime,0.9994,anime,0.9984,False,0.0
+"Matoba, Seiji",anime,anime,0.9996,anime,0.9996,False,0.0
+Sung JinAh,anime,anime,0.9996,anime,0.9996,False,0.0
+"Muguruma, Kensei",anime,anime,0.9996,anime,0.9996,False,0.0
+"Mado, Akira",anime,anime,0.9996,anime,0.9996,False,0.0
+"Matsumoto, Rangiku",anime,anime,0.9905,anime,0.9995,False,0.0
+Murata Ugetsu,anime,anime,0.9996,anime,0.9996,False,0.0
+"Utsushimi, Camie",anime,anime,0.9996,anime,0.9996,False,0.0
+Rice Shower,anime,anime,0.9996,anime,0.9996,False,0.0
+Pekoms,anime,anime,0.9996,anime,0.9996,False,0.0
+"Horse, Hol",anime,anime,0.9996,anime,0.9844,False,0.0
+Condor,anime,anime,0.9996,anime,0.9996,False,0.0
+"Rocks D., Xebec",anime,anime,0.9996,anime,0.9996,False,0.0
+Wolf,anime,anime,0.9996,anime,0.9996,False,0.0
+Sumi,anime,anime,0.9996,anime,0.9996,False,0.0
+Maes Hughes,anime,anime,0.3467,anime,0.9996,False,0.0
+Envy,anime,anime,0.9723,anime,0.9996,False,0.0
+"Okazaki, Tomoya",anime,anime,0.9996,anime,0.9996,False,0.0
+"Milizé, Vladilena",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kamado, Tanjirou",anime,anime,0.9996,anime,0.9996,False,0.0
+Mimori Touka,anime,anime,0.9269,anime,0.9973,False,0.0
+Tony Tony Chopper,anime,anime,0.9603,anime,0.9996,False,0.0
+"Mathers, Roswaal L.",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kazama, Ryuuichi",anime,anime,0.9996,anime,0.9984,False,0.0
+Rin Itoshi,anime,anime,0.9996,anime,0.9996,False,0.0
+"Wataya, Arata",anime,anime,0.9996,anime,0.9996,False,0.0
+Maki Zenin,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kousaka, Reina",anime,anime,0.9996,anime,0.9996,False,0.0
+Yuitsuka Inori,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kaiki, Deishuu",anime,anime,0.9996,anime,0.9996,False,0.0
+"Edogawa, Ranpo",anime,anime,0.9996,anime,0.9996,False,0.0
+Schutra,anime,anime,0.9996,anime,0.9996,False,0.0
+"Toogata, Mirio",anime,anime,0.9996,anime,0.9996,False,0.0
+Neiru,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kasumi, Fuu",anime,anime,0.9996,anime,0.9996,False,0.0
+Carrot,anime,anime,0.9996,anime,0.9996,False,0.0
+"Donato, Marcille",anime,anime,0.9991,anime,0.9996,False,0.0
+Sosuke Aizen,anime,anime,0.9917,anime,0.9996,False,0.0
+"Niizuma, Eiji",anime,anime,0.9996,anime,0.9996,False,0.0
+Chilchuck,anime,anime,0.9996,anime,0.9996,False,0.0
+Invisible Girl,anime,anime,0.9995,anime,0.9996,False,0.0
+"Uryuu, Ryuunosuke",anime,anime,0.9996,anime,0.9996,False,0.0
+"Shiranui, Genma",anime,anime,0.9996,anime,0.9996,False,0.0
+"Takagi, Akito",anime,anime,0.9996,anime,0.9996,False,0.0
+Makima,anime,anime,0.6891,anime,0.9931,False,0.0
+"Zoë, Hange",anime,anime,0.9996,anime,0.9996,False,0.0
+"Yuurakutei, Sukeroku",anime,anime,0.9996,anime,0.9996,False,0.0
+Obito Uchiha,anime,anime,0.7591,anime,0.9996,False,0.0
+"Kiryuu, Moeka",anime,anime,0.9996,anime,0.9996,False,0.0
+Momonosuke,anime,anime,0.9996,anime,0.9996,False,0.0
+Getou Suguru,anime,anime,0.9996,anime,0.9996,False,0.0
+Aryu,anime,anime,0.9996,anime,0.9996,False,0.0
+Choi JongIn,anime,anime,0.9996,anime,0.9996,False,0.0
+Xiaolan,anime,anime,0.9996,anime,0.9996,False,0.0
+Go GunHee,anime,anime,0.9996,anime,0.9996,False,0.0
+Flio,anime,anime,0.9607,anime,0.9996,False,0.0
+Neji Hyuga,anime,anime,0.9981,anime,0.9996,False,0.0
+"Kawamoto, Hinata",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kurosaki, Isshin",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kagami, Taiga",anime,anime,0.9996,anime,0.9996,False,0.0
+Harold,anime,anime,0.9996,anime,0.9995,False,0.0
+Higuruma Hiromi,anime,anime,0.9996,anime,0.9996,False,0.0
+Raphtalia,anime,anime,0.9996,anime,0.9996,False,0.0
+Kaji,anime,anime,0.9996,anime,0.9996,False,0.0
+Darui,anime,anime,0.9996,anime,0.9996,False,0.0
+Baji,anime,anime,0.9996,anime,0.9996,False,0.0
+"Misora, Naomi",anime,anime,0.9996,anime,0.9964,False,0.0
+Frieren,anime,anime,0.9272,anime,0.99,False,0.0
+Arthur Shinmon,anime,anime,0.9996,anime,0.9996,False,0.0
+Panda,anime,anime,0.9996,anime,0.9996,False,0.0
+"Fukuzawa, Yukichi",anime,anime,0.9996,anime,0.9996,False,0.0
+Holo,anime,anime,0.9996,anime,0.9996,False,0.0
+"von Mariendorf, Hildegard",anime,anime,0.9996,anime,0.9996,False,0.0
+"Ukitake, Juushirou",anime,anime,0.9996,anime,0.9996,False,0.0
+"Yagami, Souichirou",anime,anime,0.9994,anime,0.9996,False,0.0
+Yuno,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tennouji, Yuugo",anime,anime,0.9996,anime,0.9996,False,0.0
+Hawks,anime,anime,0.9995,anime,0.9996,False,0.0
+Maaa,anime,anime,0.9996,anime,0.9996,False,0.0
+Mikuru Asahina,anime,anime,0.5893,anime,0.9991,False,0.0
+Conquest,anime,anime,0.7614,anime,0.8643,False,0.0
+Maomao,anime,anime,0.9962,anime,0.9996,False,0.0
+"Li, Xingke",anime,anime,0.9996,anime,0.9996,False,0.0
+"Yachi, Hitoka",anime,anime,0.9996,anime,0.9996,False,0.0
+"Aizen, Sousuke",anime,anime,0.9873,anime,0.9996,False,0.0
+"Glory, Athena",anime,anime,0.9808,anime,0.6227,False,0.0
+Saber,anime,anime,0.9995,anime,0.5877,False,0.0
+Shaula,anime,anime,0.9996,anime,0.9996,False,0.0
+Nowak,anime,anime,0.9996,anime,0.9996,False,0.0
+"Armstrong, Olivier Mira",anime,anime,0.9532,anime,0.9996,False,0.0
+Mika,anime,anime,0.9996,anime,0.9996,False,0.0
+Kurapika,anime,anime,0.997,anime,0.9996,False,0.0
+"Yuurakutei, Yakumo",anime,anime,0.9996,anime,0.982,False,0.0
+Power,anime,anime,0.5479,anime,0.9994,False,0.0
+Okkotsu Yuuta,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kuragi, Machi",anime,anime,0.9996,anime,0.9912,False,0.0
+Rukia Kuchiki,anime,anime,0.8192,anime,0.9996,False,0.0
+Reki,anime,anime,0.9996,anime,0.9996,False,0.0
+Judeau,anime,anime,0.9995,anime,0.9992,False,0.0
+"Minami, Uruka",anime,anime,0.9996,anime,0.9996,False,0.0
+Pegasus Seiya,anime,anime,0.9996,anime,0.9996,False,0.0
+Johnny,anime,anime,0.9996,anime,0.9973,False,0.0
+Kyoujurou Rengoku,anime,anime,0.8034,anime,0.9996,False,0.0
+"Urushibara, Ruka",anime,anime,0.9996,anime,0.9996,False,0.0
+"Mashiro, Moritaka",anime,anime,0.9996,anime,0.9996,False,0.0
+"Carroll, Alice",anime,anime,0.9995,anime,0.9996,False,0.0
+Riko,anime,anime,0.9996,anime,0.9996,False,0.0
+Yogiri Takatou,anime,anime,0.8585,anime,0.9995,False,0.0
+"Benn, Beckman",anime,anime,0.9996,anime,0.6493,False,0.0
+Hina Amano,anime,anime,0.9996,anime,0.9996,False,0.0
+Sua,anime,anime,0.9996,anime,0.9996,False,0.0
+"Brando, Dio",anime,anime,0.9949,anime,0.999,False,0.0
+Naofumi Iwatani,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kruger, Eren",anime,anime,0.9996,anime,0.9996,False,0.0
+Loid Forger,anime,anime,0.9996,anime,0.9996,False,0.0
+"Miyazawa, Kenji",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kishirisu, Kishirika",anime,anime,0.9996,anime,0.9996,False,0.0
+Jet Black,anime,anime,0.9975,anime,0.9989,False,0.0
+Minakata Hizuru,anime,anime,0.9996,anime,0.9996,False,0.0
+Geto Suguru,anime,anime,0.9995,anime,0.9996,False,0.0
+Whitebeard,anime,anime,0.9996,anime,0.9996,False,0.0
+Inumaki Toge,anime,anime,0.9996,anime,0.9996,False,0.0
+"Elric, Trisha",anime,anime,0.9996,anime,0.9996,False,0.0
+"Yamada, Hanatarou",anime,anime,0.9992,anime,0.9996,False,0.0
+"Amamiya, Gorou",anime,anime,0.9996,anime,0.9996,False,0.0
+Yorita Ayato,anime,anime,0.9996,anime,0.9996,False,0.0
+"Dragonroad, Elinalise",anime,anime,0.9996,anime,0.9983,False,0.0
+Vegetto,anime,anime,0.9996,anime,0.9996,False,0.0
+The Immortal,anime,anime,0.9048,anime,0.9983,False,0.0
+Mitchell Leonard,anime,anime,0.9996,anime,0.9996,False,0.0
+"Konno, Yuuki",anime,anime,0.9996,anime,0.9996,False,0.0
+Sougo,anime,anime,0.9996,anime,0.9996,False,0.0
+"Thoumeaux, Gremmy",anime,anime,0.9996,anime,0.9996,False,0.0
+"Gol D., Roger",anime,anime,0.9996,anime,0.9995,False,0.0
+Toge Inumaki,anime,anime,0.9995,anime,0.9996,False,0.0
+"Yaoyorozu, Momo",anime,anime,0.9996,anime,0.9996,False,0.0
+Speed-o'-Sound Sonic,anime,anime,0.9996,anime,0.9862,False,0.0
+Flamme,anime,anime,0.9919,anime,0.9996,False,0.0
+"Yang, Wen-li",anime,anime,0.9994,anime,0.9996,False,0.0
+"Hoshimi, Junna",anime,anime,0.9995,anime,0.9996,False,0.0
+Nanami Kento,anime,anime,0.9996,anime,0.9996,False,0.0
+"Souma, Ayame",anime,anime,0.9811,anime,0.9995,False,0.0
+Darai,anime,anime,0.9996,anime,0.9996,False,0.0
+"Aiza, Nagi",anime,anime,0.9996,anime,0.9996,False,0.0
+"Fujiwara, Chika",anime,anime,0.9995,anime,0.9996,False,0.0
+Katsura,anime,anime,0.9996,anime,0.9996,False,0.0
+Arnold,anime,anime,0.9992,anime,0.9996,False,0.0
+Mizi,anime,anime,0.9996,anime,0.9996,False,0.0
+Kishibe,anime,anime,0.9815,anime,0.9996,False,0.0
+"Gozen, Eboshi",anime,anime,0.9996,anime,0.9996,False,0.0
+"Hayashida, Takashi",anime,anime,0.9996,anime,0.9947,False,0.0
+"Azuma, Naoki",anime,anime,0.9996,anime,0.9996,False,0.0
+"Tsukiyama, Shuu",anime,anime,0.9996,anime,0.9996,False,0.0
+Uvogin,anime,anime,0.9996,anime,0.9995,False,0.0
+"Greyrat, Eris Boreas",anime,anime,0.9996,anime,0.9996,False,0.0
+Shinji Ikari,anime,anime,0.9978,anime,0.9996,False,0.0
+Mahito,anime,anime,0.622,anime,0.9975,False,0.0
+"Todoroki, Enji",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kibutsuji, Muzan",anime,anime,0.9995,anime,0.9996,False,0.0
+"Ashido, Mina",anime,anime,0.9996,anime,0.9996,False,0.0
+"Tenma, Kenzou",anime,anime,0.7476,anime,0.9972,False,0.0
+Casca,anime,anime,0.9996,anime,0.9996,False,0.0
+"Minakami, Mai",anime,anime,0.9996,anime,0.9996,False,0.0
+Hisagi Shuuhei,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tomoe, Mami",anime,anime,0.9996,anime,0.7408,False,0.0
+Himmel,anime,anime,0.6626,anime,0.9399,False,0.0
+Tanjiro Kamado,anime,anime,0.979,anime,0.9996,False,0.0
+Piccolo,anime,anime,0.9881,anime,0.9996,False,0.0
+Hall Audrey,anime,anime,0.9996,anime,0.9996,False,0.0
+"Komatsu, Nana",anime,anime,0.9693,anime,0.9761,False,0.0
+Gotenks,anime,anime,0.9996,anime,0.9996,False,0.0
+Canute,anime,anime,0.9996,anime,0.9996,False,0.0
+Zeke Yeager,anime,anime,0.9996,anime,0.9996,False,0.0
+"Fujimura, Taiga",anime,anime,0.9995,anime,0.9996,False,0.0
+"Irimi, Kaya",anime,anime,0.9996,anime,0.9996,False,0.0
+"Ryougi, Shiki",anime,anime,0.9996,anime,0.9996,False,0.0
+"Okazaki, Ushio",anime,anime,0.9996,anime,0.9996,False,0.0
+Haru,anime,anime,0.9996,anime,0.9996,False,0.0
+Ritsu Sohma,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tomoe, Hotaru",anime,anime,0.9996,anime,0.7408,False,0.0
+"Bott, Marco",anime,anime,0.9996,anime,0.9996,False,0.0
+"Steel, Lucy",anime,anime,0.9996,anime,0.9996,False,0.0
+Poseidon,anime,anime,0.9996,anime,0.9995,False,0.0
+"Abbacchio, Leone",anime,anime,0.9996,anime,0.9996,False,0.0
+Shino Aburame,anime,anime,0.9983,anime,0.9996,False,0.0
+Genryusai Yamamoto,anime,anime,0.9996,anime,0.9996,False,0.0
+"Superdia, Ruijerd",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kirishima, Ayato",anime,anime,0.9996,anime,0.9996,False,0.0
+Shrinking Ray,anime,anime,0.9993,anime,0.999,False,0.0
+Whis,anime,anime,0.7372,anime,0.9995,False,0.0
+"Yukino, Yukari",anime,anime,0.9996,anime,0.9996,False,0.0
+"Yao, Ling",anime,anime,0.9995,anime,0.999,False,0.0
+Ram,anime,anime,0.9996,anime,0.9996,False,0.0
+Donquixote Doflamingo,anime,anime,0.9996,anime,0.9996,False,0.0
+Gendou Ikari,anime,anime,0.949,anime,0.9996,False,0.0
+Alan,anime,anime,0.9996,anime,0.982,False,0.0
+"Shimazaki, Ryou",anime,anime,0.9996,anime,0.9996,False,0.0
+"Asui, Tsuyu",anime,anime,0.9996,anime,0.9996,False,0.0
+Noelle Silva,anime,anime,0.9996,anime,0.9996,False,0.0
+Nekomamushi,anime,anime,0.9996,anime,0.9996,False,0.0
+"Shima, Rin",anime,anime,0.9994,anime,0.9942,False,0.0
+Stark,anime,anime,0.9963,anime,0.9988,False,0.0
+"Dokugamine, Riruka",anime,anime,0.9996,anime,0.9992,False,0.0
+"Date, Eiji",anime,anime,0.9996,anime,0.9865,False,0.0
+"Azusagawa, Sakuta",anime,anime,0.9996,anime,0.9996,False,0.0
+"Akiha, Rumiho",anime,anime,0.9996,anime,0.9682,False,0.0
+"Furukawa, Sanae",anime,anime,0.9996,anime,0.9996,False,0.0
+Ivan,anime,anime,0.9996,anime,0.9996,False,0.0
+"Wammy, Quillsh",anime,anime,0.9994,anime,0.9977,False,0.0
+"Kan, Lakan",anime,anime,0.9996,anime,0.9996,False,0.0
+"Edward, Elric",anime,anime,0.9812,anime,0.9996,False,0.0
+"Takizawa, Seidou",anime,anime,0.9996,anime,0.9996,False,0.0
+"Sing, Su Rin",anime,anime,0.9996,anime,0.9996,False,0.0
+Sasuke Uchiha,anime,anime,0.9989,anime,0.9996,False,0.0
+"Ookido, Shigeru",anime,anime,0.9996,anime,0.9789,False,0.0
+Athena,anime,anime,0.9996,anime,0.9996,False,0.0
+"Yonebayashi, Saiko",anime,anime,0.9996,anime,0.9996,False,0.0
+Despa,anime,anime,0.9996,anime,0.9996,False,0.0
+Kinemon,anime,anime,0.9996,anime,0.9996,False,0.0
+"Hatter, Sophie",anime,anime,0.999,anime,0.9956,False,0.0
+"Tachihara, Michizou",anime,anime,0.9996,anime,0.9996,False,0.0
+"Miyamizu, Yotsuha",anime,anime,0.9996,anime,0.9996,False,0.0
+"Sasahara, Koujirou",anime,anime,0.9996,anime,0.9996,False,0.0
+"Chang, Mei",anime,anime,0.9996,anime,0.9954,False,0.0
+Levy McGarden,anime,anime,0.9996,anime,0.9996,False,0.0
+"Sendou, Akira",anime,anime,0.9996,anime,0.9996,False,0.0
+Ghostblade,anime,anime,0.9996,anime,0.9996,False,0.0
+"Portor, Feitan",anime,anime,0.9996,anime,0.9989,False,0.0
+Videl,anime,anime,0.9372,anime,0.9996,False,0.0
+James,anime,anime,0.9822,anime,0.9991,False,0.0
+Kobeni,anime,anime,0.9996,anime,0.9996,False,0.0
+Kit Church,anime,anime,0.5779,anime,0.8407,False,0.0
+Chomper,anime,anime,0.9996,anime,0.9996,False,0.0
+Sakura Haruno,anime,anime,0.9981,anime,0.9996,False,0.0
+Kagamihara Sakura,anime,anime,0.9996,anime,0.9996,False,0.0
+Izuku Midoriya,anime,anime,0.9358,anime,0.9996,False,0.0
+"Goshiki, Tsutomu",anime,anime,0.9996,anime,0.9403,False,0.0
+"Aramaki, Daisuke",anime,anime,0.9994,anime,0.9996,False,0.0
+Gluttony,anime,anime,0.9121,anime,0.9996,False,0.0
+Sakayori Iroha,anime,anime,0.9996,anime,0.9993,False,0.0
+"Shinonome, Nano",anime,anime,0.9995,anime,0.9988,False,0.0
+"Pucci, Enrico",anime,anime,0.9992,anime,0.9996,False,0.0
+"Nagachika, Hideyoshi",anime,anime,0.9996,anime,0.9996,False,0.0
+"Seto, Koharu",anime,anime,0.9996,anime,0.9996,False,0.0
+"Lei, Qiang",anime,anime,0.9996,anime,0.995,False,0.0
+Hanamichi Sakuragi,anime,anime,0.9904,anime,0.9996,False,0.0
+Kaseki,anime,anime,0.9996,anime,0.9996,False,0.0
+"Emporio, Ivankov",anime,anime,0.9996,anime,0.9996,False,0.0
+Takemichi Hanagaki,anime,anime,0.9996,anime,0.9996,False,0.0
+Mitsuya,anime,anime,0.9996,anime,0.9996,False,0.0
+Bulma,anime,anime,0.9953,anime,0.998,False,0.0
+"Nara, Shikaku",anime,anime,0.9996,anime,0.9996,False,0.0
+"Havoc, Jean",anime,anime,0.9996,anime,0.9996,False,0.0
+Senku Ishigami,anime,anime,0.9996,anime,0.9996,False,0.0
+"Takagi, Yasushi",anime,anime,0.9996,anime,0.9996,False,0.0
+Happy,anime,anime,0.9996,anime,0.9996,False,0.0
+Björn,anime,anime,0.9996,anime,0.9994,False,0.0
+"Shigaraki, Tomura",anime,anime,0.9996,anime,0.9986,False,0.0
+"Arima, Kana",anime,anime,0.9944,anime,0.9996,False,0.0
+Eren Yeager,anime,anime,0.9646,anime,0.9996,False,0.0
+"Kirishima, Eijirou",anime,anime,0.9996,anime,0.9996,False,0.0
+"Uenoyama, Ritsuka",anime,anime,0.9995,anime,0.9996,False,0.0
+"Kirstein, Jean",anime,anime,0.9996,anime,0.9996,False,0.0
+Megumin,anime,anime,0.9996,anime,0.9996,False,0.0
+Ryota Miyagi,anime,anime,0.9811,anime,0.9996,False,0.0
+"Kuna, Mashiro",anime,anime,0.9996,anime,0.9996,False,0.0
+Wendy Marvell,anime,anime,0.9996,anime,0.9996,False,0.0
+"Hattori, Akira",anime,anime,0.9996,anime,0.999,False,0.0
+"Brando, Diego",anime,anime,0.9996,anime,0.9996,False,0.0
+"Kakyouin, Noriaki",anime,anime,0.9996,anime,0.9996,False,0.0
+"Terashima, Nobuo",anime,anime,0.9994,anime,0.9926,False,0.0
+Kashimo Hajime,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kuujou, Jolyne",anime,anime,0.9996,anime,0.9996,False,0.0
+Sylphiette,anime,anime,0.9996,anime,0.9996,False,0.0
+"Shinoda, Miu",anime,anime,0.9996,anime,0.9996,False,0.0
+Jotaro Kujo,anime,anime,0.9996,anime,0.9996,False,0.0
+"Kino, Makoto",anime,anime,0.9996,anime,0.9904,False,0.0
+"Yoshida, Shouyou",anime,anime,0.9996,anime,0.9995,False,0.0
+Till,anime,anime,0.9996,anime,0.9996,False,0.0
+Dragon Shiryu,anime,anime,0.9996,anime,0.9996,False,0.0
+"Huan, Yi",anime,anime,0.9996,anime,0.7872,False,0.0
+Adam,anime,anime,0.9996,anime,0.9996,False,0.0
+Tenya Iida,anime,anime,0.6071,anime,0.9995,False,0.0
+"von Lohengramm, Reinhard",anime,anime,0.9912,anime,0.9996,False,0.0
+Asuma Sarutobi,anime,anime,0.9985,anime,0.9996,False,0.0
+Kisa Sohma,anime,anime,0.9996,anime,0.9996,False,0.0
+"Akemi, Homura",anime,anime,0.9996,anime,0.9996,False,0.0
+"Touden, Falin",anime,anime,0.9996,anime,0.9996,False,0.0
+"Lamperouge, Nunnally",anime,anime,0.9969,anime,0.9996,False,0.0
+"Shinonome, Hakase",anime,anime,0.9996,anime,0.9988,False,0.0
+Miya,anime,anime,0.9996,anime,0.9996,False,0.0
+"Zoldyck, Kalluto",anime,anime,0.9996,anime,0.9996,False,0.0
+"Ononoki, Yotsugi",anime,anime,0.9996,anime,0.9412,False,0.0
+Suna Rintarou,anime,anime,0.9996,anime,0.9996,False,0.0
+Barou Shoei,anime,anime,0.9996,anime,0.9996,False,0.0
+Reg,anime,anime,0.9996,anime,0.9996,False,0.0
+Android 18,anime,anime,0.9996,anime,0.9996,False,0.0
+"Imamura, Kouhei",anime,anime,0.9996,anime,0.9996,False,0.0
+Utsuro,anime,anime,0.9996,anime,0.9283,False,0.0
+"He Liao, Diao",anime,anime,0.9996,anime,0.9125,False,0.0
+Raichi,anime,anime,0.9996,anime,0.9996,False,0.0
+Satoru Gojo,anime,anime,0.974,anime,0.9996,False,0.0
+Kenzo,anime,anime,0.9996,anime,0.9996,False,0.0
+Cana Alberona,anime,anime,0.9996,anime,0.9996,False,0.0
+Momiji Sohma,anime,anime,0.9762,anime,0.9996,False,0.0
+Shalltear,anime,anime,0.9996,anime,0.9996,False,0.0
+"Oikawa, Tooru",anime,anime,0.9996,anime,0.9996,False,0.0
+"Portgas D., Ace",anime,anime,0.9996,anime,0.9996,False,0.0
+"Iino, Miko",anime,anime,0.9996,anime,0.9996,False,0.0
+Cha HaeIn,anime,anime,0.9996,anime,0.9996,False,0.0
+Suehiro Tetchou,anime,anime,0.9996,anime,0.9996,False,0.0
+"Hatsume, Mei",anime,anime,0.9996,anime,0.9996,False,0.0
+"Karasuma, Tadaomi",anime,anime,0.9996,anime,0.9996,False,0.0
+Ryoumen Sukuna,anime,anime,0.9996,anime,0.9996,False,0.0
+Shikamaru Nara,anime,anime,0.9747,anime,0.9996,False,0.0
+Kurisutina,anime,anime,0.9995,anime,0.9961,False,0.0
+Muta Koukichi,anime,anime,0.9996,anime,0.9996,False,0.0
+"Touden, Laios",anime,anime,0.9996,anime,0.9996,False,0.0
+"Yakushi, Kabuto",anime,anime,0.9996,anime,0.9953,False,0.0
+"Lee, Yut-Lung",anime,anime,0.9996,anime,0.9994,False,0.0
+Aura,anime,anime,0.9996,anime,0.9996,False,0.0
+"Nishimiya, Shouko",anime,anime,0.9996,anime,0.9996,False,0.0
+Stephanotis Leon,anime,anime,0.9996,anime,0.9996,False,0.0
+Queen,anime,anime,0.9996,anime,0.9996,False,0.0
+"Sarugaki, Hiyori",anime,anime,0.9996,anime,0.9872,False,0.0
+Lawrence,anime,anime,0.9996,anime,0.9993,False,0.0
+Temari,anime,anime,0.9989,anime,0.9996,False,0.0
+Asta,anime,anime,0.9996,anime,0.9996,False,0.0
+Odokawa Hiroshi,anime,anime,0.9996,anime,0.9996,False,0.0
+Waguri Kaoruko,anime,anime,0.9996,anime,0.9996,False,0.0
+Illumi Zoldyck,anime,anime,0.9996,anime,0.9996,False,0.0
+Aqua Hoshino,anime,anime,0.9996,anime,0.9996,False,0.0
+Gyutaro,anime,anime,0.9993,anime,0.9996,False,0.0
+Leo Aiolia,anime,anime,0.9996,anime,0.9996,False,0.0
+"Hyuuga, Hanabi",anime,anime,0.9996,anime,0.9996,False,0.0
+Griffith,anime,anime,0.9742,anime,0.9913,False,0.0
+"Bougainvillea, Gilbert",anime,anime,0.9996,anime,0.9996,False,0.0
+"von Schönkopf, Walter",anime,anime,0.9996,anime,0.9996,False,0.0
+"Okumura, Eiji",anime,anime,0.9996,anime,0.9996,False,0.0
+Kirito,anime,anime,0.9996,anime,0.9996,False,0.0
+Susamaru,anime,anime,0.9996,anime,0.9996,False,0.0
+Escanor,anime,anime,0.9903,anime,0.9996,False,0.0
+Satella,anime,anime,0.9996,anime,0.9996,False,0.0
+"Tucker, Nina",anime,anime,0.9996,anime,0.9994,False,0.0
+"Hanazawa, Teruki",anime,anime,0.9996,anime,0.9994,False,0.0
+"Hitler, Adolf",anime,anime,0.9996,anime,0.9926,False,0.0
+Toshiro Hitsugaya,anime,anime,0.9936,anime,0.9996,False,0.0
+"Anasui, Narciso",anime,anime,0.9996,anime,0.9975,False,0.0
+Xie Lian,anime,anime,0.9996,anime,0.9996,False,0.0
+Lower Moons,anime,anime,0.9993,anime,0.9996,False,0.0
+Johann,dark_horse,dark_horse,0.9438,dark_horse,0.7297,False,0.0
+Abe Sapien,dark_horse,dark_horse,0.8378,dark_horse,0.869,False,0.0
+Red Kate,dark_horse,anime,0.3225,anime,0.3462,False,0.0
+Hellboy,dark_horse,dark_horse,0.8243,dark_horse,0.9142,False,0.0
+Roger,dark_horse,dark_horse,0.9124,dark_horse,0.7377,False,0.0
+Pete Ross,dc,dc,0.6707,dc,0.9982,False,0.0
+Krypto,dc,dc,0.9336,dc,0.9995,False,0.0
+The Flash,dc,dc,0.8919,dc,0.9995,False,0.0
+Antiope,dc,dc,0.6969,dc,0.9988,False,0.0
+Stargirl,dc,dc,0.7856,dc,0.999,False,0.0
+Mirror Master,dc,dc,0.6673,dc,0.8797,False,0.0
+Captain Boomerang,dc,dc,0.6763,dc,0.9926,False,0.0
+Alfred Pennyworth,dc,dc,0.8116,dc,0.9995,False,0.0
+Black Lightning,dc,dc,0.8187,dc,0.9995,False,0.0
+Harper Row,dc,dc,0.6699,dc,0.9991,False,0.0
+Two-Face,dc,dc,0.8431,dc,0.9996,False,0.0
+Swamp Thing,dc,dc,0.7295,dc,0.9995,False,0.0
+Green Arrow,dc,dc,0.9071,dc,0.9996,False,0.0
+Catwoman,dc,dc,0.8534,dc,0.9995,False,0.0
+Talia al Ghul,dc,dc,0.9368,dc,0.9996,False,0.0
+"Hall, Carter",dc,dc,0.8692,dc,0.9984,False,0.0
+Animal Man,dc,dc,0.685,dc,0.9994,False,0.0
+Mad Hatter,dc,dc,0.6763,dc,0.9286,False,0.0
+Atom II,dc,dc,0.8361,dc,0.8004,False,0.0
+Steel,dc,dc,0.7508,dc,0.7397,False,0.0
+Mr. Freeze,dc,dc,0.9073,dc,0.9996,False,0.0
+King Shark,dc,dc,0.8061,dc,0.9996,False,0.0
+Joker,dc,dc,0.9261,dc,0.9996,False,0.0
+Big Barda,dc,dc,0.8402,dc,0.9989,False,0.0
+Guardian,dc,dc,0.667,dc,0.8874,False,0.0
+Alan Scott,dc,dc,0.8635,dc,0.9995,False,0.0
+Hawkman,dc,dc,0.6893,dc,0.9996,False,0.0
+Stephanie Brown,dc,dc,0.6673,dc,0.9992,False,0.0
+Gog,dc,dc,0.6758,dc,0.9985,False,0.0
+Steve Trevor,dc,dc,0.6699,dc,0.9995,False,0.0
+Hippolyta,dc,dc,0.6806,dc,0.5053,False,0.0
+"Corrigan, Jim",dc,dc,0.9448,dc,0.9995,False,0.0
+Sinestro,dc,dc,0.7454,dc,0.9993,False,0.0
+Barbara Gordon,dc,dc,0.9416,dc,0.9996,False,0.0
+Match,dc,dc,0.8176,dc,0.6336,False,0.0
+Ra's al Ghul,dc,dc,0.9271,dc,0.9996,False,0.0
+Enchantress,dc,dc,0.8345,dc,0.8202,False,0.0
+Aqualad,dc,dc,0.8422,dc,0.9995,False,0.0
+General Zod,dc,dc,0.9512,dc,0.9996,False,0.0
+Jimmy Olsen,dc,dc,0.6707,dc,0.9903,False,0.0
+Batgirl,dc,dc,0.667,dc,0.9996,False,0.0
+Warp,dc,dc,0.783,dc,0.9993,False,0.0
+John Constantine,dc,dc,0.6355,dc,0.9996,False,0.0
+Anti-Monitor,dc,dc,0.7418,dc,0.9996,False,0.0
+Clayface,dc,dc,0.6737,dc,0.9995,False,0.0
+Batman,dc,dc,0.8404,dc,0.9996,False,0.0
+ZSAS,dc,dc,0.6763,dc,0.9458,False,0.0
+Jessica Cruz,dc,dc,0.9271,dc,0.9996,False,0.0
+Saint Walker,dc,dc,0.6673,dc,0.9862,False,0.0
+Red Arrow,dc,dc,0.5857,dc,0.9948,False,0.0
+Leslie Thompkins,dc,dc,0.6707,dc,0.9995,False,0.0
+Lightning Lord,dc,dc,0.7776,dc,0.9993,False,0.0
+Riddler,dc,dc,0.9268,dc,0.9996,False,0.0
+Micro Lad,dc,dc,0.7128,dc,0.9995,False,0.0
+Doomsday,dc,dc,0.8718,dc,0.6474,False,0.0
+Amazo,dc,dc,0.5279,dc,0.9706,False,0.0
+Guy Gardner,dc,dc,0.8614,dc,0.9976,False,0.0
+Aphrodite,dc,dc,0.6737,dc,0.9152,False,0.0
+Indigo,dc,dc,0.94,dc,0.8256,False,0.0
+Tim Drake,dc,dc,0.9247,dc,0.9995,False,0.0
+Deadshot,dc,dc,0.7442,dc,0.9996,False,0.0
+Zatanna,dc,dc,0.8947,dc,0.9996,False,0.0
+Heat Wave,dc,dc,0.7651,dc,0.7015,False,0.0
+Captain Atom,dc,dc,0.8962,dc,0.9995,False,0.0
+Kid Flash (Wally),dc,dc,0.6806,dc,0.997,False,0.0
+Zoom,dc,dc,0.8094,dc,0.9994,False,0.0
+Reverse Flash,dc,dc,0.9709,dc,0.9994,False,0.0
+Hugo Strange,dc,dc,0.833,dc,0.9996,False,0.0
+World Forger,dc,dc,0.4331,dc,0.9739,False,0.0
+Gorilla Grodd,dc,dc,0.8404,dc,0.9996,False,0.0
+Lana Lang,dc,dc,0.6646,dc,0.9994,False,0.0
+Lois Lane,dc,dc,0.8055,dc,0.9996,False,0.0
+Professor Zoom,dc,dc,0.9047,dc,0.9996,False,0.0
+Circe,dc,dc,0.7223,dc,0.9105,False,0.0
+Solomon Grundy,dc,dc,0.8353,dc,0.9932,False,0.0
+Hera,dc,dc,0.6806,dc,0.8141,False,0.0
+Nightwing,dc,dc,0.9002,dc,0.9996,False,0.0
+Ocean Master,dc,dc,0.6806,dc,0.9676,False,0.0
+Siren,dc,dc,0.8382,dc,0.9609,False,0.0
+Brainiac 5,dc,dc,0.7761,dc,0.9996,False,0.0
+Rorschach,dc,dc,0.8538,dc,0.9536,False,0.0
+Shayera Hol,dc,dc,0.6737,dc,0.9994,False,0.0
+Dick Grayson,dc,dc,0.849,dc,0.9989,False,0.0
+Firefly,dc,dc,0.6763,dc,0.9101,False,0.0
+Star Sapphire,dc,marvel,0.5283,marvel,0.71,False,0.0
+Ray,dc,dc,0.8942,dc,0.9983,False,0.0
+Killer Frost,dc,dc,0.825,dc,0.9994,False,0.0
+Parademon,dc,dc,0.8627,dc,0.9994,False,0.0
+Siniestro,dc,dc,0.6874,dc,0.9292,False,0.0
+Question,dc,dc,0.8676,dc,0.9989,False,0.0
+Trickster,dc,dc,0.6699,dc,0.7304,False,0.0
+Kid Flash,dc,dc,0.8731,dc,0.9994,False,0.0
+Abin Sur,dc,dc,0.8538,dc,0.9996,False,0.0
+Vibe,dc,dc,0.8609,dc,0.6501,False,0.0
+Cyborg,dc,dc,0.8026,dc,0.5021,False,0.0
+Aquababy,dc,dc,0.6859,dc,0.9986,False,0.0
+Philippus,dc,dc,0.667,dc,0.998,False,0.0
+Metron,dc,dc,0.7951,dc,0.9954,False,0.0
+Batgirl IV,dc,dc,0.8057,dc,0.9994,False,0.0
+Calendar Man,dc,dc,0.6699,dc,0.9993,False,0.0
+Man-Bat,dc,dc,0.8884,dc,0.9966,False,0.0
+Scarecrow,dc,dc,0.8333,dc,0.6129,False,0.0
+Mister Zsasz,dc,dc,0.8534,dc,0.9976,False,0.0
+Cullen Row,dc,dc,0.6699,dc,0.9968,False,0.0
+Chameleon,dc,dc,0.6329,dc,0.7355,False,0.0
+Wally West,dc,dc,0.6383,dc,0.9995,False,0.0
+Phantom Stranger,dc,dc,0.9001,dc,0.9995,False,0.0
+The Comedian,dc,dc,0.8702,dc,0.7358,False,0.0
+Black Canary,dc,dc,0.86,dc,0.9996,False,0.0
+Mera,dc,dc,0.9441,dc,0.9992,False,0.0
+Black Adam,dc,dc,0.6994,dc,0.9991,False,0.0
+Blue Beetle III,dc,dc,0.8647,dc,0.7359,False,0.0
+Robin,dc,dc,0.9095,dc,0.9701,False,0.0
+Osiris,dc,marvel,0.652,marvel,0.6078,False,0.0
+Hawk,dc,dc,0.7466,dc,0.6727,False,0.0
+Kilowog,dc,dc,0.8976,dc,0.9996,False,0.0
+Eclipso,dc,dc,0.8453,dc,0.9994,False,0.0
+Weather Wizard,dc,dc,0.6763,dc,0.9994,False,0.0
+Bane,dc,dc,0.5473,dc,0.9916,False,0.0
+Martian Manhunter,dc,dc,0.8225,dc,0.9996,False,0.0
+Deathstroke,dc,dc,0.83,dc,0.9996,False,0.0
+Power Girl,dc,dc,0.9509,dc,0.999,False,0.0
+Black Flash,dc,dc,0.9528,dc,0.9989,False,0.0
+Aquaman,dc,dc,0.9482,dc,0.9996,False,0.0
+Deadman,dc,dc,0.8108,dc,0.7247,False,0.0
+Bushido,dc,dc,0.8862,dc,0.8901,False,0.0
+Red Hood,dc,dc,0.6969,dc,0.8178,False,0.0
+Kevin 11,dc,dc,0.8785,dc,0.9943,False,0.0
+Captain Marvel II,dc,dc,0.6792,dc,0.8831,False,0.0
+Robin VI,dc,dc,0.8895,dc,0.9142,False,0.0
+Non,dc,dc,0.6953,dc,0.8568,False,0.0
+Lex Luthor,dc,dc,0.9425,dc,0.9996,False,0.0
+Red Tornado,dc,dc,0.8623,dc,0.9994,False,0.0
+Superman,dc,dc,0.9348,dc,0.9996,False,0.0
+Savitar,dc,dc,0.6874,dc,0.9165,False,0.0
+Reverse-Flash,dc,dc,0.6825,dc,0.9989,False,0.0
+Bizarro,dc,dc,0.8473,dc,0.9996,False,0.0
+Bibbo Bibbowski,dc,dc,0.6699,dc,0.9985,False,0.0
+Vixen,dc,marvel,0.5898,marvel,0.5969,False,0.0
+Space Ghost,dc,dc,0.6076,dc,0.6282,False,0.0
+Faora,dc,dc,0.9356,dc,0.9996,False,0.0
+Mister Mxyzptlk,dc,dc,0.7997,dc,0.9996,False,0.0
+Prometheus,dc,dc,0.6969,dc,0.8019,False,0.0
+Lucius Fox,dc,dc,0.6673,dc,0.9995,False,0.0
+Robin V,dc,dc,0.8974,dc,0.9262,False,0.0
+Wonder Woman,dc,dc,0.6274,dc,0.9996,False,0.0
+Atlas,dc,marvel,0.8687,marvel,0.8353,False,0.0
+Azrael,dc,dc,0.7702,dc,0.6842,False,0.0
+Lobo,dc,dc,0.8238,dc,0.9984,False,0.0
+Speedy,dc,dc,0.8546,dc,0.7823,False,0.0
+Larfleeze,dc,dc,0.6806,dc,0.9993,False,0.0
+Kyle Rayner,dc,dc,0.9319,dc,0.9996,False,0.0
+Batwoman V,dc,dc,0.9254,dc,0.9996,False,0.0
+Godspeed,dc,dc,0.6806,dc,0.8568,False,0.0
+Ben 10,dc,dc,0.8839,dc,0.954,False,0.0
+Beast Boy,dc,dc,0.8292,dc,0.9995,False,0.0
+Killer Croc,dc,dc,0.8722,dc,0.9995,False,0.0
+Lightning Lad,dc,dc,0.7422,dc,0.9993,False,0.0
+Superman Prime One-Million,dc,dc,0.9465,dc,0.9993,False,0.0
+Harley Quinn,dc,dc,0.9085,dc,0.9996,False,0.0
+"Palmer, Ray",dc,dc,0.2516,dc,0.8519,False,0.0
+Offspring,dc,dc,0.7743,dc,0.7541,False,0.0
+Hush,dc,dc,0.3135,dc,0.9937,False,0.0
+Wildfire,dc,dc,0.709,dc,0.6913,False,0.0
+Light Lass,dc,dc,0.798,dc,0.9993,False,0.0
+Superboy-Prime,dc,dc,0.9523,dc,0.9994,False,0.0
+Magog,dc,marvel,0.8548,marvel,0.6799,False,0.0
+Poison Ivy,dc,dc,0.9215,dc,0.7136,False,0.0
+Etrigan,dc,dc,0.8153,dc,0.9993,False,0.0
+Lucifer Morningstar,dc,dc,0.7355,dc,0.9995,False,0.0
+Hal Jordan,dc,dc,0.8969,dc,0.9996,False,0.0
+Clock King,dc,dc,0.773,dc,0.9994,False,0.0
+Jason Todd,dc,dc,0.3952,dc,0.9974,False,0.0
+Black Manta,dc,dc,0.7809,dc,0.9994,False,0.0
+Spectre,dc,dc,0.6979,dc,0.9975,False,0.0
+Nekron,dc,dc,0.7522,dc,0.9988,False,0.0
+Kid Flash (Bart),dc,dc,0.6969,dc,0.9977,False,0.0
+Perpetua,dc,dc,0.8182,dc,0.9635,False,0.0
+Doctor Fate,dc,dc,0.8975,dc,0.9996,False,0.0
+Barry Allen,dc,dc,0.9157,dc,0.9996,False,0.0
+Simon Baz,dc,dc,0.8971,dc,0.9994,False,0.0
+Kate Kane,dc,dc,0.6737,dc,0.9995,False,0.0
+Agent Orange,dc,dc,0.6969,dc,0.9104,False,0.0
+Adam Strange,dc,dc,0.6528,dc,0.9994,False,0.0
+Supergirl,dc,dc,0.9509,dc,0.9994,False,0.0
+Terra,dc,dc,0.9226,dc,0.9206,False,0.0
+White Canary,dc,dc,0.8856,dc,0.9981,False,0.0
+Sobek,dc,dc,0.5117,dc,0.6059,False,0.0
+Rip Hunter,dc,dc,0.8715,dc,0.9978,False,0.0
+Yellow Lantern,dc,dc,0.667,dc,0.988,False,0.0
+Isis,dc,marvel,0.835,marvel,0.5183,False,0.0
+James Gordon,dc,dc,0.6763,dc,0.9962,False,0.0
+Flash,dc,dc,0.9686,dc,0.9994,False,0.0
+Ozymandias,dc,dc,0.9079,dc,0.8339,False,0.0
+Green Lantern,dc,dc,0.6874,dc,0.9951,False,0.0
+Darkseid,dc,dc,0.7563,dc,0.9984,False,0.0
+Superboy,dc,dc,0.8022,dc,0.9996,False,0.0
+Dr Manhattan,dc,dc,0.5551,dc,0.9918,False,0.0
+Slade,dc,dc,0.6874,dc,0.9131,False,0.0
+Elongated Man,dc,dc,0.8382,dc,0.9996,False,0.0
+Cheetah III,dc,dc,0.883,dc,0.7971,False,0.0
+Blue Beetle,dc,dc,0.8892,dc,0.9996,False,0.0
+Soundwave,idw_publishing,idw_publishing,0.9505,idw_publishing,0.7578,False,0.0
+Optimus Prime,idw_publishing,idw_publishing,0.3553,idw_publishing,0.9378,False,0.0
+Starscream,idw_publishing,idw_publishing,0.9385,idw_publishing,0.95,False,0.0
+Megatron,idw_publishing,idw_publishing,0.9499,idw_publishing,0.9651,False,0.0
+Darkwing II,image_comics,image_comics,0.895,image_comics,0.9674,False,0.0
+Multi-Paul,image_comics,image_comics,0.6915,image_comics,0.8039,False,0.0
+The Female,image_comics,image_comics,0.7618,image_comics,0.9339,False,0.0
+Thragg,image_comics,image_comics,0.6691,image_comics,0.9562,False,0.0
+Monster Girl,image_comics,image_comics,0.9434,image_comics,0.9122,False,0.0
+War Woman,image_comics,image_comics,0.9365,image_comics,0.9419,False,0.0
+Spawn,image_comics,image_comics,0.5758,image_comics,0.8972,False,0.0
+Veil,image_comics,image_comics,0.983,image_comics,0.8599,False,0.0
+Cecil Stedman,image_comics,image_comics,0.5709,image_comics,0.9614,False,0.0
+Darkwing,image_comics,image_comics,0.8304,image_comics,0.9687,False,0.0
+Battle Beast,image_comics,image_comics,0.8805,image_comics,0.9638,False,0.0
+Rex-Splode,image_comics,image_comics,0.9866,image_comics,0.9838,False,0.0
+Angstrom Levy,image_comics,image_comics,0.8656,image_comics,0.9762,False,0.0
+Robot,image_comics,image_comics,0.9424,image_comics,0.8934,False,0.0
+Lucan,image_comics,image_comics,0.9893,image_comics,0.9334,False,0.0
+Magmaniac,image_comics,image_comics,0.9192,image_comics,0.9547,False,0.0
+Mark Grayson,image_comics,image_comics,0.9806,image_comics,0.977,False,0.0
+Anissa,image_comics,image_comics,0.9888,image_comics,0.9249,False,0.0
+Donald,image_comics,image_comics,0.8061,image_comics,0.9186,False,0.0
+Mohawk Mark,image_comics,image_comics,0.8735,image_comics,0.9799,False,0.0
+Doc Seismic,image_comics,image_comics,0.8959,image_comics,0.9648,False,0.0
+Viltrumites,image_comics,image_comics,0.4714,image_comics,0.8552,False,0.0
+Invincible,image_comics,image_comics,0.9374,image_comics,0.803,False,0.0
+Thula,image_comics,image_comics,0.9887,image_comics,0.934,False,0.0
+Green Ghost,image_comics,image_comics,0.9859,image_comics,0.9324,False,0.0
+Damien Darkblood,image_comics,image_comics,0.8729,image_comics,0.9865,False,0.0
+Aquarius,image_comics,image_comics,0.9186,image_comics,0.8984,False,0.0
+Omni-Man,image_comics,image_comics,0.9778,image_comics,0.9733,False,0.0
+Dupli-Kate,image_comics,image_comics,0.9844,image_comics,0.983,False,0.0
+Allen the Alien,image_comics,image_comics,0.6906,image_comics,0.9663,False,0.0
+Shapesmith,image_comics,image_comics,0.8534,image_comics,0.9278,False,0.0
+Evilhawk,marvel,marvel,0.9051,marvel,0.9966,False,0.0
+Doctor Doom,marvel,marvel,0.5086,marvel,0.9989,False,0.0
+Big Man,marvel,marvel,0.9172,marvel,0.9955,False,0.0
+Ego,marvel,marvel,0.7676,marvel,0.9969,False,0.0
+Shocker,marvel,marvel,0.7738,marvel,0.9985,False,0.0
+Tinkerer,marvel,marvel,0.8539,marvel,0.8511,False,0.0
+Negasonic Teenage Warhead,marvel,marvel,0.9756,marvel,0.9972,False,0.0
+One-Above-All,marvel,marvel,0.8201,marvel,0.9958,False,0.0
+Bloodaxe,marvel,marvel,0.5777,marvel,0.9791,False,0.0
+Mimic,marvel,marvel,0.8483,marvel,0.778,False,0.0
+Rhino,marvel,marvel,0.9534,marvel,0.5658,False,0.0
+Ink,marvel,marvel,0.9825,marvel,0.9642,False,0.0
+Kitty Pryde,marvel,marvel,0.8433,marvel,0.9508,False,0.0
+Ant-Man II,marvel,marvel,0.7058,marvel,0.9996,False,0.0
+Captain America,marvel,marvel,0.9661,marvel,0.9996,False,0.0
+Swarm,marvel,marvel,0.9782,marvel,0.9705,False,0.0
+Thunderstrike,marvel,marvel,0.8417,marvel,0.9536,False,0.0
+Legion,marvel,marvel,0.9741,marvel,0.9996,False,0.0
+Skaar,marvel,marvel,0.914,marvel,0.9849,False,0.0
+Sabretooth,marvel,marvel,0.9907,marvel,0.9996,False,0.0
+Taskmaster,marvel,dc,0.7397,dc,0.5167,False,0.0
+Dagger,marvel,marvel,0.9233,marvel,0.8827,False,0.0
+Riot,marvel,marvel,0.9942,marvel,0.9747,False,0.0
+Beta Ray Bill,marvel,marvel,0.9861,marvel,0.9995,False,0.0
+Silk,marvel,marvel,0.9048,marvel,0.8429,False,0.0
+Shriek,marvel,marvel,0.9046,marvel,0.9971,False,0.0
+Spider-Girl,marvel,marvel,0.9048,marvel,0.9994,False,0.0
+Infinity,marvel,marvel,0.9919,marvel,0.9376,False,0.0
+Azazel,marvel,marvel,0.8362,marvel,0.843,False,0.0
+Armor,marvel,marvel,0.8645,marvel,0.6537,False,0.0
+Tigra,marvel,marvel,0.9645,marvel,0.9995,False,0.0
+Worldbreaker Hulk,marvel,marvel,0.9511,marvel,0.9996,False,0.0
+Lizard,marvel,marvel,0.8616,marvel,0.9045,False,0.0
+Spider-Man India,marvel,marvel,0.2861,marvel,0.9986,False,0.0
+Red Hulk,marvel,marvel,0.9847,marvel,0.9996,False,0.0
+Arclight,marvel,marvel,0.9585,marvel,0.8327,False,0.0
+Moon Knight,marvel,marvel,0.836,marvel,0.9995,False,0.0
+Galactus,marvel,marvel,0.8574,marvel,0.9992,False,0.0
+Human Torch,marvel,marvel,0.9604,marvel,0.9996,False,0.0
+Scream,marvel,marvel,0.9888,marvel,0.9186,False,0.0
+Aurora,marvel,marvel,0.987,marvel,0.9469,False,0.0
+Molecule Man,marvel,marvel,0.9353,marvel,0.9995,False,0.0
+X-Man,marvel,marvel,0.9016,marvel,0.9987,False,0.0
+Phoenix Force,marvel,marvel,0.985,marvel,0.9992,False,0.0
+Spider-Man Noir 2,marvel,marvel,0.9888,marvel,0.9992,False,0.0
+Nightmare,marvel,marvel,0.9822,marvel,0.9528,False,0.0
+Bishop,marvel,marvel,0.975,marvel,0.881,False,0.0
+Black Cat,marvel,marvel,0.7091,marvel,0.7773,False,0.0
+Living Tribunal,marvel,marvel,0.8873,marvel,0.9996,False,0.0
+Miles Morales,marvel,marvel,0.7508,marvel,0.9996,False,0.0
+Thor Girl,marvel,marvel,0.7111,marvel,0.9991,False,0.0
+Bantam,marvel,marvel,0.8946,marvel,0.7964,False,0.0
+Morlun,marvel,marvel,0.9445,marvel,0.9996,False,0.0
+Hobgoblin,marvel,marvel,0.9076,marvel,0.9813,False,0.0
+Magus,marvel,marvel,0.7498,marvel,0.8734,False,0.0
+Spider-Gwen,marvel,marvel,0.9048,marvel,0.9988,False,0.0
+Psylocke,marvel,marvel,0.9882,marvel,0.9996,False,0.0
+Cloak,marvel,marvel,0.639,marvel,0.7112,False,0.0
+Triton,marvel,marvel,0.9492,marvel,0.8641,False,0.0
+Wonder Man,marvel,marvel,0.9049,marvel,0.9996,False,0.0
+Forge,marvel,marvel,0.9121,marvel,0.8824,False,0.0
+Quill,marvel,marvel,0.7574,marvel,0.8836,False,0.0
+Blizzard II,marvel,marvel,0.8291,marvel,0.8855,False,0.0
+Warlock,marvel,marvel,0.9519,marvel,0.9969,False,0.0
+Shadow King,marvel,marvel,0.9054,marvel,0.9995,False,0.0
+Cottonmouth,marvel,marvel,0.744,marvel,0.8319,False,0.0
+Dazzler,marvel,marvel,0.974,marvel,0.998,False,0.0
+Spider-Man Noir 3,marvel,marvel,0.9888,marvel,0.9992,False,0.0
+Blink,marvel,marvel,0.9871,marvel,0.9678,False,0.0
+Man-Wolf,marvel,marvel,0.9298,marvel,0.9996,False,0.0
+Kang,marvel,marvel,0.5547,marvel,0.994,False,0.0
+Stardust,marvel,marvel,0.8708,marvel,0.8979,False,0.0
+Falcon,marvel,marvel,0.5533,marvel,0.5945,False,0.0
+Leech,marvel,marvel,0.8226,marvel,0.7905,False,0.0
+Sasquatch,marvel,marvel,0.8602,marvel,0.6666,False,0.0
+Hydro-Man,marvel,marvel,0.8811,marvel,0.9996,False,0.0
+Odin,marvel,marvel,0.9412,marvel,0.9311,False,0.0
+Toad,marvel,marvel,0.924,marvel,0.916,False,0.0
+Darkstar,marvel,marvel,0.9845,marvel,0.9996,False,0.0
+Iron Fist,marvel,marvel,0.7641,marvel,0.9766,False,0.0
+Lasher,marvel,marvel,0.9923,marvel,0.9698,False,0.0
+Bird-Brain,marvel,marvel,0.8438,marvel,0.8759,False,0.0
+Ares,marvel,marvel,0.9682,marvel,0.8532,False,0.0
+Gambit,marvel,marvel,0.8282,marvel,0.3547,False,0.0
+Air-Walker,marvel,marvel,0.6377,marvel,0.9983,False,0.0
+Iron Man,marvel,marvel,0.9738,marvel,0.9996,False,0.0
+Spider-Man,marvel,marvel,0.7034,marvel,0.9994,False,0.0
+Callisto,marvel,marvel,0.9719,marvel,0.8545,False,0.0
+Drax the Destroyer,marvel,marvel,0.8077,marvel,0.9983,False,0.0
+Husk,marvel,marvel,0.9894,marvel,0.9675,False,0.0
+Carnage,marvel,marvel,0.9762,marvel,0.9025,False,0.0
+Bullseye,marvel,marvel,0.783,marvel,0.9996,False,0.0
+Thunderbird,marvel,marvel,0.9192,marvel,0.848,False,0.0
+Scarlet Witch,marvel,marvel,0.9689,marvel,0.9989,False,0.0
+Kraven II,marvel,marvel,0.8132,marvel,0.9977,False,0.0
+Thundra,marvel,marvel,0.9611,marvel,0.9995,False,0.0
+Black Widow,marvel,marvel,0.8345,marvel,0.9994,False,0.0
+Julia Cornwall,marvel,marvel,0.7653,marvel,0.9996,False,0.0
+Umar,marvel,marvel,0.9554,marvel,0.4957,False,0.0
+Demogoblin,marvel,marvel,0.9446,marvel,0.9995,False,0.0
+Wolverine,marvel,marvel,0.9896,marvel,0.9785,False,0.0
+Blackout,marvel,marvel,0.9542,marvel,0.8211,False,0.0
+Northstar,marvel,marvel,0.9388,marvel,0.9996,False,0.0
+Darkhawk,marvel,marvel,0.7958,marvel,0.9995,False,0.0
+Deathlok,marvel,marvel,0.7905,marvel,0.9553,False,0.0
+Green Goblin,marvel,marvel,0.6302,marvel,0.9993,False,0.0
+Arachnid,marvel,marvel,0.9937,marvel,0.9871,False,0.0
+Anti-Venom,marvel,marvel,0.9808,marvel,0.9996,False,0.0
+Archangel,marvel,marvel,0.913,marvel,0.8508,False,0.0
+Chamber,marvel,marvel,0.9874,marvel,0.9996,False,0.0
+Destroyer,marvel,marvel,0.8599,marvel,0.9262,False,0.0
+Lady Deathstrike,marvel,marvel,0.8818,marvel,0.9993,False,0.0
+Ghost Rider,marvel,marvel,0.7964,marvel,0.9987,False,0.0
+Walrus,marvel,marvel,0.8065,marvel,0.7679,False,0.0
+Toxin,marvel,marvel,0.9456,marvel,0.9223,False,0.0
+Franklin Storm,marvel,marvel,0.8234,marvel,0.9993,False,0.0
+Jolt,marvel,marvel,0.7925,marvel,0.687,False,0.0
+Machine Man,marvel,marvel,0.7996,marvel,0.9968,False,0.0
+Apocalypse,marvel,marvel,0.9699,marvel,0.9545,False,0.0
+Hulk,marvel,marvel,0.9714,marvel,0.9996,False,0.0
+Fallen One II,marvel,marvel,0.7587,marvel,0.8147,False,0.0
+Onslaught,marvel,marvel,0.9628,marvel,0.9996,False,0.0
+Kaine Parker,marvel,marvel,0.9778,marvel,0.9996,False,0.0
+She-Hulk,marvel,marvel,0.9794,marvel,0.9996,False,0.0
+Hellcat,marvel,marvel,0.7751,marvel,0.9996,False,0.0
+Valkyrie,marvel,marvel,0.9831,marvel,0.9801,False,0.0
+Black Knight III,marvel,marvel,0.7848,marvel,0.8923,False,0.0
+Sandman,marvel,marvel,0.7938,marvel,0.7589,False,0.0
+Frenzy,marvel,marvel,0.8791,marvel,0.7736,False,0.0
+Mystique,marvel,marvel,0.9896,marvel,0.9995,False,0.0
+Punisher,marvel,marvel,0.819,marvel,0.9996,False,0.0
+Junkpile,marvel,marvel,0.9409,marvel,0.8787,False,0.0
+Franklin Richards,marvel,marvel,0.9008,marvel,0.9991,False,0.0
+Kingpin,marvel,marvel,0.6622,marvel,0.9995,False,0.0
+Gorr the God Butcher,marvel,marvel,0.8476,marvel,0.9934,False,0.0
+Feral,marvel,marvel,0.8927,marvel,0.7971,False,0.0
+Leader,marvel,marvel,0.905,marvel,0.9219,False,0.0
+Diamondback,marvel,marvel,0.8142,marvel,0.9995,False,0.0
+Knull,marvel,marvel,0.9732,marvel,0.9996,False,0.0
+Gravity,marvel,marvel,0.8322,marvel,0.9121,False,0.0
+Silverclaw,marvel,marvel,0.8619,marvel,0.9996,False,0.0
+Nova,marvel,marvel,0.7392,marvel,0.9147,False,0.0
+Red Skull,marvel,marvel,0.961,marvel,0.9989,False,0.0
+Jack of Hearts,marvel,marvel,0.8244,marvel,0.8715,False,0.0
+Hawkeye,marvel,marvel,0.5824,marvel,0.9965,False,0.0
+Agent Bob,marvel,marvel,0.7275,marvel,0.9919,False,0.0
+Molten Man,marvel,marvel,0.9336,marvel,0.9996,False,0.0
+Mister Fantastic,marvel,marvel,0.9732,marvel,0.9996,False,0.0
+Medusa,marvel,marvel,0.9412,marvel,0.9996,False,0.0
+MODOK,marvel,marvel,0.9037,marvel,0.9996,False,0.0
+Agent Zero,marvel,marvel,0.9479,marvel,0.9996,False,0.0
+Sebastian Shaw,marvel,marvel,0.9901,marvel,0.9996,False,0.0
+Scarlet Spider II,marvel,marvel,0.9352,marvel,0.9995,False,0.0
+Man-Thing,marvel,marvel,0.8003,marvel,0.9996,False,0.0
+Havok,marvel,marvel,0.9818,marvel,0.9996,False,0.0
+Polaris,marvel,marvel,0.9409,marvel,0.9996,False,0.0
+Vulture,marvel,marvel,0.8581,marvel,0.779,False,0.0
+Vision,marvel,marvel,0.5283,marvel,0.9996,False,0.0
+Zeus,marvel,marvel,0.9712,marvel,0.9654,False,0.0
+Hybrid,marvel,marvel,0.9544,marvel,0.9996,False,0.0
+Baron Mordo,marvel,marvel,0.5584,marvel,0.9994,False,0.0
+Multiple Man,marvel,marvel,0.8952,marvel,0.9996,False,0.0
+Attuma,marvel,marvel,0.9902,marvel,0.9995,False,0.0
+Sunfire,marvel,marvel,0.9856,marvel,0.9995,False,0.0
+Exodus,marvel,marvel,0.9833,marvel,0.9985,False,0.0
+Abomination,marvel,marvel,0.9735,marvel,0.9996,False,0.0
+Spider-Man Noir,marvel,marvel,0.9767,marvel,0.9996,False,0.0
+Songbird,marvel,marvel,0.9415,marvel,0.9993,False,0.0
+Blob,marvel,marvel,0.9393,marvel,0.9996,False,0.0
+Gladiator,marvel,marvel,0.8547,marvel,0.8497,False,0.0
+Copycat,marvel,marvel,0.9629,marvel,0.9977,False,0.0
+Nebula,marvel,marvel,0.9451,marvel,0.9376,False,0.0
+Captain Planet,marvel,marvel,0.5494,marvel,0.9141,False,0.0
+Deadpool,marvel,marvel,0.6894,marvel,0.9995,False,0.0
+Watcher,marvel,marvel,0.8106,marvel,0.9994,False,0.0
+Goblin Queen,marvel,marvel,0.9417,marvel,0.9935,False,0.0
+Venom,marvel,marvel,0.9853,marvel,0.981,False,0.0
+Captain Britain,marvel,marvel,0.5988,marvel,0.9956,False,0.0
+Absorbing Man,marvel,marvel,0.7927,marvel,0.9996,False,0.0
+Luke Cage,marvel,marvel,0.9236,marvel,0.9992,False,0.0
+Sentinel,marvel,marvel,0.9146,marvel,0.9996,False,0.0
+X-23,marvel,marvel,0.9208,marvel,0.9996,False,0.0
+Yellowjacket II,marvel,marvel,0.5668,marvel,0.9975,False,0.0
+Winter Soldier,marvel,marvel,0.7733,marvel,0.9995,False,0.0
+Agony,marvel,marvel,0.9927,marvel,0.998,False,0.0
+Angel Dust,marvel,marvel,0.9887,marvel,0.9996,False,0.0
+Annihilus,marvel,marvel,0.8644,marvel,0.9991,False,0.0
+Magneto,marvel,marvel,0.9879,marvel,0.9775,False,0.0
+Warlord Kragos,marvel,marvel,0.9845,marvel,0.9985,False,0.0
+Bling!,marvel,marvel,0.8231,marvel,0.999,False,0.0
+Moses Magnum,marvel,marvel,0.9267,marvel,0.9968,False,0.0
+Blade,marvel,marvel,0.9424,marvel,0.9996,False,0.0
+Rachel Summers,marvel,marvel,0.9793,marvel,0.9991,False,0.0
+Gwen Stacy,marvel,marvel,0.7266,marvel,0.9939,False,0.0
+Jean Grey,marvel,marvel,0.6327,marvel,0.9988,False,0.0
+Heimdall,marvel,marvel,0.9711,marvel,0.955,False,0.0
+Doppelganger,marvel,marvel,0.9186,marvel,0.8293,False,0.0
+Nightcrawler,marvel,marvel,0.898,marvel,0.9996,False,0.0
+Blackwing,marvel,marvel,0.7962,marvel,0.9827,False,0.0
+Mephisto,marvel,marvel,0.9668,marvel,0.9996,False,0.0
+Rocket Raccoon,marvel,marvel,0.9033,marvel,0.9996,False,0.0
+Professor X,marvel,marvel,0.945,marvel,0.9996,False,0.0
+Snowbird,marvel,marvel,0.9178,marvel,0.9995,False,0.0
+Wyatt Wingfoot,marvel,marvel,0.8242,marvel,0.9721,False,0.0
+Synch,marvel,marvel,0.9666,marvel,0.7919,False,0.0
+Doc Samson,marvel,marvel,0.975,marvel,0.9995,False,0.0
+Jennifer Kale,marvel,marvel,0.914,marvel,0.9994,False,0.0
+Quicksilver,marvel,marvel,0.9816,marvel,0.9996,False,0.0
+Rogue,marvel,marvel,0.9141,marvel,0.9934,False,0.0
+Spider-Ham,marvel,marvel,0.9182,marvel,0.9996,False,0.0
+Firestar,marvel,marvel,0.9571,marvel,0.9991,False,0.0
+Mr Immortal,marvel,marvel,0.9795,marvel,0.9996,False,0.0
+Red She-Hulk,marvel,marvel,0.9874,marvel,0.9995,False,0.0
+Hope Summers,marvel,marvel,0.9071,marvel,0.9996,False,0.0
+Groot,marvel,marvel,0.6062,marvel,0.9996,False,0.0
+Jane Foster,marvel,marvel,0.7052,marvel,0.9988,False,0.0
+Wasp,marvel,marvel,0.6247,marvel,0.6138,False,0.0
+Beast,marvel,marvel,0.989,marvel,0.9996,False,0.0
+Mantis,marvel,marvel,0.8763,marvel,0.7467,False,0.0
+Sif,marvel,marvel,0.8567,marvel,0.8455,False,0.0
+Spider-Man Universe,marvel,marvel,0.6498,marvel,0.9424,False,0.0
+Beyonder,marvel,marvel,0.9772,marvel,0.9995,False,0.0
+Blackwulf,marvel,marvel,0.9195,marvel,0.9994,False,0.0
+Abraxas,marvel,marvel,0.9076,marvel,0.9063,False,0.0
+Hela,marvel,marvel,0.9189,marvel,0.9996,False,0.0
+Arachne,marvel,marvel,0.8496,marvel,0.9488,False,0.0
+Banshee,marvel,marvel,0.7556,marvel,0.7453,False,0.0
+Ardina,marvel,marvel,0.5038,marvel,0.999,False,0.0
+Death,marvel,marvel,0.989,marvel,0.9175,False,0.0
+Utgard-Loki,marvel,marvel,0.8505,marvel,0.9994,False,0.0
+Hyperion,marvel,marvel,0.8106,marvel,0.9983,False,0.0
+Thor,marvel,marvel,0.8209,marvel,0.7894,False,0.0
+Colossus,marvel,marvel,0.9824,marvel,0.9996,False,0.0
+Ultron,marvel,marvel,0.7873,marvel,0.9996,False,0.0
+Bloodhawk,marvel,marvel,0.9855,marvel,0.9995,False,0.0
+Storm,marvel,marvel,0.981,marvel,0.9816,False,0.0
+Siryn,marvel,marvel,0.7926,marvel,0.9989,False,0.0
+Hawkeye II,marvel,marvel,0.6656,marvel,0.9996,False,0.0
+Black Bolt,marvel,marvel,0.7914,marvel,0.9995,False,0.0
+Loki,marvel,marvel,0.9028,marvel,0.8339,False,0.0
+Spider-Woman III,marvel,marvel,0.8529,marvel,0.9996,False,0.0
+Silver Surfer,marvel,marvel,0.7611,marvel,0.9994,False,0.0
+Invisible Woman,marvel,marvel,0.9666,marvel,0.9996,False,0.0
+Ironheart,marvel,marvel,0.9508,marvel,0.9986,False,0.0
+Emma Frost,marvel,marvel,0.9809,marvel,0.9996,False,0.0
+Executioner,marvel,marvel,0.9298,marvel,0.8789,False,0.0
+Black Mamba,marvel,marvel,0.9231,marvel,0.8816,False,0.0
+Tiger Shark,marvel,marvel,0.8671,marvel,0.9995,False,0.0
+Purple Man,marvel,marvel,0.6741,marvel,0.9996,False,0.0
+Fulcrum,marvel,marvel,0.95,marvel,0.9443,False,0.0
+Terrax,marvel,marvel,0.9472,marvel,0.9985,False,0.0
+Madame Web,marvel,marvel,0.9504,marvel,0.9995,False,0.0
+Madelyne Pryor,marvel,marvel,0.9504,marvel,0.9996,False,0.0
+Marvel Girl,marvel,marvel,0.7707,marvel,0.9987,False,0.0
+War Machine,marvel,marvel,0.7991,marvel,0.9995,False,0.0
+Battlestar,marvel,marvel,0.8854,marvel,0.9992,False,0.0
+Stryfe,marvel,marvel,0.9692,marvel,0.9993,False,0.0
+Mysterio,marvel,marvel,0.5873,marvel,0.9996,False,0.0
+Cable,marvel,marvel,0.9768,marvel,0.9995,False,0.0
+Phage,marvel,marvel,0.9922,marvel,0.9663,False,0.0
+Star-Lord,marvel,marvel,0.8336,marvel,0.9974,False,0.0
+Iceman,marvel,marvel,0.9783,marvel,0.9996,False,0.0
+Spider-Woman,marvel,marvel,0.6943,marvel,0.9969,False,0.0
+Sentry,marvel,marvel,0.9126,marvel,0.9995,False,0.0
+Ultragirl,marvel,marvel,0.9576,marvel,0.9986,False,0.0
+Iron Monger,marvel,marvel,0.8912,marvel,0.9994,False,0.0
+Pyro,marvel,marvel,0.7691,marvel,0.999,False,0.0
+Spider-Man Blue,marvel,marvel,0.8866,marvel,0.8346,False,0.0
+Spyke,marvel,marvel,0.9636,marvel,0.9962,False,0.0
+Ajax,marvel,marvel,0.9192,marvel,0.994,False,0.0
+Gamora,marvel,marvel,0.9466,marvel,0.9996,False,0.0
+Thing,marvel,marvel,0.9785,marvel,0.9996,False,0.0
+Changeling,marvel,marvel,0.813,marvel,0.6069,False,0.0
+Wolfsbane,marvel,marvel,0.9244,marvel,0.9996,False,0.0
+Mach-IV,marvel,marvel,0.7273,marvel,0.9934,False,0.0
+Maverick,marvel,marvel,0.9386,marvel,0.9942,False,0.0
+Klaw,marvel,marvel,0.5719,marvel,0.9981,False,0.0
+Doctor Octopus,marvel,marvel,0.8263,marvel,0.9996,False,0.0
+Aunt May,marvel,marvel,0.6079,marvel,0.9987,False,0.0
+Nick Fury,marvel,marvel,0.716,marvel,0.9996,False,0.0
+Plantman,marvel,marvel,0.9883,marvel,0.9996,False,0.0
+Cannonball,marvel,marvel,0.8217,marvel,0.9234,False,0.0
+Juggernaut,marvel,marvel,0.8654,marvel,0.8791,False,0.0
+Venom II,marvel,marvel,0.8606,marvel,0.9996,False,0.0
+Ariel,marvel,marvel,0.8003,marvel,0.9996,False,0.0
+Shang-Chi,marvel,marvel,0.7054,marvel,0.9979,False,0.0
+Doc Ock,marvel,marvel,0.8555,marvel,0.9962,False,0.0
+Jubilee,marvel,marvel,0.9864,marvel,0.9283,False,0.0
+Shatterstar,marvel,marvel,0.957,marvel,0.9996,False,0.0
+Daredevil,marvel,marvel,0.8145,marvel,0.9995,False,0.0
+Venom (Eddie Brock),marvel,marvel,0.8824,marvel,0.9996,False,0.0
+Kraven the Hunter,marvel,marvel,0.8103,marvel,0.9996,False,0.0
+Green Goblin II,marvel,marvel,0.7558,marvel,0.9996,False,0.0
+Living Brain,marvel,marvel,0.7861,marvel,0.9995,False,0.0
+Crystal,marvel,marvel,0.945,marvel,0.8044,False,0.0
+Scorpion,marvel,dc,0.6714,dc,0.4863,False,0.0
+Domino,marvel,marvel,0.7106,marvel,0.9921,False,0.0
+Surtur,marvel,marvel,0.9089,marvel,0.9486,False,0.0
+Eternity,marvel,marvel,0.9874,marvel,0.9311,False,0.0
+Firelord,marvel,marvel,0.9059,marvel,0.9966,False,0.0
+Cyclops,marvel,marvel,0.9886,marvel,0.9607,False,0.0
+Fin Fang Foom,marvel,marvel,0.8566,marvel,0.9996,False,0.0
+Angel,marvel,marvel,0.9817,marvel,0.9494,False,0.0
+Sage,marvel,marvel,0.933,marvel,0.9996,False,0.0
+Hercules,marvel,marvel,0.8878,marvel,0.8724,False,0.0
+Shadowcat,marvel,marvel,0.9871,marvel,0.9989,False,0.0
+John Wraith,marvel,marvel,0.8976,marvel,0.9995,False,0.0
+Namor,marvel,marvel,0.9172,marvel,0.9991,False,0.0
+Sunspot,marvel,marvel,0.9883,marvel,0.9996,False,0.0
+Namorita,marvel,marvel,0.9578,marvel,0.9962,False,0.0
+Mister Knife,marvel,marvel,0.929,marvel,0.9969,False,0.0
+Namora,marvel,marvel,0.9645,marvel,0.9995,False,0.0
+Spider-Man 2099,marvel,marvel,0.7883,marvel,0.9996,False,0.0
+Thanos,marvel,marvel,0.6102,marvel,0.9996,False,0.0
+Dormammu,marvel,marvel,0.5235,marvel,0.9995,False,0.0
+Scorpia,marvel,marvel,0.8541,marvel,0.9996,False,0.0
+Vanisher,marvel,marvel,0.9402,marvel,0.9996,False,0.0
+Ronan the Accuser,marvel,marvel,0.9807,marvel,0.9996,False,0.0
+Moonstone,marvel,marvel,0.8644,marvel,0.9969,False,0.0
+Scrier,marvel,marvel,0.9524,marvel,0.5803,False,0.0
+Hiro Nakamura,nbc_heroes,nbc_heroes,0.2005,nbc_heroes,0.2965,False,0.0
+Niki Sanders,nbc_heroes,nbc_heroes,0.7356,nbc_heroes,0.9309,False,0.0
+Sylar,nbc_heroes,nbc_heroes,0.9031,nbc_heroes,0.9389,False,0.0
+Claire Bennet,nbc_heroes,nbc_heroes,0.8974,nbc_heroes,0.9622,False,0.0
+James T. Kirk,star_trek,star_trek,0.934,star_trek,0.9987,False,0.0
+Gul Dukat,star_trek,star_trek,0.4057,star_trek,0.9988,False,0.0
+T'Pol,star_trek,star_trek,0.9193,star_trek,0.9989,False,0.0
+Hikaru Sulu,star_trek,star_trek,0.9883,star_trek,0.9995,False,0.0
+Ezri Dax,star_trek,star_trek,0.936,star_trek,0.9991,False,0.0
+Deanna Troi,star_trek,star_trek,0.9817,star_trek,0.9992,False,0.0
+Pavel Chekov,star_trek,star_trek,0.984,star_trek,0.9772,False,0.0
+Kira Nerys,star_trek,star_trek,0.9332,star_trek,0.9991,False,0.0
+Kathryn Janeway,star_trek,star_trek,0.9582,star_trek,0.9994,False,0.0
+Benjamin Sisko,star_trek,star_trek,0.9276,star_trek,0.9995,False,0.0
+Jonathan Archer,star_trek,star_trek,0.9181,star_trek,0.9994,False,0.0
+Harry Kim,star_trek,star_trek,0.9901,star_trek,0.9993,False,0.0
+Worf,star_trek,star_trek,0.7738,star_trek,0.9995,False,0.0
+Seven of Nine,star_trek,star_trek,0.8833,star_trek,0.9989,False,0.0
+Chakotay,star_trek,star_trek,0.9612,star_trek,0.9995,False,0.0
+Nyota Uhura,star_trek,star_trek,0.992,star_trek,0.9995,False,0.0
+B'Elanna Torres,star_trek,star_trek,0.5493,star_trek,0.959,False,0.0
+Geordi La Forge,star_trek,star_trek,0.9914,star_trek,0.9994,False,0.0
+Trip Tucker,star_trek,star_trek,0.9846,star_trek,0.9994,False,0.0
+Lore,star_trek,star_trek,0.385,star_trek,0.6905,False,0.0
+Neelix,star_trek,star_trek,0.7214,star_trek,0.954,False,0.0
+Data,star_trek,star_trek,0.9779,star_trek,0.9994,False,0.0
+Tom Paris,star_trek,star_trek,0.9897,star_trek,0.9994,False,0.0
+The Doctor,star_trek,star_trek,0.9268,star_trek,0.9959,False,0.0
+William T. Riker,star_trek,star_trek,0.9375,star_trek,0.9995,False,0.0
+Khan Noonien Singh,star_trek,star_trek,0.8917,star_trek,0.9995,False,0.0
+Gabriel Lorca,star_trek,star_trek,0.8034,star_trek,0.9995,False,0.0
+Odo,star_trek,star_trek,0.7395,star_trek,0.9993,False,0.0
+Michael Burnham,star_trek,star_trek,0.9387,star_trek,0.9993,False,0.0
+Julian Bashir,star_trek,star_trek,0.9366,star_trek,0.9995,False,0.0
+Spock,star_trek,star_trek,0.9516,star_trek,0.9992,False,0.0
+Jean-Luc Picard,star_trek,star_trek,0.8287,star_trek,0.9974,False,0.0
+Montgomery Scott,star_trek,star_trek,0.991,star_trek,0.9993,False,0.0
+Tuvok,star_trek,star_trek,0.9564,star_trek,0.9995,False,0.0
+Darth Sidious,star_wars,star_wars,0.9939,star_wars,0.9996,False,0.0
+Ahsoka Tano,star_wars,star_wars,0.9808,star_wars,0.9991,False,0.0
+Mace Windu,star_wars,star_wars,0.9902,star_wars,0.9995,False,0.0
+Boba Fett,star_wars,star_wars,0.9787,star_wars,0.9994,False,0.0
+Din Djarin,star_wars,star_wars,0.5065,star_wars,0.8587,False,0.0
+Darth Tyranus,star_wars,star_wars,0.9786,star_wars,0.999,False,0.0
+Jango Fett,star_wars,star_wars,0.9799,star_wars,0.999,False,0.0
+Princess Leia,star_wars,star_wars,0.9547,star_wars,0.9858,False,0.0
+Yoda,star_wars,star_wars,0.9906,star_wars,0.9996,False,0.0
+Obi-Wan Kenobi,star_wars,star_wars,0.9947,star_wars,0.9996,False,0.0
+Han Solo,star_wars,star_wars,0.9765,star_wars,0.9996,False,0.0
+Anakin Skywalker,star_wars,star_wars,0.9201,star_wars,0.9631,False,0.0
+Darth Vader,star_wars,star_wars,0.8662,star_wars,0.9995,False,0.0
+Padme Amidala,star_wars,star_wars,0.9179,star_wars,0.999,False,0.0
+Darth Maul,star_wars,star_wars,0.9691,star_wars,0.9996,False,0.0
+Scar,star_wars,star_wars,0.6487,star_wars,0.9991,False,0.0
+Chewbacca,star_wars,star_wars,0.9779,star_wars,0.9993,False,0.0
+C-3PO,star_wars,star_wars,0.9592,star_wars,0.9992,False,0.0
+R2-D2,star_wars,star_wars,0.9679,star_wars,0.9995,False,0.0
+Luke Skywalker,star_wars,star_wars,0.9924,star_wars,0.9995,False,0.0
+Qui-Gon Jinn,star_wars,star_wars,0.9084,star_wars,0.972,False,0.0
+Rey,star_wars,star_wars,0.9903,star_wars,0.999,False,0.0
+Kylo Ren,star_wars,star_wars,0.9893,star_wars,0.9995,False,0.0
+General Grievous,star_wars,star_wars,0.9627,star_wars,0.9994,False,0.0
+Lamplighter,the_boys,the_boys,0.9013,the_boys,0.9412,False,0.0
+Marathon,the_boys,the_boys,0.9738,the_boys,0.9494,False,0.0
+G-Men,the_boys,the_boys,0.9825,the_boys,0.9736,False,0.0
+Lenny Butcher,the_boys,the_boys,0.9746,the_boys,0.95,False,0.0
+Jonah Vogelbaum,the_boys,the_boys,0.4726,the_boys,0.881,False,0.0
+Stormfront,the_boys,the_boys,0.9507,the_boys,0.9576,False,0.0
+Firecracker,the_boys,the_boys,0.9586,the_boys,0.9412,False,0.0
+Gunpowder,the_boys,the_boys,0.2735,the_boys,0.3343,False,0.0
+Becca Butcher,the_boys,the_boys,0.968,the_boys,0.97,False,0.0
+Mother's Milk,the_boys,the_boys,0.6477,the_boys,0.9704,False,0.0
+Sister Sage,the_boys,the_boys,0.9529,the_boys,0.9672,False,0.0
+Madelyn Stillwell,the_boys,the_boys,0.8314,the_boys,0.9823,False,0.0
+Love Sausage,the_boys,the_boys,0.5177,the_boys,0.6506,False,0.0
+Queen Maeve,the_boys,the_boys,0.8804,the_boys,0.9617,False,0.0
+Starlight,the_boys,the_boys,0.9274,the_boys,0.9741,False,0.0
+Black Noir,the_boys,the_boys,0.5581,the_boys,0.6989,False,0.0
+Red River,the_boys,the_boys,0.981,the_boys,0.9687,False,0.0
+Seth Reed,the_boys,the_boys,0.9727,the_boys,0.9779,False,0.0
+Billy Butcher,the_boys,the_boys,0.9362,the_boys,0.9803,False,0.0
+Frenchie,the_boys,the_boys,0.5927,the_boys,0.9657,False,0.0
+Teenage Kix,the_boys,the_boys,0.9828,the_boys,0.9808,False,0.0
+Fever,the_boys,the_boys,0.9431,the_boys,0.38,False,0.0
+Soldier Boy,the_boys,the_boys,0.9443,the_boys,0.9665,False,0.0
+Webweaver,the_boys,the_boys,0.9589,the_boys,0.9531,False,0.0
+Joe Kessler,the_boys,the_boys,0.9328,the_boys,0.9675,False,0.0
+Payback,the_boys,the_boys,0.9751,the_boys,0.9727,False,0.0
+Homelander,the_boys,the_boys,0.9499,the_boys,0.9779,False,0.0
+The Protector,the_boys,the_boys,0.9203,the_boys,0.7982,False,0.0
+Victoria Neuman,the_boys,the_boys,0.8538,the_boys,0.4294,False,0.0
+Vikings,the_boys,the_boys,0.9519,the_boys,0.938,False,0.0
+Popclaw,the_boys,the_boys,0.9542,the_boys,0.9878,False,0.0
+Terror,the_boys,the_boys,0.9601,the_boys,0.9229,False,0.0
+Mindstorm,the_boys,the_boys,0.9834,the_boys,0.8994,False,0.0
+The Deep,the_boys,the_boys,0.6497,the_boys,0.5768,False,0.0
+Ryan Butcher,the_boys,the_boys,0.9348,the_boys,0.8715,False,0.0
+Vought International,the_boys,the_boys,0.9705,the_boys,0.9771,False,0.0
+Annalise,the_boys,the_boys,0.9747,the_boys,0.9461,False,0.0
+Ashley Barrett,the_boys,the_boys,0.9687,the_boys,0.9647,False,0.0
+Swatto,the_boys,the_boys,0.9707,the_boys,0.9318,False,0.0

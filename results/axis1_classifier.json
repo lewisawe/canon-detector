@@ -1,0 +1,235 @@
+{
+  "generated_at": "2026-10-04T22:01:29",
+  "model": {
+    "name": "TabPFNClassifier",
+    "model_path": "v3.5_default",
+    "n_estimators": 8,
+    "random_state": 42
+  },
+  "split": {
+    "test_size": 0.25,
+    "stratified": true,
+    "random_state": 42,
+    "n_train": 1698,
+    "n_test": 566
+  },
+  "feature_blocks": {
+    "n_structural": 13,
+    "n_tfidf": 300,
+    "n_total": 313,
+    "structural_feature_names": [
+      "powerstats.combat",
+      "powerstats.durability",
+      "powerstats.intelligence",
+      "powerstats.power",
+      "powerstats.speed",
+      "powerstats.strength",
+      "character.alignment",
+      "basic_info.gender",
+      "basic_info.species",
+      "basic_info.race",
+      "power_attributes.power_type",
+      "power_attributes.power_source",
+      "power_attributes.combat_style"
+    ]
+  },
+  "classes": [
+    "anime",
+    "dark_horse",
+    "dc",
+    "idw_publishing",
+    "image_comics",
+    "marvel",
+    "nbc_heroes",
+    "star_trek",
+    "star_wars",
+    "the_boys"
+  ],
+  "chance": {
+    "majority_class_accuracy": 0.6731448763250883,
+    "uniform_balanced_accuracy": 0.1,
+    "auc_chance": 0.5
+  },
+  "accuracy": 0.9646643109540636,
+  "balanced_accuracy": 0.9543495941084924,
+  "auc_macro": 0.9990946771854337,
+  "auc_per_class": {
+    "anime": 0.999418315953749,
+    "dark_horse": 1.0,
+    "dc": 0.9959951126798806,
+    "idw_publishing": 1.0,
+    "image_comics": 0.997606223818073,
+    "marvel": 0.9979271194026336,
+    "nbc_heroes": 1.0,
+    "star_trek": 1.0,
+    "star_wars": 1.0,
+    "the_boys": 1.0
+  },
+  "confusion_matrix": {
+    "labels": [
+      "anime",
+      "dark_horse",
+      "dc",
+      "idw_publishing",
+      "image_comics",
+      "marvel",
+      "nbc_heroes",
+      "star_trek",
+      "star_wars",
+      "the_boys"
+    ],
+    "matrix": [
+      [
+        378,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        45,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        87,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10
+      ]
+    ]
+  },
+  "gbm_accuracy": 0.9469964664310954,
+  "gbm_balanced_accuracy": 0.6312019402967183,
+  "gbm_auc_macro": 0.99681030789947,
+  "gbm_auc_per_class": {
+    "anime": 0.9994325033695113,
+    "dark_horse": 0.9946902654867257,
+    "dc": 0.983301656258485,
+    "idw_publishing": 1.0,
+    "image_comics": 0.9988031119090365,
+    "marvel": 0.9922031422985419,
+    "nbc_heroes": 1.0,
+    "star_trek": 1.0,
+    "star_wars": 1.0,
+    "the_boys": 0.9996723996723997
+  },
+  "gate_pass": true,
+  "credit_delta": 20000,
+  "credit_usage_after": 1020000,
+  "calibration": {
+    "n_bins": 10,
+    "method": "top-label (argmax-confidence vs correctness), equal-width bins",
+    "ece_raw": 0.016951995608873973,
+    "ece_eval_raw": 0.02143267923867324,
+    "ece_isotonic": 0.01361876641461888,
+    "ece_platt": 0.013947678495451022,
+    "best_calibrator": "isotonic",
+    "recalibration_eval": "test set split 50/50 (random_state=42); calibrators fit on calib half, ECE reported on eval half"
+  },
+  "ece_raw": 0.016951995608873973,
+  "ece_isotonic": 0.01361876641461888,
+  "ece_platt": 0.013947678495451022
+}

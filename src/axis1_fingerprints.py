@@ -1,4 +1,4 @@
-"""A1.5 — per-universe fingerprints + leakage proof (Canon Detector / FEAT-002).
+"""A1.5: per-universe fingerprints + leakage proof (Canon Detector / FEAT-002).
 
 Produces a human-readable ``results/fingerprints.md`` naming the top substance
 features that distinguish each universe, and closes the leakage guard with an
@@ -19,7 +19,7 @@ Leakage proof
    feature names.
 2. Report the single most important feature overall and per universe, and state
    that the top signals are character *substance* (powerstats, encoded substance
-   categoricals, and TF-IDF tokens of about/abilities prose) — not an identifier
+   categoricals, and TF-IDF tokens of about/abilities prose), not an identifier
    or a clean universe-encoding column. TF-IDF tokens are prose tokens, which the
    plan (resolution #4) explicitly allows; the guard forbids handing the model a
    clean label-encoding column, which we prove is absent.
@@ -60,7 +60,7 @@ def _fmt_feature(name: str) -> str:
 def main() -> int:
     _RESULTS_DIR.mkdir(parents=True, exist_ok=True)
     print("=" * 70)
-    print("A1.5 — per-universe fingerprints + leakage proof (GBM-gain fallback)")
+    print("A1.5: per-universe fingerprints + leakage proof (GBM-gain fallback)")
     print("=" * 70)
 
     data = _build_matrices()
@@ -78,7 +78,7 @@ def main() -> int:
     offenders = [f for f in feature_names if _is_leak_column(str(f))]
     if offenders:
         raise RuntimeError(f"LEAK column(s) in features: {offenders}")
-    print(f"Leakage guard: PASS — 0 leak columns in {len(feature_names)} features.")
+    print(f"Leakage guard: PASS: 0 leak columns in {len(feature_names)} features.")
 
     import lightgbm as lgb
 
@@ -159,11 +159,11 @@ def main() -> int:
             lines.append("_Too few examples to fit a stable one-vs-rest model._\n")
             continue
         for name, gain in feats:
-            lines.append(f"- {_fmt_feature(name)} — gain {gain:.1f}")
+            lines.append(f"- {_fmt_feature(name)}: gain {gain:.1f}")
         lines.append("")
 
     # --- Explicit leakage-guard statement -----------------------------------
-    lines.append("## Leakage guard — closing proof\n")
+    lines.append("## Leakage guard: closing proof\n")
     lines.append(
         "The following checks confirm the probe's accuracy comes from character "
         "substance, not an identity/label leak:\n"
@@ -182,7 +182,7 @@ def main() -> int:
         "the 6 powerstats, encoded substance categoricals (species/race/power type/"
         "alignment/gender), and TF-IDF tokens of the free-text `about`/`abilities` prose. "
         f"Of the global top-{TOP_GLOBAL} features, {n_tfidf_global} are prose text tokens. "
-        "Prose tokens may contain proper nouns — this is explicitly allowed by the plan "
+        "Prose tokens may contain proper nouns, which is explicitly allowed by the plan "
         "(resolution #4): the guard forbids handing the model a *clean* universe-encoding "
         "column, which is proven absent above, not scrubbing every proper noun from "
         "narrative text. The importance is spread across many substance features rather "

@@ -33,7 +33,7 @@ That's it. `src/dataprep.py` reads `data/dataset_characters.csv` by default.
 Every character has complete `powerstats.*` (combat, durability, intelligence,
 power, speed, strength) and text fields (`about`, `abilities`). The modeling
 frame (`src/dataprep.py`) keeps only character *substance* and drops every
-column that would leak the publisher label — see the leakage guard in the top
+column that would leak the publisher label (see the leakage guard in the top
 level README.
 
 Credit: dataset by github.com/Sidmaz666/character-dataset.

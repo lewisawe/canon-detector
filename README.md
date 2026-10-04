@@ -244,6 +244,8 @@ every call is batched and logged. Observed per-call deltas are only:
 
 There is **no per-row predict loop** anywhere — the agent asserts scoring is
 batched (candidate count > 1) and that the loop uses ≤5 scoring calls. The whole
-project (including re-runs during development) used ~2.8M credits this session;
-account total ~3.75M of the 20M budget. The expensive line items are the
-per-column generations; Axis-1 and all scoring are cheap.
+project (including re-runs during development) used ~3.11M credits this session
+(sum of the per-call deltas in `results/credit_log.csv`); the account meter went
+from 950K before the first call to **4.45M** after the final end-to-end demo
+run, well inside the 20M budget. The expensive line items are the per-column
+generations; Axis-1 and all scoring are cheap.

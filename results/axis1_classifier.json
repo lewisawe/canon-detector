@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T22:01:29",
+  "generated_at": "2026-10-04T23:28:26",
   "model": {
     "name": "TabPFNClassifier",
     "model_path": "v3.5_default",
@@ -216,9 +216,20 @@
     "star_wars": 1.0,
     "the_boys": 0.9996723996723997
   },
+  "leakage_ablation": {
+    "note": "Full-text accuracy is inflated by literal universe tokens in about/abilities prose (self-declaration leakage). 'masked' redacts those tokens before TF-IDF (see dataprep.UNIVERSE_MASK_TOKENS); 'stats_only' drops all text. The MASKED number is the honest headline. Axis-2 steering uses the stats-only probe so generation is driven by genuine substance.",
+    "leaky_accuracy": 0.9646643109540636,
+    "masked_accuracy": 0.9487632508833922,
+    "masked_balanced_accuracy": 0.9312470068253548,
+    "masked_auc_macro": 0.9970776125675291,
+    "stats_only_accuracy": 0.8957597173144877,
+    "stats_only_balanced_accuracy": 0.7612751064970036,
+    "stats_only_auc_macro": 0.988783914441145,
+    "leakage_drop_leaky_minus_masked": 0.01590106007067138
+  },
   "gate_pass": true,
   "credit_delta": 20000,
-  "credit_usage_after": 1020000,
+  "credit_usage_after": 2260000,
   "calibration": {
     "n_bins": 10,
     "method": "top-label (argmax-confidence vs correctness), equal-width bins",

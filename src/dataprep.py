@@ -70,6 +70,44 @@ TFIDF_MAX_FEATURES = 300
 TFIDF_MIN_DF = 5
 TEXT_SOURCE_COLS = ["about", "abilities"]
 
+# --- Universe-token MASK (leakage control for the text block) --------------
+# The about/abilities prose contains literal publisher/medium giveaway tokens
+# ("marvel", "dc", "anime", "trek", "wars", ...). Letting TF-IDF read those turns
+# "predict universe from substance" partly into "the description names its own
+# universe" — self-declaration leakage. When load_frame(mask_universe_tokens=True)
+# is used, these tokens are redacted from the corpus BEFORE TF-IDF so the honest
+# masked-text accuracy can be reported alongside the leaky number. The mask is a
+# reproducible flag: both views are produced from the same pipeline.
+UNIVERSE_MASK_TOKENS = [
+    # publishers
+    "marvel", "dc", "image", "image comics", "dark horse", "darkhorse", "idw",
+    "idw publishing", "nbc",
+    # franchises / mediums that reveal the universe
+    "the boys", "boys", "star trek", "startrek", "trek", "star wars", "starwars",
+    "wars", "heroes", "anime", "manga", "comics", "comic",
+    # extra publisher-adjacent proper nouns that name the universe outright
+    "dc comics", "marvel comics",
+]
+
+
+def _build_universe_mask_regex():
+    """Compile ONE word-boundary, case-insensitive regex for the mask tokens.
+
+    Multi-word tokens are matched first (longest-first) so "star trek" is redacted
+    before the bare "trek". Each hit is replaced with a space.
+    """
+    toks = sorted(set(UNIVERSE_MASK_TOKENS), key=len, reverse=True)
+    alts = "|".join(re.escape(t) for t in toks)
+    return re.compile(rf"\b(?:{alts})\b", flags=re.IGNORECASE)
+
+
+_UNIVERSE_MASK_RE = _build_universe_mask_regex()
+
+
+def mask_universe_tokens_in_text(text: str) -> str:
+    """Redact publisher/medium giveaway tokens from a single prose string."""
+    return _UNIVERSE_MASK_RE.sub(" ", text)
+
 # --- KEEP lists (character substance only) ---------------------------------
 KEEP_NUMERIC = [
     "powerstats.combat",
@@ -259,7 +297,11 @@ def _encode_categorical(
     return mapped.astype(np.int64), code_map
 
 
-def load_frame(csv_path: Path | str = DATA_CSV, train_mask: np.ndarray | None = None) -> Frame:
+def load_frame(
+    csv_path: Path | str = DATA_CSV,
+    train_mask: np.ndarray | None = None,
+    mask_universe_tokens: bool = False,
+) -> Frame:
     """Load the CSV, apply KEEP/DROP, and return the canonical :class:`Frame`.
 
     Parameters
@@ -271,6 +313,11 @@ def load_frame(csv_path: Path | str = DATA_CSV, train_mask: np.ndarray | None = 
         scripts should pass a real train mask so the structural encoding is
         split-safe. The TF-IDF :class:`TextBlock` is always fit later with an
         explicit train index, independent of this.
+    mask_universe_tokens : when True, redact publisher/medium giveaway tokens
+        (see ``UNIVERSE_MASK_TOKENS``) from about+abilities BEFORE they enter the
+        TF-IDF corpus. This is the honest "masked-text" view used to report the
+        leakage-free headline accuracy. Default False reproduces the original
+        (leaky) corpus so both numbers can be compared.
 
     Raises
     ------
@@ -336,6 +383,8 @@ def load_frame(csv_path: Path | str = DATA_CSV, train_mask: np.ndarray | None = 
     joined_text = (
         df["about"].fillna("").astype(str) + " " + df["abilities"].fillna("").astype(str)
     )
+    if mask_universe_tokens:
+        joined_text = joined_text.map(mask_universe_tokens_in_text)
     text_block = TextBlock(corpus=joined_text)
 
     # --- Dropped-column list with reasons (only those actually present) -----

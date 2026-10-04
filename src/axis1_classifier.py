@@ -71,14 +71,19 @@ TABPFN_MODEL_PATH = "v3.5_default"
 TABPFN_N_ESTIMATORS = 8
 
 
-def _build_matrices():
+def _build_matrices(mask_universe_tokens: bool = False):
     """Return the split-safe feature matrices, labels, and split bookkeeping.
 
     Builds a stratified train/test split FIRST, then fits the structural
     categorical encoding and the TF-IDF text block on TRAIN rows only.
+
+    ``mask_universe_tokens`` (passed through to ``load_frame``) redacts
+    publisher/medium giveaway tokens from the text corpus before TF-IDF, giving
+    the honest leakage-free view. The structural block is identical either way;
+    only the TF-IDF corpus changes.
     """
     # First pass with all-rows mask just to get y and row count.
-    base = load_frame()
+    base = load_frame(mask_universe_tokens=mask_universe_tokens)
     y = base.y
     n = len(y)
     idx = np.arange(n)
@@ -94,7 +99,7 @@ def _build_matrices():
     train_mask[train_idx] = True
 
     # Re-build the frame with a real train mask so categorical vocab is TRAIN-only.
-    frame = load_frame(train_mask=train_mask)
+    frame = load_frame(train_mask=train_mask, mask_universe_tokens=mask_universe_tokens)
 
     # Fit TF-IDF on TRAIN rows only, then transform all rows (split-safe IDF).
     frame.text_block.fit(train_idx)
@@ -245,6 +250,57 @@ def main() -> int:
     print(f"  gbm_balanced_acc  : {gbm_bal_acc:.4f}")
     print(f"  gbm_auc_macro     : {gbm_auc_macro}")
 
+    # --- HONEST LEAKAGE ABLATION: masked-text and stats-only probes ----------
+    # The leaky headline above reads literal universe tokens in the prose. Re-fit
+    # TabPFN on (a) the SAME features but with universe tokens redacted from the
+    # TF-IDF corpus, and (b) structural features ONLY (the signal Axis-2 steers
+    # on). Report both so the leakage drop is transparent. Each is one batched
+    # fit+predict (flat cost); never a per-row loop.
+    from tabpfn_client import TabPFNClassifier as _TabPFN
+
+    def _tabpfn_accuracy(Xtr, ytr, Xte, yte, label):
+        m = _TabPFN(
+            model_path=TABPFN_MODEL_PATH,
+            n_estimators=TABPFN_N_ESTIMATORS,
+            random_state=RANDOM_STATE,
+        )
+        with log_call(f"axis1.fit.{label}"):
+            m.fit(Xtr, ytr)
+        with log_call(f"axis1.predict_proba.{label}"):
+            pr = m.predict_proba(Xte)
+        cls = [str(c) for c in m.classes_]
+        pred = np.array(cls)[pr.argmax(axis=1)]
+        a = float(accuracy_score(yte, pred))
+        ba = float(balanced_accuracy_score(yte, pred))
+        pc = _per_class_ovr_auc(yte, pr, cls)
+        return a, ba, _macro_auc(pc)
+
+    # (a) masked-text: rebuild matrices with the universe-token mask on.
+    masked = _build_matrices(mask_universe_tokens=True)
+    Xm = masked["X_all"]
+    ym = masked["y"].to_numpy()
+    masked_acc, masked_bal, masked_auc = _tabpfn_accuracy(
+        Xm[masked["train_idx"]], ym[masked["train_idx"]],
+        Xm[masked["test_idx"]], ym[masked["test_idx"]],
+        "masked_text",
+    )
+
+    # (b) stats-only: structural block of THIS (leaky-corpus) build; identical
+    # structural features either way, so no mask rebuild needed.
+    Xs = data["X_struct_all"]
+    stats_acc, stats_bal, stats_auc = _tabpfn_accuracy(
+        Xs[train_idx], y_train, Xs[test_idx], y_test, "stats_only"
+    )
+
+    leak_drop = acc - masked_acc
+    print()
+    print("-- HONEST leakage ablation (held-out) --")
+    print(f"  leaky  (full text) accuracy : {acc:.4f}  <- inflated by universe tokens in prose")
+    print(f"  masked (text redacted)      : {masked_acc:.4f}  balanced={masked_bal:.4f}  macroAUC={masked_auc}")
+    print(f"  stats-only (no text at all) : {stats_acc:.4f}  balanced={stats_bal:.4f}  macroAUC={stats_auc}")
+    print(f"  >>> leakage drop (leaky - masked) = {leak_drop:.4f}  "
+          f"(the masked number is the HONEST headline)")
+
     # --- GATE verdict (reported, not faked) ----------------------------------
     gate_pass = (auc_macro is not None) and (auc_macro > 0.5) and (acc > chance_acc)
     print()
@@ -304,6 +360,21 @@ def main() -> int:
         "gbm_balanced_accuracy": gbm_bal_acc,
         "gbm_auc_macro": gbm_auc_macro,
         "gbm_auc_per_class": gbm_per_class_auc,
+        "leakage_ablation": {
+            "note": "Full-text accuracy is inflated by literal universe tokens in "
+            "about/abilities prose (self-declaration leakage). 'masked' redacts those "
+            "tokens before TF-IDF (see dataprep.UNIVERSE_MASK_TOKENS); 'stats_only' "
+            "drops all text. The MASKED number is the honest headline. Axis-2 steering "
+            "uses the stats-only probe so generation is driven by genuine substance.",
+            "leaky_accuracy": acc,
+            "masked_accuracy": masked_acc,
+            "masked_balanced_accuracy": masked_bal,
+            "masked_auc_macro": masked_auc,
+            "stats_only_accuracy": stats_acc,
+            "stats_only_balanced_accuracy": stats_bal,
+            "stats_only_auc_macro": stats_auc,
+            "leakage_drop_leaky_minus_masked": leak_drop,
+        },
         "gate_pass": bool(gate_pass),
         "credit_delta": int(credit_delta),
         "credit_usage_after": int(usage_after),
